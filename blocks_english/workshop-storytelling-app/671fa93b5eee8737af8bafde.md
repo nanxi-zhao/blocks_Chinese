@@ -6,18 +6,16 @@ dashedName: step-10
 ---
 
 # --description--
-
-Create a function called `displayStory`. Inside the function, log `"You clicked the button"` to the console.
+创建一个函数 `displayStory`。先让它简单一点：函数里用 `console.log` 打印 `"You clicked the button"`。这只是一个“小试运行”，验证事件稍后能正确触发。可爱的小测试，完成它我们就继续增强功能！
 
 # --hints--
-
-You should have a function called `displayStory`.
+需要定义一个函数，名字是 `displayStory`。
 
 ```js
 assert.isFunction(displayStory);
 ```
 
-You should log `"You clicked the button"` to the console inside the `displayStory` function.
+`displayStory` 函数内部要打印：`You clicked the button` （作为功能测试输出）。
 
 ```js
 assert.match(displayStory.toString(), /console\.log\(["']You clicked the button["']\)/);
