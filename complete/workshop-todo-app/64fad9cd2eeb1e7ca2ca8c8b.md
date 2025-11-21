@@ -7,15 +7,15 @@ dashedName: step-36
 
 # --description--
 
-请使用箭头函数语法创建一?`updateTaskContainer` 函数。然后把原来?`taskForm` ?`submit` 事件监听器里那段 `taskData.forEach()` 以及它内部的内容整个搬进新函数。这样逻辑就更集中更清晰啦，优秀?
+请使用箭头函数语法创建一个 `updateTaskContainer` 函数。然后把原来在 `taskForm` 的 `submit` 事件监听器里那段 `taskData.forEach()` 以及它内部的内容整个搬进新函数。这样逻辑就更集中更清晰啦，优秀！
 # --hints--
 
-你应该使?`const` 和箭头函数语法来创建一?`updateTaskContainer` 函数?
+你应该使用 `const` 和箭头函数语法来创建一个 `updateTaskContainer` 函数。
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-你应该把 `taskData.forEach()` 以及它内部的代码移动?`updateTaskContainer()` 函数里?
+你应该把 `taskData.forEach()` 以及它内部的代码移动到 `updateTaskContainer()` 函数里。
 ```js
 assert.match(code, /const\s+updateTaskContainer\s*=\s*\(\s*\)\s*=>\s*\{\s*taskData\.forEach\(\s*\(\s*\{\s*id\s*,\s*title\s*,\s*date\s*,\s*description\s*\}\s*\)\s*=>\s*{\s*tasksContainer\.innerHTML\s*\+=\s*`\s*<div\s+class\s*=\s*('|")task\1\s*id\s*=\s*('|")\$\{id\}\2>\s*<p><strong>Title:<\/strong>\s*\$\{title\}<\/p>\s*<p><strong>Date:<\/strong>\s*\$\{date\}<\/p>\s*<p><strong>Description:<\/strong>\s*\$\{description\}<\/p>\s*<button\s+type\s*=\s*('|")button\3\s*class\s*=\s*('|")btn\4>Edit<\/button>\s*<button\s+type\s*=\s*('|")button\5\s*class\s*=\s*('|")btn\6>Delete<\/button>\s*<\/div>\s*`;?\s*}\s*\)\s*;?\s*\}\s*;?/)
 ```
