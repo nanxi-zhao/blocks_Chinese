@@ -7,53 +7,53 @@ dashedName: step-17
 
 # --description--
 
-Below your `.text` element, create a new `section` element and give it a `class` of `text text-with-images`. Within that, create an `article` element with a `class` set to `brief-history`, and an `aside` element with the `class` set to `image-wrapper`.
+在 `.text` 元素之后创建一个新的 `section`，其 `class` 设为 `text text-with-images`。在其中再创建一个 `article` 元素（`class` 为 `brief-history`）以及一个 `aside` 元素（`class` 为 `image-wrapper`）。
 
 # --hints--
 
-You should create a new `section` element.
+你应该创建一个新的 `section` 元素。
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 3);
 ```
 
-Your new `section` element should come after your `.text` element.
+你的新 `section` 元素应位于 `.text` 元素之后。
 
 ```js
 assert.equal(document.querySelectorAll('section')?.[2]?.previousElementSibling?.className, 'text');
 ```
 
-Your new `section` element should have the `class` set to `text text-with-images`.
+你的新 `section` 元素的 `class` 应设置为 `text text-with-images`。
 
 ```js
 assert.equal(document.querySelectorAll('section')?.[2]?.className, 'text text-with-images');
 ```
 
-Your new `section` element should have an `article` element.
+你的新 `section` 元素内应包含一个 `article` 元素。
 
 ```js
 assert.exists(document.querySelector('.text-with-images article'));
 ```
 
-Your new `section` element should have an `aside` element.
+你的新 `section` 元素内还应包含一个 `aside` 元素。
 
 ```js
 assert.exists(document.querySelector('.text-with-images aside'));
 ```
 
-The `article` element should come before the `aside` element.
+`article` 元素应位于 `aside` 元素之前。
 
 ```js
 assert.equal(document.querySelector('.text-with-images article')?.nextElementSibling?.localName, 'aside');
 ```
 
-Your `article` element should have the `class` set to `brief-history`.
+你的 `article` 元素的 `class` 应设置为 `brief-history`。
 
 ```js
 assert.equal(document.querySelector('.text-with-images article')?.className, 'brief-history');
 ```
 
-Your `aside` element should have the `class` set to `image-wrapper`.
+你的 `aside` 元素的 `class` 应设置为 `image-wrapper`。
 
 ```js
 assert.equal(document.querySelector('.text-with-images aside')?.className, 'image-wrapper');
