@@ -1,39 +1,46 @@
 ﻿---
 id: 64e4ebc7eabc5a6babd479cd
-title: 步骤 9
+title: Step 9
 challengeType: 0
 dashedName: step-9
 ---
 
 # --description--
 
-当用户点?`Discard`，我们要同时：关闭确认弹窗，并把表单也藏起来，让界面回到清爽状态?
-?`discardBtn` 添加一?`click` 事件，回调中先调?`confirmCloseDialog.close()`，再?`taskForm.classList.toggle("hidden")` 把表单收起?
+当用户点击`Discard`，我们要同时：关闭确认弹窗，并把表单也藏起来，让界面回到清爽状态。
+
+在`discardBtn` 添加一个`click` 事件，回调中先调用`confirmCloseDialog.close()`，再调用`taskForm.classList.toggle("hidden")` 把表单收起。
+
 一气呵成的交互，提升体验，你做得很稳！
 
 # --hints--
 
-你应该在 `discardBtn` 上调?`addEventListener()`?
+你应该在 `discardBtn` 上调用`addEventListener()`。
+
 ```js
 assert.match(code, /discardBtn\.addEventListener\(/)
 ```
 
-事件监听应监?`click` 事件?
+事件监听应监听`click` 事件。
+
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1/)
 ```
 
-使用箭头函数并带上一对花括号作为回调结构?
+使用箭头函数并带上一对花括号作为回调结构。
+
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{/)
 ```
 
-回调中应调用 `confirmCloseDialog.close()`?
+回调中应调用 `confirmCloseDialog.close()`。
+
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?/)
 ```
 
-回调中还应切?`taskForm` ?`hidden` 类?
+回调中还应切换`taskForm` 的`hidden` 类。
+
 ```js
 assert.match(code, /discardBtn\.addEventListener\(\s*('|"|`)click\1\s*,\s*\(\s*\)\s*=>\s*\{\s*confirmCloseDialog\.close\(\s*\)\s*;?\s*taskForm\.classList\.toggle\(\s*('|"|`)hidden\2\s*\)\s*;?\s*\}\s*\)\s*;?/)
 ```
@@ -319,4 +326,3 @@ cancelBtn.addEventListener("click", () => confirmCloseDialog.close());
 --fcc-editable-region--
 
 --fcc-editable-region--
-```
