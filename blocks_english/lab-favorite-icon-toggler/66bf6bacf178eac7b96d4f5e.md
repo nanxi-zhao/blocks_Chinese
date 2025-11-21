@@ -1,6 +1,6 @@
 ---
 id: 66bf6bacf178eac7b96d4f5e
-title: Build a Favorite Icon Toggler
+title: 构建收藏图标切换器
 challengeType: 25
 dashedName: build-a-favorite-icon-toggler
 demoType: onClick
@@ -8,55 +8,55 @@ demoType: onClick
 
 # --description--
 
-In this lab you will use JavaScript click events to toggle the appearance of a favorite icon. When the heart icon is clicked, the appearance of the heart changes from empty to filled, and vice versa.
+在这个实验中，你将使用 JavaScript 点击事件来切换收藏图标的外观。当点击心形图标时，心形的外观会从空心变为实心，反之亦然。
 
-**目标：**实现以下用户需求并通过所有测试以完成实验。
+**目标：** 实现以下用户需求并通过所有测试以完成实验。
 
 **用户需求：**
 
-1. You should have an unordered list with three items.
-2. The unordered list should have the class `item-list`.
-3. The three list items should contain the item name followed by a `button` element with the class `favorite-icon`.
-4. The `button` element should contain the code `&#9825;` initially to represent an empty heart.
-5. When a `button` element containing a heart is clicked, you should add a class named `filled` to the clicked `button` if it's not already present, and remove it, if it is.
-6. You should have a class selector that targets the `filled` class and sets some CSS properties.
-7. When a `button` element containing a heart is clicked, the heart symbol should toggle between `&#9825;` (empty heart) and `&#10084;` (filled heart), depending on its current state.
+1. 你应该有一个包含三个项目的无序列表。
+2. 无序列表应该有 `item-list` 类。
+3. 三个列表项目应该包含项目名称，后面跟着一个带有 `favorite-icon` 类的 `button` 元素。
+4. `button` 元素最初应该包含代码 `&#9825;` 来表示空心心形。
+5. 当点击包含心形的 `button` 元素时，如果 `filled` 类不存在，你应该向被点击的 `button` 添加名为 `filled` 的类，如果存在则移除它。
+6. 你应该有一个类选择器，目标是 `filled` 类并设置一些 CSS 属性。
+7. 当点击包含心形的 `button` 元素时，心形符号应该在 `&#9825;`（空心心形）和 `&#10084;`（实心心形）之间切换，取决于其当前状态。
 
-**Note:** Be sure to link your JavaScript file in your HTML. (Ex. `<script src="script.js"></script>`)
+**注意：** 确保在 HTML 中链接你的 JavaScript 文件。（例如 `<script src="script.js"></script>`）
 
 # --hints--
 
-You should have an unordered list.
+你应该有一个无序列表。
 
 ```js
 assert.exists(document.querySelector('ul'));
 ```
 
-Your unordered list should have 3 items.
+你的无序列表应该有 3 个项目。
 
 ```js
 assert.lengthOf(document.querySelectorAll('ul li'), 3);
 ```
 
-Your unordered list should have the class `item-list`.
+你的无序列表应该有 `item-list` 类。
 
 ```js
 assert.exists(document.querySelector('ul.item-list'));
 ```
 
-Your individual list items should contain the item name.
+你的单个列表项目应该包含项目名称。
 
 ```js
 assert.exists(document.querySelector('ul li').textContent);
 ```
 
-Your individual list item should contain a `button` element with the class `favorite-icon`.
+你的单个列表项目应该包含一个带有 `favorite-icon` 类的 `button` 元素。
 
 ```js
 assert.exists(document.querySelector('ul li button.favorite-icon'));
 ```
 
-Initially, the `button` elements should contain the code `&#9825;` to represent an empty heart.
+最初，`button` 元素应该包含代码 `&#9825;` 来表示空心心形。
 
 ```js
 const inputs = document.querySelectorAll('ul li button.favorite-icon');
@@ -67,7 +67,7 @@ for (let input of inputs) {
 }
 ```
 
-You should have a `.filled` selector that sets some CSS properties.
+你应该有一个 `.filled` 选择器来设置一些 CSS 属性。
 
 ```js
 const filled = new __helpers.CSSHelp(document).getStyle('.filled');
@@ -75,7 +75,7 @@ assert.exists(filled);
 assert.isNotEmpty([...filled]); 
 ```
 
-When the `button` element is clicked, and it contains the class `filled`, you should remove the class `filled` from the `button` element and change the innerHTML of the `button` element to `&#9825;`.
+当点击 `button` 元素且它包含 `filled` 类时，你应该从 `button` 元素中移除 `filled` 类，并将 `button` 元素的 innerHTML 更改为 `&#9825;`。
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -90,7 +90,7 @@ buttonElements.forEach(button => {
 });
 ```
 
-When the `button` element is clicked, and it doesn't contain the class `filled`, you should add the class `filled` to the `button` element and change the `innerHTML` of the `button` element to `&#10084;`.
+当点击 `button` 元素且它不包含 `filled` 类时，你应该向 `button` 元素添加 `filled` 类，并将 `button` 元素的 `innerHTML` 更改为 `&#10084;`。
 
 ```js
 const buttonElements = document.querySelectorAll('.favorite-icon');
@@ -145,18 +145,18 @@ buttonElements.forEach(button => {
   </head>
 
   <body>
-    <h1>Art Supplies</h1>
+    <h1>美术用品</h1>
     <ul class="item-list">
       <li>
-        120 gm paper
+        120克纸张
         <button class="favorite-icon" id="favoriteIcon1">&#9825;</button>
       </li>
       <li>
-        Watercolor set
+        水彩套装
         <button class="favorite-icon" id="favoriteIcon2">&#9825;</button>
       </li>
       <li>
-        Lead pencil 6B
+        6B铅笔
         <button class="favorite-icon" id="favoriteIcon3">&#9825;</button>
       </li>
     </ul>
@@ -215,10 +215,10 @@ document.addEventListener("DOMContentLoaded", () => {
     icon.addEventListener("click", () => {
       if (icon.classList.contains("filled")) {
         icon.classList.remove("filled");
-        icon.innerHTML = "&#9825;"; // Empty heart
+        icon.innerHTML = "&#9825;"; // 空心心形
       } else {
         icon.classList.add("filled");
-        icon.innerHTML = "&#10084;"; // Filled black heart
+        icon.innerHTML = "&#10084;"; // 实心黑色心形
       }
     });
   });
