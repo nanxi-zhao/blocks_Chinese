@@ -7,15 +7,15 @@ dashedName: step-20
 
 # --description--
 
-In this final step of the workshop, log the final grocery list to the console.
+在工作坊的最后一步中，将最终的购物清单记录到控制台。
 
-To do this, call the `getShoppingListMsg` function with the `shoppingList` array as an argument inside `console.log`.
+为此，在 `console.log` 中调用 `getShoppingListMsg` 函数，并将 `shoppingList` 数组作为参数传递。
 
-And with this last step your grocery list is complete!
+完成这最后一步后，你的购物清单就完成了！
 
 # --hints--
 
-You should call `getShoppingListMsg(shoppingList)` inside of the `console.log`.
+你应该在 `console.log` 中调用 `getShoppingListMsg(shoppingList)`。
 
 ```js
 assert.lengthOf(code.match(/console\.log\(\s*getShoppingListMsg\(\s*shoppingList\s*\)\s*\)/g), 7);
@@ -26,16 +26,16 @@ assert.lengthOf(code.match(/console\.log\(\s*getShoppingListMsg\(\s*shoppingList
 ## --seed-contents--
 
 ```js
-console.log("Grocery shopping list");
+console.log("杂货购物清单");
 
 const shoppingList = [];
 
-console.log("It will be nice to have some fruit to eat.");
+console.log("吃点水果会很不错。");
 
 shoppingList.push("Apples");
 
 function getShoppingListMsg(arr) {
-  return `Current Shopping List: ${arr}`;
+  return `当前购物清单: ${arr}`;
 }
 
 console.log(getShoppingListMsg(shoppingList));
@@ -43,7 +43,7 @@ console.log(getShoppingListMsg(shoppingList));
 shoppingList.push("Grapes");
 console.log(getShoppingListMsg(shoppingList));
 
-console.log("It looks like we need to get some cooking oil.");
+console.log("看起来我们需要买一些食用油。");
 
 shoppingList.unshift("Vegetable Oil");
 console.log(getShoppingListMsg(shoppingList));
@@ -51,17 +51,17 @@ console.log(getShoppingListMsg(shoppingList));
 shoppingList.push("Popcorn", "Beef Jerky", "Potato Chips");
 console.log(getShoppingListMsg(shoppingList));
 
-console.log("This looks like too much junk food.");
+console.log("这看起来像太多的垃圾食品。");
 
 shoppingList.pop();
 console.log(getShoppingListMsg(shoppingList));
 
-console.log("It might be nice to get a dessert.");
+console.log("吃点甜点会很不错。");
 
 shoppingList.unshift("Chocolate Cake");
 console.log(getShoppingListMsg(shoppingList));
 
-console.log("On second thought, maybe we should be more health conscious.");
+console.log("再想想，也许我们应该更注重健康。");
 
 shoppingList.shift();
 shoppingList[0] = "Canola Oil";
@@ -74,16 +74,16 @@ shoppingList[0] = "Canola Oil";
 # --solutions--
 
 ```js
-console.log("Grocery shopping list");
+console.log("杂货购物清单");
 
 const shoppingList = [];
 
-console.log("It will be nice to have some fruit to eat.");
+console.log("吃点水果会很不错。");
 
 shoppingList.push("Apples");
 
 function getShoppingListMsg(arr) {
-  return `Current Shopping List: ${arr}`;
+  return `当前购物清单: ${arr}`;
 }
 
 console.log(getShoppingListMsg(shoppingList));
@@ -91,7 +91,7 @@ console.log(getShoppingListMsg(shoppingList));
 shoppingList.push("Grapes");
 console.log(getShoppingListMsg(shoppingList));
 
-console.log("It looks like we need to get some cooking oil.");
+console.log("看起来我们需要买一些食用油。");
 
 shoppingList.unshift("Vegetable Oil");
 console.log(getShoppingListMsg(shoppingList));
@@ -99,17 +99,17 @@ console.log(getShoppingListMsg(shoppingList));
 shoppingList.push("Popcorn", "Beef Jerky", "Potato Chips");
 console.log(getShoppingListMsg(shoppingList));
 
-console.log("This looks like too much junk food.");
+console.log("这看起来像太多的垃圾食品。");
 
 shoppingList.pop();
 console.log(getShoppingListMsg(shoppingList));
 
-console.log("It might be nice to get a dessert.");
+console.log("吃点甜点会很不错。");
 
 shoppingList.unshift("Chocolate Cake");
 console.log(getShoppingListMsg(shoppingList));
 
-console.log("On second thought, maybe we should be more health conscious.");
+console.log("再想想，也许我们应该更注重健康。");
 
 shoppingList.shift();
 shoppingList[0] = "Canola Oil";
