@@ -7,46 +7,26 @@ dashedName: step-23
 
 # --description--
 
-You’re on the right track! However, let’s take a moment to address a common issue when working with objects in JavaScript.
-
-When you try to access an object property that doesn’t exist, JavaScript returns `undefined`. If you then attempt to perform arithmetic operations on `undefined`, it can lead to unexpected results, such as `NaN`.
-
-To prevent this, you can use the `||` (logical OR) operator to provide a default value.
-
-```js
-  let scores = {}; 
-  let players = ["Alice", "Bob", "Charlie"];
-
-  players.forEach(player => {
-    scores[player] = scores[player] || 0;
-  });
-```
-
-Now, let’s apply this concept to your `totalCountPerProduct` object in the `forEach` callback. Make sure that each `dessert.id` property is initialized properly.
-
-Initialize `totalCountPerProduct[dessert.id]` with a default value of `0` using the `||` operator.
+现在你需要为每个商品添加一个唯一的标识符，这样你就可以在购物车中跟踪它们。给每个 `.product` 元素添加一个 `data-id` 属性，值分别为 `1`、`2` 和 `3`。
 
 # --hints--
 
-You should use dot notation to access the `id` property of `dessert`.
+第一个 `.product` 元素应该有一个 `data-id` 属性，值为 `1`。
 
 ```js
-const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /dessert\.id/);
+assert.equal(document.querySelectorAll('.product')[0]?.dataset.id, '1');
 ```
 
-You should use bracket notation to access the property of `totalCountPerProduct` that corresponds to `dessert.id`.
+第二个 `.product` 元素应该有一个 `data-id` 属性，值为 `2`。
 
 ```js
-const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]/);
+assert.equal(document.querySelectorAll('.product')[1]?.dataset.id, '2');
 ```
 
-You should initialize `totalCountPerProduct[dessert.id]` with `0` as a default value using `||` operator at the end of the expression.
+第三个 `.product` 元素应该有一个 `data-id` 属性，值为 `3`。
 
 ```js
-const cart = new ShoppingCart();
-assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*=\s*totalCountPerProduct\s*\[\s*dessert\.id\s*\]\s*\|\|\s*0\s*/);
+assert.equal(document.querySelectorAll('.product')[2]?.dataset.id, '3');
 ```
 
 # --seed--
@@ -60,274 +40,45 @@ assert.match(cart.addItem.toString(), /totalCountPerProduct\s*\[\s*dessert\.id\s
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MasterPuti Shopping Cart</title>
+    <title>MasterPuti 购物车</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
-      <h1 class="title">Desserts Page</h1>
+      <h1>MasterPuti 购物车</h1>
     </header>
     <main>
-      <button id="cart-btn" type="button" class="btn">
-        <span id="show-hide-cart">Show</span> Cart
-      </button>
-      <div id="cart-container">
-        <button class="btn" id="clear-cart-btn">Clear Cart</button>
-        <div id="products-container"></div>
-        <p>Total number of items: <span id="total-items">0</span></p>
-        <p>Subtotal: <span id="subtotal">$0</span></p>
-        <p>Taxes: <span id="taxes">$0</span></p>
-        <p>Total: <span id="total">$0</span></p>
-      </div>
-      <div id="dessert-card-container"></div>
+      <section id="products">
+        <h2>我们的商品</h2>
+        <div class="products-container">
+          --fcc-editable-region--
+          <div class="product">
+            <h3>西瓜</h3>
+            <p>$12.99</p>
+            <button>添加到购物车</button>
+          </div>
+          <div class="product">
+            <h3>香蕉</h3>
+            <p>$0.99</p>
+            <button>添加到购物车</button>
+          </div>
+          <div class="product">
+            <h3>橙子</h3>
+            <p>$0.89</p>
+            <button>添加到购物车</button>
+          </div>
+          --fcc-editable-region--
+        </div>
+      </section>
+      <section id="cart">
+        <h2>购物车</h2>
+        <div class="cart-items"></div>
+        <div class="cart-total">
+          <h3>总计: $0</h3>
+        </div>
+      </section>
     </main>
     <script src="./script.js"></script>
   </body>
 </html>
 ```
-
-```css
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --dark-grey: #1b1b32;
-  --light-grey: #f5f6f7;
-  --black: #000;
-  --white: #fff;
-  --grey: #3b3b4f;
-  --golden-yellow: #fecc4c;
-  --yellow: #ffcc4c;
-  --gold: #feac32;
-  --orange: #ffac33;
-  --dark-orange: #f89808;
-}
-
-body {
-  background-color: var(--dark-grey);
-}
-
-.title {
-  color: var(--light-grey);
-  text-align: center;
-  margin: 25px 0;
-}
-
-#dessert-card-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.dessert-card {
-  background-color: var(--light-grey);
-  padding: 15px;
-  text-align: center;
-  border-radius: 15px;
-  margin: 20px 10px;
-}
-
-.dessert-price {
-  font-size: 1.2rem;
-}
-
-.btn {
-  display: block;
-  cursor: pointer;
-  width: 100px;
-  color: var(--dark-grey);
-  background-color: var(--gold);
-  background-image: linear-gradient(var(--golden-yellow), var(--orange));
-  border-color: var(--gold);
-  border-width: 3px;
-}
-
-.btn:hover {
-  background-image: linear-gradient(var(--yellow), var(--dark-orange));
-}
-
-#cart-btn {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.add-to-cart-btn {
-  margin: 30px auto 10px;
-}
-
-#cart-container {
-  display: none;
-  position: absolute;
-  top: 60px;
-  right: 0;
-  background-color: var(--light-grey);
-  width: 200px;
-  height: 400px;
-  border: 8px double var(--black);
-  border-radius: 15px;
-  text-align: center;
-  font-size: 1.2rem;
-  overflow-y: scroll;
-}
-
-.product {
-  margin: 25px 0;
-}
-
-.product-count {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.product-category {
-  margin: 10px 0;
-}
-
-@media (min-width: 768px) {
-  #dessert-card-container {
-    flex-direction: row;
-  }
-
-  .dessert-card {
-    flex: 1 0 21%;
-  }
-
-  #cart-container {
-    width: 300px;
-  }
-}
-```
-
-```js
-const cartContainer = document.getElementById("cart-container");
-const productsContainer = document.getElementById("products-container");
-const dessertCards = document.getElementById("dessert-card-container");
-const cartBtn = document.getElementById("cart-btn");
-const clearCartBtn = document.getElementById("clear-cart-btn");
-const totalNumberOfItems = document.getElementById("total-items");
-const cartSubTotal = document.getElementById("subtotal");
-const cartTaxes = document.getElementById("taxes");
-const cartTotal = document.getElementById("total");
-const showHideCartSpan = document.getElementById("show-hide-cart");
-let isCartShowing = false;
-
-const products = [
-  {
-    id: 1,
-    name: "Vanilla Cupcakes (6 Pack)",
-    price: 12.99,
-    category: "Cupcake",
-  },
-  {
-    id: 2,
-    name: "French Macaron",
-    price: 3.99,
-    category: "Macaron",
-  },
-  {
-    id: 3,
-    name: "Pumpkin Cupcake",
-    price: 3.99,
-    category: "Cupcake",
-  },
-  {
-    id: 4,
-    name: "Chocolate Cupcake",
-    price: 5.99,
-    category: "Cupcake",
-  },
-  {
-    id: 5,
-    name: "Chocolate Pretzels (4 Pack)",
-    price: 10.99,
-    category: "Pretzel",
-  },
-  {
-    id: 6,
-    name: "Strawberry Ice Cream",
-    price: 2.99,
-    category: "Ice Cream",
-  },
-  {
-    id: 7,
-    name: "Chocolate Macarons (4 Pack)",
-    price: 9.99,
-    category: "Macaron",
-  },
-  {
-    id: 8,
-    name: "Strawberry Pretzel",
-    price: 4.99,
-    category: "Pretzel",
-  },
-  {
-    id: 9,
-    name: "Butter Pecan Ice Cream",
-    price: 2.99,
-    category: "Ice Cream",
-  },
-  {
-    id: 10,
-    name: "Rocky Road Ice Cream",
-    price: 2.99,
-    category: "Ice Cream",
-  },
-  {
-    id: 11,
-    name: "Vanilla Macarons (5 Pack)",
-    price: 11.99,
-    category: "Macaron",
-  },
-  {
-    id: 12,
-    name: "Lemon Cupcakes (4 Pack)",
-    price: 12.99,
-    category: "Cupcake",
-  },
-];
-
-products.forEach(
-  ({ name, id, price, category }) => {
-    dessertCards.innerHTML += `
-      <div class="dessert-card">
-        <h2>${name}</h2>
-        <p class="dessert-price">$${price}</p>
-        <p class="product-category">Category: ${category}</p>
-        <button 
-          id="${id}" 
-          class="btn add-to-cart-btn">Add to cart
-        </button>
-      </div>
-    `;
-  }
-);
-
-class ShoppingCart {
-  constructor() {
-    this.items = [];
-    this.total = 0;
-    this.taxRate = 8.25;
-  }
-
---fcc-editable-region--
-  addItem(id, products) {
-    const product = products.find((item) => item.id === id);
-    const { name, price } = product;
-    this.items.push(product);
-
-    const totalCountPerProduct = {};
-    this.items.forEach((dessert) => {
-
-    })
-  }
---fcc-editable-region--
-};
-```
-

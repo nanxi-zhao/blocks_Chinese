@@ -81,12 +81,29 @@ body {
   border-radius: 46%;
 }
 
---fcc-editable-region--
 .cat-left-ear {
-
+  position: absolute;
+  top: -26px;
+  left: -31px;
+  z-index: 1;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  transform: rotate(-45deg);
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;
 }
---fcc-editable-region--
+
+.cat-right-ear {
+  position: absolute;
+  top: -26px;
+  left: 163px;
+  z-index: 1;
+  transform: rotate(45deg);
+  border-top-left-radius: 90px;
+  border-top-right-radius: 10px;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 70px solid #5e5e5e;
+}
 ```

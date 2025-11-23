@@ -74,6 +74,8 @@ assert.lengthOf(sections,2);
             <p class="flavor">Mocha</p><p class="price">4.50</p>
           </article>
         </section>
+        <section>
+        </section>
 --fcc-editable-region--
       </main>
     </div>

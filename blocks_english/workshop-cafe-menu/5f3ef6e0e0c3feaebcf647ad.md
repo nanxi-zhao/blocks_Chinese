@@ -7,23 +7,23 @@ dashedName: step-47
 
 # --description--
 
-Add an `h2` element in the new section and give it the text `Desserts`.
+在新部分中添加一个`h2`元素，并给它文本`Desserts`。
 
 # --hints--
 
-你不应该改变你现有的 `section` 元素�?
+你不应该改变你现有的`section`元素。
 
 ```js
 assert.lengthOf(document.querySelectorAll('section'), 2);
 ```
 
-你应该在你的第二�?`section` 元素中添加一�?`h2` 元素�?
+你应该在你的第二个`section`元素中添加一个`h2`元素。
 
 ```js
 assert.strictEqual(document.querySelectorAll('section')?.[1]?.children?.[0]?.tagName, 'H2');
 ```
 
-你的�?`h2` 元素应该有文�?`Desserts`�?
+你的新`h2`元素应该有文本`Desserts`。
 
 ```js
 assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
@@ -67,6 +67,7 @@ assert.match(document.querySelectorAll('h2')?.[1]?.innerText, /Desserts/i);
         </section>
 --fcc-editable-region--
         <section>
+          <h2>Desserts</h2>
         </section>
 --fcc-editable-region--
       </main>
@@ -105,5 +106,3 @@ h1, h2, p {
   width: 25%
 }
 ```
-
-

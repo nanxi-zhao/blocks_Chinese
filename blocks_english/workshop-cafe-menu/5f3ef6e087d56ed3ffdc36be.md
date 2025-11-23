@@ -7,23 +7,23 @@ dashedName: step-61
 
 # --description--
 
-Now apply the `established` class to the `Est. 2020` text.
+现在将`established`类应用到`Est. 2020`文本。
 
 # --hints--
 
-You should set the `class` of the `p` element to `established`.
+你应该将`p`元素的`class`设置为`established`。
 
 ```js
 assert.match(code,/<p class=('|")established\1>/i);
 ```
 
-Your `established` class should be on the element with the text `Est. 2020`.
+你的`established`类应该在带有`Est. 2020`文本的元素上。
 
 ```js
 assert.match(document.querySelector('.established')?.innerText, /Est\.\s2020/i);
 ```
 
-Your `established` class element should have italic text.
+你的`established`类元素应该有斜体文本。
 
 ```js
 const establishElement = document.querySelector('.established');
@@ -50,7 +50,7 @@ assert.equal(establishedFont, "italic");
       <main>
 --fcc-editable-region--
         <h1>CAMPER CAFE</h1>
-        <p>Est. 2020</p>
+        <p class="established">Est. 2020</p>
 --fcc-editable-region--
         <section>
           <h2>Coffee</h2>

@@ -58,13 +58,15 @@ assert.lengthOf(document.querySelector('body > div#menu > main')?.children, 3);
   </head>
 --fcc-editable-region--
   <body>
-    <main>
-      <h1>CAMPER CAFE</h1>
-      <p>Est. 2020</p>
-      <section>
-        <h2>Coffee</h2>
-      </section>
-    </main>
+    <div id="menu">
+      <main>
+        <h1>CAMPER CAFE</h1>
+        <p>Est. 2020</p>
+        <section>
+          <h2>Coffee</h2>
+        </section>
+      </main>
+    </div>
   </body>
 --fcc-editable-region--
 </html>
