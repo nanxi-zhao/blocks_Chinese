@@ -7,15 +7,15 @@ dashedName: step-14
 
 # --description--
 
-Your `calculateQuotient` appears to be working correctly but there is one case that you have not tested yet.
+你的[calculateQuotient]似乎工作正常，但还有一个情况你还没有测试过。
 
-Add a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+添加一个[console.log]，用参数[3]和[0]调用[calculateQuotient]函数。
 
-Make sure to take a close look at the output of this call.
+确保仔细查看这次调用的输出。
 
 # --hints--
 
-You should have a `console.log` that calls the `calculateQuotient` function with the arguments `3` and `0`.
+你应该有一个[console.log]，用参数[3]和[0]调用[calculateQuotient]函数。
 
 ```js
 assert.match(code, /console\.log\s*\(\s*calculateQuotient\s*\(\s*3\s*,\s*0\s*\)\s*\)\s*;?/);

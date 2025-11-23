@@ -17,7 +17,7 @@
             "workshop-bookstore-page",
             //"lecture-understanding-how-html-affects-seo",
             //"lab-travel-agency-page",
-            "lecture-working-with-audio-and-video-elements",
+            //"lecture-working-with-audio-and-video-elements",
             //"lab-html-audio-and-video-player",
             "lecture-working-with-images-and-svgs",
             "workshop-build-a-heart-icon",
@@ -41,7 +41,7 @@
             "workshop-blog-page",
             // "lab-event-hub",
             //"review-semantic-html",
-            "quiz-semantic-html"
+            //"quiz-semantic-html"
           ]
         },
         {
@@ -55,7 +55,7 @@
             //"lab-book-catalog-table",
             "lecture-working-with-html-tools",
             //"review-html-tables-and-forms",
-            "quiz-html-tables-and-forms"
+            //"quiz-html-tables-and-forms"
           ]
         },
         {
@@ -64,7 +64,7 @@
             //"lecture-importance-of-accessibility-and-good-html-structure",
             "workshop-debug-coding-journey-blog-page",
             //"lecture-accessible-tables-forms",
-            "workshop-tech-conference-schedule",
+            //"workshop-tech-conference-schedule",
             //"lecture-introduction-to-aria",
             "workshop-accessible-audio-controller",
             // "lecture-accessible-media-elements",
@@ -72,7 +72,7 @@
             //"lab-movie-review-page",
             //"lab-multimedia-player",
             //"review-html-accessibility",
-            "quiz-html-accessibility"
+            //"quiz-html-accessibility"
           ]
         },
         {
@@ -106,9 +106,9 @@
             //"lecture-css-specificity-the-cascade-algorithm-and-inheritance",
             //"review-basic-css",
             //"quiz-basic-css",
-            "lecture-styling-lists-and-links",
+            //"lecture-styling-lists-and-links",
             // "lab-stylized-to-do-list",
-            "lecture-working-with-backgrounds-and-borders",
+            //"lecture-working-with-backgrounds-and-borders",
             // "lab-blog-post-card",
             //"review-css-backgrounds-and-borders",
             //"quiz-css-backgrounds-and-borders"
@@ -117,11 +117,11 @@
         {
           "dashedName": "design-for-developers",
           "blocks": [
-            "lecture-user-interface-design-fundamentals",
-            "lecture-user-centered-design",
+            //"lecture-user-interface-design-fundamentals",
+            //"lecture-user-centered-design",
             //"lecture-common-design-tools",
             //"review-design-fundamentals",
-            "quiz-design-fundamentals"
+            //"quiz-design-fundamentals"
           ]
         },
         {
@@ -130,7 +130,7 @@
             "lecture-working-with-relative-and-absolute-units",
             // "lab-event-flyer-page",
             //"review-css-relative-and-absolute-units",
-            "quiz-css-relative-and-absolute-units"
+            //"quiz-css-relative-and-absolute-units"
           ]
         },
         {
@@ -140,7 +140,7 @@
             "workshop-greeting-card",
             // "lab-job-application-form",
             //"review-css-pseudo-classes",
-            "quiz-css-pseudo-classes"
+            //"quiz-css-pseudo-classes"
           ]
         },
         {
@@ -162,7 +162,7 @@
             "workshop-game-settings-panel",
             // "lab-feature-selection",
             //"review-styling-forms",
-            "quiz-styling-forms"
+            //"quiz-styling-forms"
           ]
         },
         {
@@ -172,7 +172,7 @@
             "workshop-rothko-painting",
             // "lab-confidential-email-page",
             //"review-css-layout-and-effects",
-            "quiz-css-layout-and-effects"
+            //"quiz-css-layout-and-effects"
           ]
         },
         {
@@ -212,13 +212,13 @@
             "workshop-cat-painting",
             // "lab-house-painting",
             //"review-css-positioning",
-            "quiz-css-positioning"
+            //"quiz-css-positioning"
           ]
         },
         {
           "dashedName": "attribute-selectors",
           "blocks": [
-            "lecture-working-with-attribute-selectors",
+            //"lecture-working-with-attribute-selectors",
             //"workshop-balance-sheet",
             // "lab-book-inventory-app",
             //"review-css-attribute-selectors",
@@ -229,10 +229,10 @@
           "dashedName": "responsive-design",
           "blocks": [
             //"lecture-best-practices-for-responsive-web-design",
-            "workshop-piano",
+            //"workshop-piano",
             //"lab-technical-documentation-page",
             //"review-responsive-web-design",
-            "quiz-responsive-web-design"
+            //"quiz-responsive-web-design"
           ]
         },
         {
@@ -242,7 +242,7 @@
             "workshop-city-skyline",
             // "lab-availability-table",
             //"review-css-variables",
-            "quiz-css-variables"
+            //"quiz-css-variables"
           ]
         },
         {
@@ -253,7 +253,7 @@
             // "lab-newspaper-layout",
             //"lecture-debugging-css",
             // "lab-product-landing-page",
-            //"review-css-grid",
+            //"review-css-grid",quiz-css-grid
             //"quiz-css-grid"
           ]
         },
@@ -296,9 +296,9 @@
             // "lab-sentence-maker",
             "lecture-working-with-data-types",
             //"review-javascript-variables-and-data-types",
-            "quiz-javascript-variables-and-data-types",
+            //"quiz-javascript-variables-and-data-types",
             "lecture-working-with-strings-in-javascript",
-            "workshop-teacher-chatbot",
+            //"workshop-teacher-chatbot",
             "lecture-working-with-string-character-methods",
             "lecture-working-with-string-search-and-slice-methods",
             "workshop-string-inspector",
@@ -307,7 +307,7 @@
             "lecture-working-with-string-modification-methods",
             //"workshop-string-transformer",
             //"review-javascript-strings",
-            "quiz-javascript-strings"
+            //"quiz-javascript-strings"
           ]
         },
         {
@@ -324,10 +324,10 @@
             // "lab-fortune-teller",
             "lecture-working-with-numbers-and-common-number-methods",
             //"review-javascript-math",
-            "quiz-javascript-math",
+            //"quiz-javascript-math",
             //"lecture-understanding-comparisons-and-conditionals",
             //"review-javascript-comparisons-and-conditionals",
-            "quiz-javascript-comparisons-and-conditionals"
+            //"quiz-javascript-comparisons-and-conditionals"
           ]
         },
         {
@@ -344,7 +344,7 @@
             //"lab-truncate-string",
             // "lab-string-ending-checker",
             //"review-javascript-functions",
-            "quiz-javascript-functions"
+            //"quiz-javascript-functions"
           ]
         },
         {
@@ -357,7 +357,7 @@
             // "lab-reverse-a-string",
             "lecture-working-with-common-array-methods",
             //"review-javascript-arrays",
-            "quiz-javascript-arrays"
+            //"quiz-javascript-arrays"
           ]
         },
         {
@@ -370,7 +370,7 @@
             "lab-quiz-game",
             // "lab-record-collection",
             //"review-javascript-objects",
-            "quiz-javascript-objects"
+            //"quiz-javascript-objects"
           ]
         },
         {
@@ -386,14 +386,14 @@
             // "lab-repeat-a-string",
             // "lab-missing-letter-detector",
             //"review-javascript-loops",
-            "quiz-javascript-loops"
+            //"quiz-javascript-loops"
           ]
         },
         {
           "dashedName": "review-javascript-fundamentals",
           "blocks": [
             "lecture-working-with-types-and-objects",
-            "lecture-working-with-arrays-variables-and-naming-practices",
+            //"lecture-working-with-arrays-variables-and-naming-practices",
             "lecture-working-with-code-quality-and-execution-concepts",
             // "lab-largest-number-finder",
             // "lab-first-element-finder",
@@ -415,7 +415,7 @@
             // "lab-element-skipper",
             // "lab-optional-arguments-sum-function",
             //"review-javascript-fundamentals",
-            "quiz-javascript-fundamentals"
+            //"quiz-javascript-fundamentals"
           ]
         },
         {
@@ -433,24 +433,24 @@
             // "lab-deep-flattening-tool",
             // "lab-all-true-property-validator",
             //"review-javascript-higher-order-functions",
-            "quiz-javascript-higher-order-functions"
+            //"quiz-javascript-higher-order-functions"
           ]
         },
         {
           "dashedName": "dom-manipulation-and-events",
           "blocks": [
             "lecture-working-with-the-dom-click-events-and-web-apis",
-            "workshop-storytelling-app",
+            //"workshop-storytelling-app",
             "workshop-emoji-reactor",
             // "lab-favorite-icon-toggler",
-            "lecture-understanding-the-event-object-and-event-delegation",
+            //"lecture-understanding-the-event-object-and-event-delegation",
             //"workshop-music-instrument-filter",
             // "lab-real-time-counter",
             // "lab-lightbox-viewer",
             "workshop-rps-game",
             // "lab-football-team-cards",
             //"review-dom-manipulation-and-click-events-with-javascript",
-            "quiz-dom-manipulation-and-click-event-with-javascript"
+            //"quiz-dom-manipulation-and-click-event-with-javascript"
           ]
         },
         {
@@ -461,7 +461,7 @@
             "workshop-note-taking-app",
             //"lab-theme-switcher",
             //"review-js-a11y",
-            "quiz-js-a11y"
+            //"quiz-js-a11y"
           ]
         },
         {
@@ -470,7 +470,7 @@
             //"lecture-debugging-techniques",
             // "lab-random-background-color-changer",
             //"review-debugging-javascript",
-            "quiz-debugging-javascript"
+            //"quiz-debugging-javascript"
           ]
         },
         {
@@ -485,7 +485,7 @@
             // "lab-pig-latin",
             // "lab-smart-word-replacement",
             //"review-javascript-regular-expressions",
-            "quiz-javascript-regular-expressions"
+            //"quiz-javascript-regular-expressions"
           ]
         },
         {
@@ -495,7 +495,7 @@
             "workshop-calorie-counter",
             // "lab-customer-complaint-form",
             //"review-form-validation-with-javascript",
-            "quiz-form-validation-with-javascript"
+            //"quiz-form-validation-with-javascript"
           ]
         },
         {
@@ -504,17 +504,17 @@
             "lecture-working-with-dates",
             // "lab-date-conversion",
             //"review-javascript-dates",
-            "quiz-javascript-dates"
+            //"quiz-javascript-dates"
           ]
         },
         {
           "dashedName": "audio-and-video-events",
           "blocks": [
-            "lecture-working-with-audio-and-video",
+            //"lecture-working-with-audio-and-video",
             "workshop-music-player",
             // "lab-drum-machine",
             //"review-javascript-audio-and-video",
-            "quiz-javascript-audio-and-video"
+            //"quiz-javascript-audio-and-video"
           ]
         },
         {
@@ -524,17 +524,17 @@
             "workshop-plant-nursery-catalog",
             //"lab-voting-system",
             //"review-javascript-maps-and-sets",
-            "quiz-javascript-maps-and-sets"
+            //"quiz-javascript-maps-and-sets"
           ]
         },
         {
           "dashedName": "localstorage-and-crud-operations",
           "blocks": [
             "lecture-working-with-client-side-storage-and-crud-operations",
-            "workshop-todo-app",
+            //"workshop-todo-app",
             // "lab-bookmark-manager-app",
             //"review-local-storage-and-crud",
-            "quiz-local-storage-and-crud"
+            //"quiz-local-storage-and-crud"
           ]
         },
         {
@@ -545,7 +545,7 @@
             // "lab-project-idea-board",
             // "lab-bank-account-manager",
             //"review-javascript-classes",
-            "quiz-javascript-classes"
+            //"quiz-javascript-classes"
           ]
         },
         {
@@ -555,7 +555,7 @@
             "workshop-decimal-to-binary-converter",
             // "lab-permutation-generator",
             //"review-recursion",
-            "quiz-recursion"
+            //"quiz-recursion"
           ]
         },
         {
@@ -565,7 +565,7 @@
             "workshop-recipe-ingredient-converter",
             // "lab-sorting-visualizer",
             //"review-javascript-functional-programming",
-            "quiz-javascript-functional-programming"
+            //"quiz-javascript-functional-programming"
           ]
         },
         {
@@ -599,20 +599,20 @@
             "workshop-reusable-profile-card-component",
             // "lab-mood-board",
             //"review-react-basics",
-            "quiz-react-basics"
+            //"quiz-react-basics"
           ]
         },
         {
           "dashedName": "react-state-hooks-and-routing",
           "blocks": [
             "lecture-working-with-state-and-responding-to-events-in-react",
-            "workshop-toggle-text-app",
+            //"workshop-toggle-text-app",
             //"lab-color-picker",
             //"lecture-understanding-effects-and-referencing-values-in-react",
             "workshop-fruit-search-app",
             "lab-one-time-password-generator",
             //"review-react-state-and-hooks",
-            "quiz-react-state-and-hooks",
+            //"quiz-react-state-and-hooks",
             "lecture-working-with-forms-in-react",
             //"workshop-superhero-application-form",
             // "lab-event-rsvp",
@@ -623,7 +623,7 @@
             //"lab-tic-tac-toe",
             //"lecture-react-strategies-and-debugging",
             //"review-react-forms-data-fetching-and-routing",
-            "quiz-react-forms-data-fetching-and-routing"
+            //"quiz-react-forms-data-fetching-and-routing"
           ]
         },
         {
@@ -639,7 +639,7 @@
           "blocks": [
             //"lecture-understanding-the-different-types-of-testing",
             //"review-testing",
-            "quiz-testing"
+            //"quiz-testing"
           ]
         },
         {
@@ -648,11 +648,11 @@
             "lecture-working-with-css-libraries-and-frameworks",
             //"workshop-error-message-component",
             "workshop-tailwind-cta-component",
-            "workshop-tailwind-pricing-component",
+            //"workshop-tailwind-pricing-component",
             // "lab-music-shopping-cart-page",
             // "lab-photography-exhibit",
             //"review-css-libraries-and-frameworks",
-            "quiz-css-libraries-and-frameworks"
+            //"quiz-css-libraries-and-frameworks"
           ]
         },
         {
@@ -693,18 +693,18 @@
             "workshop-caesar-cipher",
             // "lab-rpg-character",
             //"review-python-basics",
-            "quiz-python-basics"
+            //"quiz-python-basics"
           ]
         },
         {
           "dashedName": "python-loops-and-sequences",
           "comingSoon": false,
           "blocks": [
-            、、"lecture-working-with-loops-and-sequences",
-            "workshop-pin-extractor",
+            //"lecture-working-with-loops-and-sequences",
+            //"workshop-pin-extractor",
             // "lab-number-pattern-generator",
             //"review-loops-and-sequences",
-            "quiz-loops-and-sequences"
+            //"quiz-loops-and-sequences"
           ]
         },
         {
@@ -713,10 +713,10 @@
           "blocks": [
             "lecture-working-with-dictionaries-and-sets",
             "lecture-working-with-modules",
-            "workshop-medical-data-validator",
+            //"workshop-medical-data-validator",
             //"lab-user-configuration-manager",
             //"review-dictionaries-and-sets",
-            "quiz-dictionaries-and-sets"
+            //"quiz-dictionaries-and-sets"
           ]
         },
         {
@@ -726,7 +726,7 @@
             //"lecture-understanding-error-handling",
             // "lab-isbn-validator",
             //"review-error-handling",
-            "quiz-error-handling"
+            //"quiz-error-handling"
           ]
         },
         {
@@ -756,7 +756,7 @@
             "workshop-discount-calculator",
             "lab-player-interface",
             //"review-object-oriented-programming",
-            "quiz-object-oriented-programming"
+            //"quiz-object-oriented-programming"
           ]
         },
         {
@@ -767,7 +767,7 @@
             "workshop-linked-list-class",
             // "lab-hash-table",
             //"review-data-structures",
-            "quiz-data-structures"
+            //"quiz-data-structures"
           ]
         },
         {
@@ -777,13 +777,13 @@
             //"lecture-searching-and-sorting-algorithms",
             "workshop-binary-search",
             // "lab-bisection-method",
-            "workshop-merge-sort",
+            //"workshop-merge-sort",
             // "lab-quicksort",
             // "lab-selection-sort",
             // "lab-luhn-algorithm",
             //"lab-tower-of-hanoi",
             //"review-searching-and-sorting-algorithms",
-            "quiz-searching-and-sorting-algorithms"
+            //"quiz-searching-and-sorting-algorithms"
           ]
         },
         {
@@ -797,7 +797,7 @@
             // "lab-depth-first-search",
             "lab-n-queens-problem",
             //"review-graphs-and-trees",
-            "quiz-graphs-and-trees"
+            //"quiz-graphs-and-trees"
           ]
         },
         {
@@ -807,7 +807,7 @@
             //"lecture-understanding-dynamic-programming",
             // "lab-nth-fibonacci-number",
             //"review-dynamic-programming",
-            "quiz-dynamic-programming"
+            //"quiz-dynamic-programming"
           ]
         },
         {
@@ -827,7 +827,7 @@
           "dashedName": "bash-fundamentals",
           "blocks": [
             //"lecture-understanding-the-command-line-and-working-with-bash",
-            "workshop-bash-boilerplate",
+            //"workshop-bash-boilerplate",
             //"review-bash-commands",
             //"quiz-bash-commands"
           ]
@@ -839,14 +839,14 @@
             "workshop-database-of-video-game-characters",
             // "lab-celestial-bodies-database",
             //"review-sql-and-postgresql",
-            "quiz-sql-and-postgresql"
+            //"quiz-sql-and-postgresql"
           ]
         },
         {
           "dashedName": "bash-scripting",
           "blocks": [
             //"lecture-understanding-bash-scripting",
-            "workshop-bash-five-programs",
+            //"workshop-bash-five-programs",
             //"review-bash-scripting",
             //"quiz-bash-scripting"
           ]
@@ -859,7 +859,7 @@
             "workshop-sql-student-database-part-2",
             //"lab-world-cup-database",
             "workshop-kitty-ipsum-translator",
-            "workshop-bike-rental-shop",
+            //"workshop-bike-rental-shop",
             // "lab-salon-appointment-scheduler",
             //"review-bash-and-sql",
             //"quiz-bash-and-sql"
@@ -876,7 +876,7 @@
             // "lab-periodic-table-database",
             // "lab-number-guessing-game",
             //"review-git",
-            "quiz-git"
+            //"quiz-git"
           ]
         },
         {
@@ -905,7 +905,9 @@
         {
           "dashedName": "http-and-the-web-standards-model",
           "comingSoon": true,
-          "blocks": ["lecture-understanding-the-http-request-response-model"]
+          "blocks": [
+            //"lecture-understanding-the-http-request-response-model"
+          ]
         },
         {
           "dashedName": "rest-api-and-web-services",
