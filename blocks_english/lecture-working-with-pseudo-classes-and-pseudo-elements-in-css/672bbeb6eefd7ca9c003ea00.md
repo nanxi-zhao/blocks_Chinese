@@ -1,38 +1,38 @@
 ---
 id: 672bbeb6eefd7ca9c003ea00
-title: What Are Examples of Tree-structural Pseudo-classes?
+title: 树结构伪类的示例有哪些？
 challengeType: 19
 dashedName: what-are-examples-of-tree-structural-pseudo-classes
 ---
 
 # --interactive--
 
-Tree-structural pseudo-classes allow you to target and style elements based on their position within the document tree. The document tree refers to the hierarchical structure of elements in an HTML document.
+树结构伪类允许您根据元素在文档树中的位置来定位和设置元素样式。文档树指的是HTML文档中元素的层次结构。
 
-Here is a list of tree-structural pseudo-classes:
+以下是树结构伪类列表：
 
-- `:root`
-- `:empty`
-- `:nth-child(n)`
-- `:nth-last-child(n)`
-- `:first-child`
-- `:last-child`
-- `:only-child`
-- `:nth-of-type`
-- `:first-of-type`
-- `:last-of-type`
-- `:only-of-type`
+- [:root]
+- [:empty]
+- [:nth-child(n)]
+- [:nth-last-child(n)]
+- [:first-child]
+- [:last-child]
+- [:only-child]
+- [:nth-of-type]
+- [:first-of-type]
+- [:last-of-type]
+- [:only-of-type]
 
-Let's take a closer look at each of the tree-structural pseudo-classes, accompanied by examples.
+让我们更仔细地看看每个树结构伪类，并附上示例。
 
-​​The `:root` pseudo-class is usually the root `html` element. It helps you target the highest level in the document so you can apply a common style to the entire document.
+​​[:root]伪类通常是根[html]元素。它帮助您定位文档中的最高级别，以便您可以对整个文档应用通用样式。
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
-<h1>Welcome to My Website</h1>
-<p>This is a sample paragraph to demonstrate the :root pseudo-class.</p>
+<h1>欢迎访问我的网站</h1>
+<p>这是一个示例段落，用于演示:root伪类。</p>
 ```
 
 ```css
@@ -44,7 +44,7 @@ Let's take a closer look at each of the tree-structural pseudo-classes, accompan
 
 :::
 
-The `:root` pseudo-class is also commonly used in setting CSS variables:
+[:root]伪类也常用于设置CSS变量：
 
 ```css
 :root {
@@ -54,20 +54,20 @@ The `:root` pseudo-class is also commonly used in setting CSS variables:
 }
 ```
 
-With CSS variables, you get to store values and reuse them in your stylesheet. You will learn more about these later on.
+通过CSS变量，您可以存储值并在样式表中重用它们。您将在以后了解更多相关内容。
 
-Empty elements, that is, elements with no children other than white space, are also included in the document tree. That's why there's an `:empty` pseudo-class to target empty elements. For example, this HTML code has two empty list items. With the `:empty` pseudo-class, you can style the empty list items differently:
+空元素，即除了空白字符外没有子元素的元素，也包含在文档树中。这就是为什么有[:empty]伪类来定位空元素。例如，此HTML代码有两个空列表项。通过[:empty]伪类，您可以以不同方式为空列表项设置样式：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
 <ul>
-  <li>Item 1</li>
-  <li></li> <!-- This list is empty -->
-  <li>Item 2</li>
-  <li></li> <!-- Another empty list -->
-  <li>Item 3</li>
+  <li>项目1</li>
+  <li></li> <!-- 这个列表是空的 -->
+  <li>项目2</li>
+  <li></li> <!-- 另一个空列表 -->
+  <li>项目3</li>
 </ul>
 ```
 
@@ -79,18 +79,18 @@ Empty elements, that is, elements with no children other than white space, are a
 
 :::
 
-The most practical thing to do with the empty list items is probably not displaying them at all:
+对空列表项最实用的做法可能是根本不显示它们：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
 <ul>
-  <li>Item 1</li>
-  <li></li> <!-- This list is empty -->
-  <li>Item 2</li>
-  <li></li> <!-- Another empty list -->
-  <li>Item 3</li>
+  <li>项目1</li>
+  <li></li> <!-- 这个列表是空的 -->
+  <li>项目2</li>
+  <li></li> <!-- 另一个空列表 -->
+  <li>项目3</li>
 </ul>
 ```
 
@@ -102,9 +102,9 @@ The most practical thing to do with the empty list items is probably not display
 
 :::
 
-`:nth-child(n)` allows you to select elements based on their position within a parent, while `:nth-last-child(n)` enables you to select elements by counting from the end. The `n` can be a specific number or a keyword like `odd` or `even`. This is incredibly useful in styling table cells based on position: even and odd.
+[:nth-child(n)]允许您根据元素在父元素中的位置来选择元素，而[:nth-last-child(n)]使您能够通过从末尾开始计数来选择元素。[n]可以是特定数字或[odd]或[even]等关键字。这在基于位置对表格单元格进行样式设置时非常有用：奇数和偶数。
 
-Here's an HTML example of a fruit price list table. The CSS is using the `:nth-child` pseudo-class to target the table cells based on odd and even positions:
+这是一个水果价格列表表格的HTML示例。CSS使用[:nth-child]伪类根据奇数和偶数位置来定位表格单元格：
 
 :::interactive_editor
 
@@ -112,19 +112,19 @@ Here's an HTML example of a fruit price list table. The CSS is using the `:nth-c
 <link rel="stylesheet" href="styles.css" />
 <table>
   <tr>
-    <th>Item</th>
-    <th>Price</th>
+    <th>项目</th>
+    <th>价格</th>
   </tr>
   <tr>
-    <td>Apple</td>
+    <td>苹果</td>
     <td>$1.00</td>
   </tr>
   <tr>
-    <td>Banana</td>
+    <td>香蕉</td>
     <td>$0.50</td>
   </tr>
   <tr>
-    <td>Orange</td>
+    <td>橙子</td>
     <td>$0.80</td>
   </tr>
 </table>
@@ -148,22 +148,22 @@ tr:nth-child(odd) {
 
 :::
 
-The `:first-child`, `:last-child`, and `:only-child` pseudo-classes all act on items within a parent container or the entire document.
+[:first-child]、[:last-child]和[:only-child]伪类都作用于父容器或整个文档中的项目。
 
-- `:first-child` selects the first element in a parent element or the document.
-- `:last-child` selects the last element in a parent element or the document.
-- `:only-child` selects the only element in a parent element or the document.
+- [:first-child]选择父元素或文档中的第一个元素。
+- [:last-child]选择父元素或文档中的最后一个元素。
+- [:only-child]选择父元素或文档中唯一的元素。
 
-Using the `:first-child` and `:last-child` pseudo-classes will select both `Item 1` and `Item 3` in this example:
+使用[:first-child]和[:last-child]伪类将在此示例中选择项目1和项目3：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
 <ul>
-  <li>Item 1</li>
-  <li>Item 2</li>
-  <li>Item 3</li>
+  <li>项目1</li>
+  <li>项目2</li>
+  <li>项目3</li>
 </ul>
 ```
 
@@ -179,21 +179,21 @@ li:last-child {
 
 :::
 
-If you have more unordered lists on the page, you have to be more specific with the selection:
+如果您在页面上有更多无序列表，则必须更具体地进行选择：
 
-To show you how the `:only-child` pseudo-class works, here's an HTML example with two separate `div` elements. Using the `:only-child` pseudo-class ensures only the `div` element with a single child is selected:
+为了向您展示[:only-child]伪类的工作原理，这里有一个包含两个独立[div]元素的HTML示例。使用[:only-child]伪类确保只选择具有单个子元素的[div]元素：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
 <div class="container">
-  <div>This is the only item in this container.</div>
+  <div>这是此容器中的唯一项目。</div>
 </div>
 
 <div class="container">
-  <div>This is one of two items in this container.</div>
-  <div>Here is the second item.</div>
+  <div>这是此容器中的两个项目之一。</div>
+  <div>这里是第二个项目。</div>
 </div>
 ```
 
@@ -207,9 +207,9 @@ To show you how the `:only-child` pseudo-class works, here's an HTML example wit
 
 :::
 
-The `:first-of-type` and `:last-of-type` pseudo-classes select the first and last occurrence of a specific element type within its parent. They are useful for applying unique styles to the first or last instance of that element type among its siblings.
+[:first-of-type]和[:last-of-type]伪类选择其父元素中特定元素类型的第一次和最后一次出现。它们对于对同级元素中该元素类型的第一次或最后一次实例应用独特样式很有用。
 
-In the example below, `:first-of-type` and `:last-of-type` applies to the first element and last element within the `section` element:
+在下面的示例中，[:first-of-type]和[:last-of-type]应用于[section]元素中的第一个元素和最后一个元素：
 
 :::interactive_editor
 
@@ -217,14 +217,14 @@ In the example below, `:first-of-type` and `:last-of-type` applies to the first 
 <link rel="stylesheet" href="styles.css" />
 
 <section>
-  <h2>Introduction</h2>
-  <p>This is the first paragraph in the first section</p>
-  <p>This is the second paragraph in the first section</p>
+  <h2>介绍</h2>
+  <p>这是第一部分中的第一个段落</p>
+  <p>这是第一部分中的第二个段落</p>
 </section>
 <section>
-  <h2>Details</h2>
-  <p>This is the first paragraph in the second section.</p>
-  <p>This is the second paragraph in the second section.</p>
+  <h2>详情</h2>
+  <p>这是第二部分中的第一个段落。</p>
+  <p>这是第二部分中的第二个段落。</p>
 </section>
 ```
 
@@ -240,7 +240,7 @@ section p:last-of-type {
 
 :::
 
-`:nth-of-type(n)` allows you to select a specific element within its parent based on its position among siblings of the same type. For instance, in the HTML below, `:nth-of-type(2)` targets the second element in the container:
+[:nth-of-type(n)]允许您根据元素在其父元素中的位置选择特定元素。例如，在下面的HTML中，[:nth-of-type(2)]定位容器中的第二个元素：
 
 :::interactive_editor
 
@@ -248,9 +248,9 @@ section p:last-of-type {
 <link rel="stylesheet" href="styles.css" />
 
 <div class="container">
-  <p>First paragraph</p>
-  <p>Second paragraph</p>
-  <p>Third paragraph</p>
+  <p>第一个段落</p>
+  <p>第二个段落</p>
+  <p>第三个段落</p>
 </div>
 ```
 
@@ -263,9 +263,9 @@ p:nth-of-type(2) {
 
 :::
 
-`:only-of-type` selects an element if it's the only one of its type within its parent. This can be useful for emphasizing single items or ensuring that they are styled differently when they’re not part of a group.
+[:only-of-type]选择其父元素中唯一的该类型元素。这对于强调单个项目或确保它们在不作为组的一部分时以不同方式设置样式很有用。
 
-In the example below, there are two `div` elements with one having a single element. The CSS only applies to the first container:
+在下面的示例中，有两个[div]元素，其中一个具有单个元素。CSS仅应用于第一个容器：
 
 :::interactive_editor
 
@@ -273,12 +273,12 @@ In the example below, there are two `div` elements with one having a single elem
 <link rel="stylesheet" href="styles.css" />
 
 <div class="container">
-  <p>The only paragraph</p>
+  <p>唯一的段落</p>
 </div>
 
 <div class="container">
-  <p>The first paragraph</p>
-  <p>The second paragraph</p>
+  <p>第一个段落</p>
+  <p>第二个段落</p>
 </div>
 ```
 
@@ -294,35 +294,35 @@ p:only-of-type {
 
 ## --text--
 
-What is the difference between the `:first-of-type` and `:last-of-type` pseudo-classes?
+[:first-of-type]和[:last-of-type]伪类之间有什么区别？
 
 ## --answers--
 
-`:first-of-type` targets the first element of a specific type within its parent, while `:last-of-type` targets the last element of a different type.
+[:first-of-type]定位其父元素中特定类型的第一个元素，而[:last-of-type]定位不同类型元素的最后一个元素。
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+考虑这些伪类如何帮助您为特定标签（如[p]或[h1]）的第一个和最后一个实例设置样式。
 
 ---
 
-`:first-of-type` and `:last-of-type` both target the first occurrence of an element but in different sections of the document.
+[:first-of-type]和[:last-of-type]都定位第一个出现的元素，但在文档的不同部分。
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+考虑这些伪类如何帮助您为特定标签（如[p]或[h1]）的第一个和最后一个实例设置样式。
 
 ---
 
-`:first-of-type` selects the first occurrence of a specific element type within its parent, while `:last-of-type` selects the last occurrence of that same element type within its parent.
+[:first-of-type]选择其父元素中特定元素类型的第一次出现，而[:last-of-type]选择其父元素中相同元素类型的最后一次出现。
 
 ---
 
-`:last-of-type` applies styles to the first and last elements within the document, while `:last-of-type` applies styles to all elements of a specific type.
+[:last-of-type]对文档中的第一个和最后一个元素应用样式，而[:last-of-type]对特定类型的所有元素应用样式。
 
 ### --feedback--
 
-Consider how these pseudo-classes help you style the first and last instances of a particular tag, like `p` or `h1`.
+考虑这些伪类如何帮助您为特定标签（如[p]或[h1]）的第一个和最后一个实例设置样式。
 
 ## --video-solution--
 
@@ -330,35 +330,35 @@ Consider how these pseudo-classes help you style the first and last instances of
 
 ## --text--
 
-What is the difference between the `:first-child` and `:last-child` pseudo-classes?
+[:first-child]和[:last-child]伪类之间有什么区别？
 
 ## --answers--
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within a different parent.
+[:first-child]定位其父元素中的第一个元素，而[:last-child]定位不同父元素中的最后一个元素。
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+考虑这两个伪类如何帮助您为同一父容器中的第一个和最后一个元素设置样式。
 
 ---
 
-`:first-child` targets the first element within its parent, while `:last-child` targets the last element within the same parent.
+[:first-child]定位其父元素中的第一个元素，而[:last-child]定位同一父元素中的最后一个元素。
 
 ---
 
-`:first-child` targets the first element of a specific type within its parent, while `:last-child` targets the last element of a different type within its parent.
+[:first-child]定位其父元素中特定类型的第一个元素，而[:last-child]定位其父元素中不同类型元素的最后一个元素。
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+考虑这两个伪类如何帮助您为同一父容器中的第一个和最后一个元素设置样式。
 
 ---
 
-`:first-child` targets the first and last elements within a parent, while `:last-child` targets all other elements.
+[:first-child]定位父元素中的第一个和最后一个元素，而[:last-child]定位所有其他元素。
 
 ### --feedback--
 
-Think about how the two pseudo-classes help you style the first and last elements within the same parent container.
+考虑这两个伪类如何帮助您为同一父容器中的第一个和最后一个元素设置样式。
 
 ## --video-solution--
 
@@ -366,35 +366,35 @@ Think about how the two pseudo-classes help you style the first and last element
 
 ## --text--
 
-Which pseudo-class allows you to target elements that have no children, including those that contain only whitespace?
+哪个伪类允许您定位没有子元素的元素，包括仅包含空白字符的元素？
 
 ## --answers--
 
-`:empty`
+[:empty]
 
 ---
 
-`:first-child`
+[:first-child]
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+考虑如何为没有内容的元素设置样式。
 
 ---
 
-`:last-child`
+[:last-child]
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+考虑如何为没有内容的元素设置样式。
 
 ---
 
-`:only-of-type`
+[:only-of-type]
 
 ### --feedback--
 
-Think about how you can style elements that do not have content.
+考虑如何为没有内容的元素设置样式。
 
 ## --video-solution--
 

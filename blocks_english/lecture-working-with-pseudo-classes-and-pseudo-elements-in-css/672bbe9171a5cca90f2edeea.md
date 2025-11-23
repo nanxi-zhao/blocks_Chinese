@@ -1,27 +1,27 @@
 ---
 id: 672bbe9171a5cca90f2edeea
-title: What Are Examples of Element User Action Pseudo-classes?
+title: 元素用户操作伪类的示例有哪些？
 challengeType: 19
 dashedName: what-are-examples-of-element-user-action-pseudo-classes
 ---
 
 # --interactive--
 
-User feedback is a crucial element of web design. For instance, it's important for users to receive visual cues when they interact with elements on a website, such as hovering over a button or clicking a link. This feedback helps users understand the state of interactive elements, like indicating whether a link has been visited or not.
+用户反馈是网页设计的关键要素。例如，当用户与网站上的元素交互时（如悬停在按钮上或点击链接），接收视觉提示非常重要。这种反馈帮助用户了解交互元素的状态，比如指示链接是否已被访问。
 
-User action pseudo-classes in CSS are special keywords that allow you to provide this kind of feedback without needing JavaScript or other programming languages.
+CSS中的用户操作伪类是特殊的关键字，允许您在不需要JavaScript或其他编程语言的情况下提供这种反馈。
 
-These pseudo-classes include `:hover`, `:active`, `:focus`, and `:visited`, among others. They enable you to change the appearance of elements based on user interactions, improving the overall user experience.
+这些伪类包括[:hover]、[:active]、[:focus]和[:visited]等。它们使您能够根据用户交互更改元素的外观，从而改善整体用户体验。
 
-Let's dive into some of the user action pseudo-classes we have and see how they work.
+让我们深入了解我们拥有的用户操作伪类，看看它们是如何工作的。
 
-The `:active` pseudo-class applies styles when an element is activated by the user. For example, when the user clicks a button or a link, it provides immediate visual feedback, showing users that their actions are being recognized.
+[:active]伪类在用户激活元素时应用样式。例如，当用户点击按钮或链接时，它会提供即时的视觉反馈，向用户显示他们的操作已被识别。
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
-<a href="#">Example link</a>
+<a href="#">示例链接</a>
 ```
 
 ```css
@@ -32,13 +32,13 @@ a:active {
 
 :::
 
-The `:hover` pseudo-class is triggered when a user hovers over an element with their mouse or other pointing device. Developers often use it to create visual feedback for buttons, links, or any element that should respond to user attention. Here's a button a user would hover over before clicking:
+[:hover]伪类在用户将鼠标或其他指向设备悬停在元素上时触发。开发人员经常使用它为按钮、链接或任何应该响应用户注意力的元素创建视觉反馈。这是一个用户在点击前会悬停的按钮示例：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
-<button class="btn">Hover Over Me</button>
+<button class="btn">悬停在我上面</button>
 ```
 
 ```css
@@ -51,9 +51,9 @@ The `:hover` pseudo-class is triggered when a user hovers over an element with t
 
 :::
 
-The `:focus` pseudo-class applies styles when an element gains focus, typically through keyboard navigation or when a user clicks into a form input. This is not just for feedback but also crucial for accessibility. It ensures that users who rely heavily on keyboards can easily identify which element they are interacting with.
+[:focus]伪类在元素获得焦点时应用样式，通常是通过键盘导航或用户点击表单输入。这不仅仅是为了反馈，对可访问性也至关重要。它确保重度依赖键盘的用户可以轻松识别他们正在交互的元素。
 
-Here's an example of an input field that gains focus when clicked or navigated to via the keyboard:
+这是一个输入字段在被点击或通过键盘导航到时获得焦点的示例：
 
 :::interactive_editor
 
@@ -73,13 +73,13 @@ input:focus {
 
 :::
 
-The `:visited` pseudo-class targets a link the user has visited. This can be useful for helping users distinguish between pages they have already visited and the ones they are yet to visit. Here is an example of changing the anchor text color to cyan when the link is visited:
+[:visited]伪类针对用户已访问的链接。这有助于用户区分已访问的页面和尚未访问的页面。这是一个将锚文本颜色更改为青色的示例，当链接被访问时：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
-<a href="https://www.example.com" target="_blank">Visit Example.com</a>
+<a href="https://www.example.com" target="_blank">访问Example.com</a>
 ```
 
 ```css
@@ -90,11 +90,11 @@ a:visited {
 
 :::
 
-The `:checked` pseudo-class in CSS allows you to style form elements such as checkboxes and radio buttons when they are selected (checked). This pseudo-class is useful for customizing the appearance of these elements to enhance user experience, even though browsers provide default styles for them.
+CSS中的[:checked]伪类允许您为选中（勾选）的表单元素（如复选框和单选按钮）设置样式。这个伪类对于自定义这些元素的外观以增强用户体验很有用，尽管浏览器为它们提供了默认样式。
 
-Here is an example with a checkbox to agree to terms on a website.
+这是一个带有复选框的示例，用于同意网站条款。
 
-**NOTE**: Some of the CSS in this example uses properties that haven't been covered yet. This is just to give you an idea of how to create a custom checkbox. You will learn how all of this works in future lessons and workshops.
+**注意**：此示例中的一些CSS使用了尚未涉及的属性。这只是为了让您了解如何创建自定义复选框。您将在未来的课程和研讨会中学习所有这些内容的工作原理。
 
 :::interactive_editor
 
@@ -102,7 +102,7 @@ Here is an example with a checkbox to agree to terms on a website.
 <link rel="stylesheet" href="styles.css" />
 <form>
   <label>
-  Agree <input class="checkbox" type="checkbox" />
+  同意 <input class="checkbox" type="checkbox" />
   </label>
 </form>
 ```
@@ -146,53 +146,52 @@ Here is an example with a checkbox to agree to terms on a website.
   outline: 2px solid #90caf9;
   outline-offset: 2px;
 }
-
 ```
 
 :::
 
-In this example, we are using the `appearance` property set to `none` to remove the default styling applied by the browser to checkbox inputs. When the user checks the box, it will have a background color of `green`.
+在这个示例中，我们使用[appearance]属性设置为[none]来移除浏览器应用于复选框输入的默认样式。当用户勾选框时，它将具有绿色背景。
 
-Other examples of action pseudo-classes are:
+其他操作伪类的示例包括：
 
-- `:focus-within`: for applying styles to an element when it or any of its descendants have focus.
-- `:enabled`: for targeting form buttons or other elements that are currently enabled.
-- `:disabled`: for targeting form buttons or other elements that are disabled.
-- `:target`: for applying styles to an element that is the target of a URL fragment (the part of a URL after the `#` symbol).
+- [:focus-within]：当元素或其任何后代获得焦点时应用样式。
+- [:enabled]：针对当前启用的表单按钮或其他元素。
+- [:disabled]：针对禁用的表单按钮或其他元素。
+- [:target]：应用样式到作为URL片段目标的元素（URL中[#]符号后面的部分）。
 
 # --questions--
 
 ## --text--
 
-What do user action pseudo-classes allow you to do?
+用户操作伪类允许您做什么？
 
 ## --answers--
 
-They enable animations and transitions.
+它们启用动画和过渡。
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+考虑如何仅使用CSS与用户交互。
 
 ---
 
-They allow you to modify the DOM structure dynamically.
+它们允许您动态修改DOM结构。
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+考虑如何仅使用CSS与用户交互。
 
 ---
 
-They let you provide feedback to the user without relying on JavaScript.
+它们让您在不依赖JavaScript的情况下向用户提供反馈。
 
 ---
 
-They let you style the last element in a list.
+它们让您为列表中的最后一个元素设置样式。
 
 ### --feedback--
 
-Think about how you can interact with users purely with CSS.
+考虑如何仅使用CSS与用户交互。
 
 ## --video-solution--
 
@@ -200,35 +199,35 @@ Think about how you can interact with users purely with CSS.
 
 ## --text--
 
-What does the `:checked` pseudo-class do in CSS?
+CSS中的[:checked]伪类有什么作用？
 
 ## --answers--
 
-It selects an element when it is disabled.
+当元素被禁用时选择该元素。
 
 ### --feedback--
 
-Think about how forms handle user selections.
+考虑表单如何处理用户选择。
 
 ---
 
-It selects an element when it is being hovered over.
+当元素被悬停时选择该元素。
 
 ### --feedback--
 
-Think about how forms handle user selections.
+考虑表单如何处理用户选择。
 
 ---
 
-It styles elements like checkboxes or radio buttons that are checked.
+为选中的复选框或单选按钮等元素设置样式。
 
 ---
 
-It styles an element when it gains focus.
+当元素获得焦点时为元素设置样式。
 
 ### --feedback--
 
-Think about how forms handle user selections.
+考虑表单如何处理用户选择。
 
 ## --video-solution--
 
@@ -236,35 +235,35 @@ Think about how forms handle user selections.
 
 ## --text--
 
-What does the `:focus` pseudo-class do?
+[:focus]伪类有什么作用？
 
 ## --answers--
 
-It selects an element when it is hovered over by a mouse.
+当鼠标悬停在元素上时选择该元素。
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+考虑用户如何使用键盘导航表单。
 
 ---
 
-It applies styles when an element gains focus, usually through keyboard navigation or a click.
+当元素通过键盘导航或点击获得焦点时应用样式。
 
 ---
 
-It selects an element after a form is submitted.
+当表单提交后选择该元素。
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+考虑用户如何使用键盘导航表单。
 
 ---
 
-It applies styles to an element when it is disabled.
+当元素被禁用时为其应用样式。
 
 ### --feedback--
 
-Think about how users navigate forms using a keyboard.
+考虑用户如何使用键盘导航表单。
 
 ## --video-solution--
 

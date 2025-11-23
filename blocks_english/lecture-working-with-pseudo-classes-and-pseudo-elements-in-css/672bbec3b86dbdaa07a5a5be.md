@@ -1,33 +1,33 @@
 ---
 id: 672bbec3b86dbdaa07a5a5be
-title: What Are Examples of Functional Pseudo-classes?
+title: 功能性伪类的示例有哪些？
 challengeType: 19
 dashedName: what-are-examples-of-functional-pseudo-classes
 ---
 
 # --interactive--
 
-Functional pseudo-classes allow you to select elements based on more complex conditions or relationships. Unlike regular pseudo-classes which target elements based on a state, for example, `:hover`, `:focus`, functional pseudo-classes accept arguments within parentheses, hence the name "functional pseudo-classes".
+功能性伪类允许您基于更复杂的条件或关系来选择元素。与基于状态（例如[:hover]、[:focus]）定位元素的常规伪类不同，功能性伪类在括号内接受参数，因此得名"功能性伪类"。
 
-Examples of functional pseudo-classes are:
+功能性伪类的示例包括：
 
-- `:is()`
-- `:where()`
-- `:has()`
-- `:not()`
+- [:is()]
+- [:where()]
+- [:has()]
+- [:not()]
 
-Let's take a deeper look at each of these functional pseudo-classes with examples.
+让我们更深入地了解这些功能性伪类的每一个，并附上示例。
 
-The `:is()` pseudo-class is useful when you want to style a group of elements that share some, but not all, characteristics. For example, you might want to style different types of buttons on your website, including `button` elements, links styled as buttons, and `input` elements with types `submit` and `reset`. Here's an example representing that. Without the `:is()` function, you would have to write a complex selector like this:
+[:is()]伪类在您想要为具有一些但不是所有特征的元素组设置样式时很有用。例如，您可能想要为网站上的不同类型按钮设置样式，包括[button]元素、样式为按钮的链接以及类型为[submit]和[reset]的[input]元素。这是一个代表该情况的示例。没有[:is()]函数，您将不得不编写像这样的复杂选择器：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
-<button>Example Button</button>
-<a href="#" class="button">Link styled like a button</a>
-<input type="submit" value="Submit" />
-<input type="reset" value="Reset" />
+<button>示例按钮</button>
+<a href="#" class="button">链接样式为按钮</a>
+<input type="submit" value="提交" />
+<input type="reset" value="重置" />
 ```
 
 ```css
@@ -59,16 +59,16 @@ input[type='reset']:hover {
 
 :::
 
-With the `:is()` function, you can write a more compact and understandable selector like this:
+使用[:is()]函数，您可以编写更紧凑且易于理解的选择器，如下所示：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
-<button>Example Button</button>
-<a href="#" class="button">Link styled like a button</a>
-<input type="submit" value="Submit" />
-<input type="reset" value="Reset" />
+<button>示例按钮</button>
+<a href="#" class="button">链接样式为按钮</a>
+<input type="submit" value="提交" />
+<input type="reset" value="重置" />
 ```
 
 ```css
@@ -94,21 +94,21 @@ With the `:is()` function, you can write a more compact and understandable selec
 
 :::
 
-The `:where()` pseudo-class functions similarly to `:is()`, but it doesn't increase the specificity of your selectors. This makes it ideal for applying styles without affecting the specificity of other rules.
+[:where()]伪类的功能类似于[:is()]，但它不会增加选择器的特异性。这使得它非常适合应用样式而不影响其他规则的特异性。
 
-For example, you can use the `:where()` function to apply zero `margin` and `padding` to heading elements. This ensures that the reset won't interfere with more specific styles you might apply later. Here's an example for that:
+例如，您可以使用[:where()]函数将标题元素的[margin]和[padding]设置为零。这确保重置不会干扰您稍后可能应用的更具体样式。这是一个示例：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
-<h1>Page Title</h1>
-<h2>Subtitle</h2>
-<h3>A point</h3>
+<h1>页面标题</h1>
+<h2>副标题</h2>
+<h3>要点</h3>
 
-<p>Example paragraph.</p>
-<p>Example paragraph.</p>
-<p>Example paragraph.</p>
+<p>示例段落。</p>
+<p>示例段落。</p>
+<p>示例段落。</p>
 ```
 
 ```css
@@ -120,21 +120,21 @@ For example, you can use the `:where()` function to apply zero `margin` and `pad
 
 :::
 
-Styling a parent element based on its children's states was previously challenging until the `:has()` pseudo-class was introduced. It allows you to apply styles to a parent element based on the presence or state of its child elements.
+在引入[:has()]伪类之前，基于子元素状态为父元素设置样式是很具挑战性的。它允许您根据子元素的存在或状态为父元素应用样式。
 
-For example, the CSS below will only apply to any `article` element that has an `h2` in it:
+例如，下面的CSS将仅应用于包含[h2]的任何[article]元素：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
 <article>
-  <h2>Subheading</h2>
+  <h2>副标题</h2>
   <p>Lorem ipsum dolor sit amet.</p>
 </article>
 
 <article>
-  <h3>A point</h3>
+  <h3>要点</h3>
   <p>Lorem ipsum dolor sit amet.</p>
   <p>Lorem ipsum dolor sit amet.</p>
 </article>
@@ -148,15 +148,15 @@ article:has(h2) {
 
 :::
 
-The `:not()` pseudo-class is ideal for situations where you want to apply styles to a group of elements, excluding one or more specific exceptions. In the CSS below, any button that is not a primary button will have a grey background:
+[:not()]伪类非常适合您想要为一组元素应用样式但排除一个或多个特定例外的情况。在下面的CSS中，任何不是主要按钮的按钮都将具有灰色背景：
 
 :::interactive_editor
 
 ```html
 <link rel="stylesheet" href="styles.css" />
-<button class="primary">Primary Button</button>
-<button class="secondary">Secondary Button</button>
-<button class="danger">Another Secondary Button</button>
+<button class="primary">主要按钮</button>
+<button class="secondary">次要按钮</button>
+<button class="danger">另一个次要按钮</button>
 ```
 
 ```css
@@ -184,35 +184,35 @@ button:not(.primary) {
 
 ## --text--
 
-Which pseudo-class works like `:is()`, but doesn't add any specificity to your selectors?
+哪个伪类的工作方式类似于[:is()]，但不会向您的选择器添加任何特异性？
 
 ## --answers--
 
-`:not()`
+[:not()]
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+这个伪类非常适合应用广泛且非侵入性的样式。
 
 ---
 
-`:has()`
+[:has()]
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+这个伪类非常适合应用广泛且非侵入性的样式。
 
 ---
 
-`:where()`
+[:where()]
 
 ---
 
-`:empty`
+[:empty]
 
 ### --feedback--
 
-This pseudo-class is great for applying broad, non-invasive styles.
+这个伪类非常适合应用广泛且非侵入性的样式。
 
 ## --video-solution--
 
@@ -220,39 +220,39 @@ This pseudo-class is great for applying broad, non-invasive styles.
 
 ## --text--
 
-Which of these is not a functional pseudo-class?
+以下哪项不是功能性伪类？
 
 ## --answers--
 
-`:is()`
+[:is()]
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+功能性伪类使用括号并在其中接受参数。
 
 ---
 
-`:first-child`
+[:first-child]
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+功能性伪类使用括号并在其中接受参数。
 
 ---
 
-`:has()`
+[:has()]
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+功能性伪类使用括号并在其中接受参数。
 
 ---
 
-`:where()`
+[:where()]
 
 ### --feedback--
 
-Functional pseudo-classes use parentheses and accept arguments inside them.
+功能性伪类使用括号并在其中接受参数。
 
 ## --video-solution--
 
@@ -260,35 +260,35 @@ Functional pseudo-classes use parentheses and accept arguments inside them.
 
 ## --text--
 
-Which pseudo-class is perfect for a situation in which you want to apply styles to a group of elements without one or two exceptions?
+哪个伪类非常适合您想要为一组元素应用样式但有一两个例外的情况？
 
 ## --answers--
 
-`:has()`
+[:has()]
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+考虑如何从样式中排除特定元素。
 
 ---
 
-`:is()`
+[:is()]
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+考虑如何从样式中排除特定元素。
 
 ---
 
-`:not()`
+[:not()]
 
 ---
 
-`:where()`
+[:where()]
 
 ### --feedback--
 
-Think about how you can exclude specific elements from being styled.
+考虑如何从样式中排除特定元素。
 
 ## --video-solution--
 
