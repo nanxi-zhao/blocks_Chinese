@@ -1,6 +1,6 @@
 ---
 id: 66ed8fa2f45ce3ece4053eab
-title: CSS Fundamentals Quiz
+title: CSS 基础知识测验
 challengeType: 8
 dashedName: quiz-basic-css
 ---
@@ -17,7 +17,7 @@ dashedName: quiz-basic-css
 
 #### --text--
 
-What does CSS stand for?
+CSS 是什么的缩写？
 
 #### --distractors--
 
@@ -39,7 +39,7 @@ Cascading Style Sheets
 
 #### --text--
 
-Which of the following is a correct CSS rule?
+以下哪一个是正确的 CSS 规则？
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Which of the following is a correct CSS rule?
 
 #### --text--
 
-What does `<meta name="viewport">` do?
+`<meta name="viewport">` 标签的作用是什么？
 
 #### --distractors--
 
@@ -83,7 +83,7 @@ It controls the shape and size of a web page on different screen sizes.
 
 #### --text--
 
-Which syntax is correct to use inline CSS?
+使用内联 CSS 的正确语法是哪个？
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ Which syntax is correct to use inline CSS?
 
 #### --text--
 
-When using internal CSS, where is the `style` element placed within the HTML?
+使用内部 CSS 时，`style` 元素应该放在 HTML 的哪个位置？
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ In the `head` element.
 
 #### --text--
 
-Which rule is correct for setting the width and height in CSS?
+设置宽度和高度的正确 CSS 规则是哪个？
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Which rule is correct for setting the width and height in CSS?
 
 #### --text--
 
-Which selector correctly targets `h1` elements only when inside a `div`?
+哪个选择器能正确选中 `div` 内部的 `h1` 元素？
 
 #### --distractors--
 
@@ -171,7 +171,7 @@ Which selector correctly targets `h1` elements only when inside a `div`?
 
 #### --text--
 
-Which selector is correct to target direct children of a `footer`?
+哪个选择器能正确选中 `footer` 的直接子元素？
 
 #### --distractors--
 
@@ -193,7 +193,7 @@ Which selector is correct to target direct children of a `footer`?
 
 #### --text--
 
-Which selector is correct to target the next sibling of an `img`?
+哪个选择器能正确选中 `img` 元素的下一个兄弟元素？
 
 #### --distractors--
 
@@ -215,7 +215,7 @@ Which selector is correct to target the next sibling of an `img`?
 
 #### --text--
 
-Which selector is correct to target all siblings preceded by an `img` element?
+哪个选择器能正确选中由 `img` 元素前置的所有兄弟元素？
 
 #### --distractors--
 
@@ -237,7 +237,7 @@ Which selector is correct to target all siblings preceded by an `img` element?
 
 #### --text--
 
-What statement is TRUE about block-level elements?
+关于块级元素，以下哪个陈述是正确的？
 
 #### --distractors--
 
@@ -259,7 +259,7 @@ Block-level elements start on a new line and take up the full width of their con
 
 #### --text--
 
-What statement is TRUE when using the `inline-block` value?
+使用 `inline-block` 值时，以下哪个陈述是正确的？
 
 #### --distractors--
 
@@ -281,7 +281,7 @@ Elements retain inline flow but allow setting width and height.
 
 #### --text--
 
-Given the following selectors, which has the highest specificity?
+给定以下选择器，哪个具有最高的特异性？
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Given the following selectors, which has the highest specificity?
 
 #### --text--
 
-Given the following selectors, which has the lowest specificity?
+给定以下选择器，哪个具有最低的特异性？
 
 #### --distractors--
 
@@ -325,7 +325,7 @@ Given the following selectors, which has the lowest specificity?
 
 #### --text--
 
-What does the `*` selector do?
+`*` 选择器的作用是什么？
 
 #### --distractors--
 
@@ -347,7 +347,7 @@ Targets all elements on the page.
 
 #### --text--
 
-What does `!important` do in CSS?
+CSS 中的 `!important` 有什么作用？
 
 #### --distractors--
 
@@ -369,7 +369,7 @@ It overrides any other values applied to the property for that selector.
 
 #### --text--
 
-How does the CSS Cascade algorithm work?
+CSS 层叠算法是如何工作的？
 
 #### --distractors--
 
@@ -391,7 +391,7 @@ It determines styles of the element based on specificity and order of declaratio
 
 #### --text--
 
-Which rule applies `32px` of margin to all sides?
+哪条规则会在所有边应用 `32px` 的外边距？
 
 #### --distractors--
 
@@ -413,7 +413,7 @@ Which rule applies `32px` of margin to all sides?
 
 #### --text--
 
-Which rule applies `24px` padding to the top and bottom?
+哪条规则会在顶部和底部应用 `24px` 的内边距？
 
 #### --distractors--
 
@@ -435,7 +435,7 @@ Which rule applies `24px` padding to the top and bottom?
 
 #### --text--
 
-For `padding: 10px 20px 30px 40px`, what is the correct order of values?
+对于 `padding: 10px 20px 30px 40px`，值的正确顺序是什么？
 
 #### --distractors--
 
@@ -459,7 +459,7 @@ Top, Right, Bottom, Left.
 
 #### --text--
 
-What are the main parts of a CSS rule?
+CSS 规则的主要组成部分是什么？
 
 #### --distractors--
 
@@ -481,7 +481,7 @@ Selectors and declaration blocks
 
 #### --text--
 
-Which of the following is the correct syntax for a CSS rule?
+以下哪一个是 CSS 规则的正确语法？
 
 #### --distractors--
 
@@ -519,7 +519,7 @@ body {
 
 #### --text--
 
-What are default browser styles?
+什么是浏览器默认样式？
 
 #### --distractors--
 
@@ -541,7 +541,7 @@ The CSS rules that browsers apply automatically.
 
 #### --text--
 
-What is the default value for the `width` property?
+`width` 属性的默认值是什么？
 
 #### --distractors--
 
@@ -563,7 +563,7 @@ What is the default value for the `width` property?
 
 #### --text--
 
-What does the `min-height` property specify?
+`min-height` 属性指定了什么？
 
 #### --distractors--
 
@@ -585,7 +585,7 @@ The minimum height for an element.
 
 #### --text--
 
-Which of the following is TRUE about the universal selector `*`?
+以下关于通用选择器 `*` 的陈述哪个是正确的？
 
 #### --distractors--
 
@@ -607,7 +607,7 @@ It has the lowest specificity value of any selector.
 
 #### --text--
 
-Which selector correctly targets `li` elements for an ordered list?
+哪个选择器能正确选中有序列表的 `li` 元素？
 
 #### --distractors--
 
@@ -629,7 +629,7 @@ Which selector correctly targets `li` elements for an ordered list?
 
 #### --text--
 
-Which selector targets the paragraph elements of a `div` element?
+哪个选择器能选中 `div` 元素的段落元素？
 
 #### --distractors--
 
@@ -651,7 +651,7 @@ Which selector targets the paragraph elements of a `div` element?
 
 #### --text--
 
-Where does the `margin` apply styling properties?
+`margin` 属性在哪里应用样式？
 
 #### --distractors--
 
@@ -673,7 +673,7 @@ The space outside the element.
 
 #### --text--
 
-Where does the `padding` property apply styling?
+`padding` 属性在哪里应用样式？
 
 #### --distractors--
 
@@ -695,7 +695,7 @@ The space inside the element.
 
 #### --text--
 
-Which statement is FALSE about block-level elements?
+关于块级元素，以下哪个陈述是错误的？
 
 #### --distractors--
 
@@ -717,7 +717,7 @@ They cannot take up the full width available as they are blocked from doing so.
 
 #### --text--
 
-Which statement is FALSE when using the `inline-block` value?
+使用 `inline-block` 值时，以下哪个陈述是错误的？
 
 #### --distractors--
 
@@ -739,7 +739,7 @@ They do not share properties with inline or block level elements.
 
 #### --text--
 
-Which is TRUE about the `!important` keyword?
+关于 `!important` 关键字，以下哪个陈述是正确的？
 
 #### --distractors--
 
@@ -761,7 +761,7 @@ They override the specificity of other selectors.
 
 #### --text--
 
-What character precedes a class selector name?
+类选择器名称前面是什么字符？
 
 #### --distractors--
 
@@ -783,7 +783,7 @@ What character precedes a class selector name?
 
 #### --text--
 
-Which is FALSE about inline level elements?
+关于内联级元素，以下哪个陈述是错误的？
 
 #### --distractors--
 
@@ -805,7 +805,7 @@ They always start on a new line.
 
 #### --text--
 
-Where are internal CSS styles accessed?
+内部 CSS 样式在哪里访问？
 
 #### --distractors--
 
@@ -827,7 +827,7 @@ They are written within the `style` section within the `head` element.
 
 #### --text--
 
-What is the order for applying the `padding` property when using the shorthand syntax?
+使用简写语法时，`padding` 属性的应用顺序是什么？
 
 #### --distractors--
 
@@ -849,7 +849,7 @@ What is the order for applying the `padding` property when using the shorthand s
 
 #### --text--
 
-What is the order for applying the `margin` property when using the shorthand syntax?
+使用简写语法时，`margin` 属性的应用顺序是什么？
 
 #### --distractors--
 
@@ -871,7 +871,7 @@ What is the order for applying the `margin` property when using the shorthand sy
 
 #### --text--
 
-What are inline CSS styles used for?
+内联 CSS 样式是用来做什么的？
 
 #### --distractors--
 
@@ -893,7 +893,7 @@ They are used to directly style within the element, instead of using internal or
 
 #### --text--
 
-What symbol precedes the ID selector?
+ID 选择器前面是什么符号？
 
 #### --distractors--
 
@@ -910,4 +910,3 @@ What symbol precedes the ID selector?
 #### --answer--
 
 `#`
-

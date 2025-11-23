@@ -302,4 +302,3 @@ menu-item[data-special] { background-color: blue; }
 ```css
 .menu-item[data-special] { background-color: blue; }
 ```
-

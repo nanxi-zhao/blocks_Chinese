@@ -1,6 +1,6 @@
 ---
 id: 66edcdd18a4ef8df16e6bb7e
-title: JavaScript Higher Order Functions Quiz
+title: JavaScript高阶函数测验
 challengeType: 8
 dashedName: quiz-javascript-higher-order-functions
 ---
@@ -17,51 +17,51 @@ dashedName: quiz-javascript-higher-order-functions
 
 #### --text--
 
-Which of the following statements about JavaScript higher-order functions is NOT true?
+关于JavaScript高阶函数，以下哪个陈述是不正确的？
 
 #### --distractors--
 
-Higher-order functions can greatly enhance code readability and maintainability by enabling functional programming techniques.
+高阶函数可以通过启用函数式编程技术大大提高代码的可读性和可维护性。
 
 ---
 
-Higher-order functions like map, filter, and reduce are powerful tools for array manipulation, but they are not unique to functional programming.
+像map、filter和reduce这样的高阶函数是数组操作的强大工具，但它们不是函数式编程独有的。
 
 ---
 
-Higher-order functions may introduce complexity in understanding code, but they can also lead to more expressive and concise solutions.
+高阶函数可能会增加理解代码的复杂性，但它们也可以带来更富有表现力和简洁的解决方案。
 
 #### --answer--
 
-All functions in JavaScript, including those that do not take or return other functions, can be classified as higher-order functions.
+JavaScript中的所有函数，包括那些不接受或不返回其他函数的函数，都可以被归类为高阶函数。
 
 ### --question--
 
 #### --text--
 
-What is a factory function in the context of higher order functions?
+在高阶函数的上下文中，工厂函数是什么？
 
 #### --distractors--
 
-A function that creates new variables.
+创建新变量的函数。
 
 ---
 
-A function that only works with strings.
+只处理字符串的函数。
 
 ---
 
-A function that automatically generates code comments.
+自动生成代码注释的函数。
 
 #### --answer--
 
-A function that returns a new function based on specific parameters
+根据特定参数返回新函数的函数
 
 ### --question--
 
 #### --text--
 
-After code execution, what will be the value of `forEachRes` and `mapRes`?
+代码执行后，`forEachRes`和`mapRes`的值是什么？
 
 ```js
 const numbers = [1, 1, 1, 1, 1];
@@ -76,25 +76,25 @@ const mapRes = numbers.map(num => {
 
 #### --distractors--
 
-`forEachRes` is `undefined` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes`是`undefined`，`mapRes`是`[1,2,3,4,5]`
 
 ---
 
-`forEachRes` is `0` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes`是`0`，`mapRes`是`[1,2,3,4,5]`
 
 ---
 
-`forEachRes` is `5` and `mapRes` is `[1,2,3,4,5]`
+`forEachRes`是`5`，`mapRes`是`[1,2,3,4,5]`
 
 #### --answer--
 
-`forEachRes` is `undefined` and `mapRes` is `[6,7,8,9,10]`
+`forEachRes`是`undefined`，`mapRes`是`[6,7,8,9,10]`
 
 ### --question--
 
 #### --text--
 
-What is the result of this code?
+这段代码的结果是什么？
 
 ```js
 [, undefined, 'a', 'b', { 20: 5 }].sort();
@@ -102,11 +102,11 @@ What is the result of this code?
 
 #### --distractors--
 
-Unsupported elements for an array to be sorted, hence error.
+数组排序的不支持元素，因此出错。
 
 ---
 
-Callback not supplied, hence error.
+未提供回调函数，因此出错。
 
 ---
 
@@ -124,95 +124,95 @@ Callback not supplied, hence error.
 
 #### --text--
 
-Which of the following describes a callback function in JavaScript?
+以下哪项描述了JavaScript中的回调函数？
 
 #### --distractors--
 
-A function that is called immediately upon declaration.
+在声明时立即调用的函数。
 
 ---
 
-A function that is invoked with a specific context.
+在特定上下文中调用的函数。
 
 ---
 
-A function that returns another function.
+返回另一个函数的函数。
 
 #### --answer--
 
-A function passed as an argument to another function, to be executed by that function's logic.
+作为参数传递给另一个函数的函数，由该函数的逻辑执行。
 
 ### --question--
 
 #### --text--
 
-What is the result of using `reduce()` on an array?
+在数组上使用`reduce()`的结果是什么？
 
 #### --distractors--
 
-A boolean indicating whether any elements meet a condition.
+指示是否有任何元素满足条件的布尔值。
 
 ---
 
-An array with all elements reduced by specified callback function.
+包含所有元素按指定回调函数减少的数组。
 
 ---
 
-An array of booleans.
+布尔值数组。
 
 #### --answer--
 
-It varies depending on the accumulator's initial value and the callback function.
+它根据累加器的初始值和回调函数而变化。
 
 ### --question--
 
 #### --text--
 
-How does the `sort()` method behave if no compare function is provided in numerical sorting?
+如果在数值排序中没有提供比较函数，`sort()`方法会如何表现？
 
 #### --distractors--
 
-It fills the empty slots with `null`.
+它用`null`填充空槽。
 
 ---
 
-It returns an array of special characters.
+它返回一个特殊字符数组。
 
 ---
 
-It sorts the array in reverse order.
+它按相反顺序对数组进行排序。
 
 #### --answer--
 
-It sorts the array as strings based on UTF-16 code units.
+它基于UTF-16代码单元将数组作为字符串排序。
 
 ### --question--
 
 #### --text--
 
-What is the purpose of the `some()` method in JavaScript?
+JavaScript中`some()`方法的用途是什么？
 
 #### --distractors--
 
-To create a new array with the results of a function applied to each element.
+创建一个包含对每个元素应用函数结果的新数组。
 
 ---
 
-To iterate through an array without producing a result.
+遍历数组而不产生结果。
 
 ---
 
-To reduce an array to a single value based on a callback function.
+基于回调函数将数组减少到单个值。
 
 #### --answer--
 
-To determine if any elements in an array pass a specified test.
+确定数组中是否有任何元素通过指定测试。
 
 ### --question--
 
 #### --text--
 
-Which of the following is a valid example of method chaining?
+以下哪项是方法链式的有效示例？
 
 #### --distractors--
 
@@ -242,7 +242,7 @@ str.toLowerCase().trim().replace(' ', '_');
 
 #### --text--
 
-What is the output of the following code?
+以下代码的输出是什么？
 
 ```js
 let numbers = [2, 4, 8, 10];
@@ -272,95 +272,95 @@ numbers.forEach(function(number) {
 
 #### --text--
 
-Which of the following is a benefit of method chaining?
+以下哪项是方法链式的好处？
 
 #### --distractors--
 
-It inherently optimizes performance by reducing the execution time of functions.
+通过减少函数执行时间来优化性能。
 
 ---
 
-It eliminates the need for temporary variables, but may increase memory usage in some cases.
+消除对临时变量的需求，但在某些情况下可能会增加内存使用。
 
 ---
 
-It allows for error handling and debugging to be more straightforward.
+允许错误处理和调试更加直接。
 
 #### --answer--
 
-It promotes simplified syntax and more readable code by allowing multiple operations in a single expression.
+通过允许在单个表达式中进行多个操作来促进简化语法和更易读的代码。
 
 ### --question--
 
 #### --text--
 
-How can you sort an array of objects by a specific property using the `sort` method?
+如何使用`sort`方法按特定属性对对象数组进行排序？
 
 #### --distractors--
 
-The `sort` method cannot sort objects.
+`sort`方法无法对对象进行排序。
 
 ---
 
-Use the `reverse` method after sorting.
+在排序后使用`reverse`方法。
 
 ---
 
-Convert the objects to strings and sort them.
+将对象转换为字符串并对其进行排序。
 
 #### --answer--
 
-Use a compare function that compares the property values.
+使用比较函数来比较属性值。
 
 ### --question--
 
 #### --text--
 
-In method chaining, what is a common practice to enhance clarity and debugging?
+在方法链式中，什么是增强清晰度和调试的常见做法？
 
 #### --distractors--
 
-Use fewer methods in the chain.
+在链中使用更少的方法。
 
 ---
 
-Avoid chaining methods that return only primitive values.
+避免链式返回原始值的方法。
 
 ---
 
-Use only built-in methods.
+只使用内置方法。
 
 #### --answer--
 
-Break long chains into multiple steps.
+将长链分解为多个步骤。
 
 ### --question--
 
 #### --text--
 
-What is a potential downside of using method chaining excessively in your code?
+在代码中过度使用方法链式的潜在缺点是什么？
 
 #### --distractors--
 
-It makes the code run slower.
+它使代码运行得更慢。
 
 ---
 
-It prevents the use of comments.
+它阻止使用注释。
 
 ---
 
-It makes the file size larger.
+它使文件大小更大。
 
 #### --answer--
 
-It can make the code harder to debug.
+它可能使代码更难调试。
 
 ### --question--
 
 #### --text--
 
-Which method would you use to determine if all elements in an array are strings?
+使用哪个方法来确定数组中的所有元素都是字符串？
 
 #### --distractors--
 
@@ -382,7 +382,7 @@ Which method would you use to determine if all elements in an array are strings?
 
 #### --text--
 
-What will be the value of `originalArray` after the following code is run?
+以下代码运行后`originalArray`的值是什么？
 
 ```js
 const originalArray = [{ id: 1 }, { id: 2 }, { id: 3 }];
@@ -405,11 +405,12 @@ filteredArray[0].id = 4;
 #### --answer--
 
 `[{ id: 1 }, { id: 4 }, { id: 3 }]`
+
 ### --question--
 
 #### --text--
 
-What will be the value of `shortWords` after the following code is run?
+以下代码运行后`shortWords`的值是什么？
 
 ```js
 const words = ['apple', 'banana', 'pear', 'kiwi'];
@@ -436,64 +437,64 @@ const shortWords = words.filter(word => word.length <= 5);
 
 #### --text--
 
-What is the purpose of providing an initial value as an argument to the `reduce()` method?
+向`reduce()`方法提供初始值作为参数的目的是什么？
 
 #### --distractors--
 
-To set the length of the array.
+设置数组的长度。
 
 ---
 
-To limit the number of iterations.
+限制迭代次数。
 
 ---
 
-To specify the return type of the function.
+指定函数的返回类型。
 
 #### --answer--
 
-To define the starting value for the accumulator.
+定义累加器的起始值。
 
 ### --question--
 
 #### --text--
 
-Can the `map` method be used on objects that are not arrays?
+`map`方法可以用于不是数组的对象吗？
 
 #### --distractors--
 
-Yes, it can be used on any object.
+是的，它可以用于任何对象。
 
 ---
 
-Yes, but only on objects with numeric properties.
+是的，但只能用于具有数值属性的对象。
 
 ---
 
-It depends on the JavaScript version.
+这取决于JavaScript版本。
 
 #### --answer--
 
-No, it is specifically designed for arrays.
+不，它是专门为数组设计的。
 
 ### --question--
 
 #### --text--
 
-What is the primary purpose of the `map` method in JavaScript?
+JavaScript中`map`方法的主要用途是什么？
 
 #### --distractors--
 
-To sort an array and return a new array while maintaining the original order.
+对数组进行排序并返回一个新数组，同时保持原始顺序。
 
 ---
 
-To filter elements from an array and remove or add elements based on a condition.
+从数组中过滤元素并根据条件删除或添加元素。
 
 ---
 
-To find a specific element in an array and return its index along with the element.
+在数组中查找特定元素并返回其索引和元素。
 
 #### --answer--
 
-To create a new array containing the results of calling a provided function on each element in the starting array.
+创建一个新数组，其中包含对起始数组中每个元素调用提供的函数的结果。

@@ -1,6 +1,6 @@
 ---
 id: 66f1aeb60b11aec5abe83c2e
-title: CSS Libraries and Frameworks Quiz
+title: CSS 库和框架测验
 challengeType: 8
 dashedName: quiz-css-libraries-and-frameworks
 ---
@@ -17,7 +17,7 @@ dashedName: quiz-css-libraries-and-frameworks
 
 #### --text--
 
-What is a CSS framework?
+什么是 CSS 框架？
 
 #### --distractors--
 
@@ -39,7 +39,7 @@ A library for CSS styles.
 
 #### --text--
 
-Which of the following is a popular utility-first CSS framework?
+以下哪个是流行的实用优先 CSS 框架？
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Tailwind CSS
 
 #### --text--
 
-What is a disadvantage of CSS frameworks?
+CSS 框架的缺点是什么？
 
 #### --distractors--
 
@@ -83,7 +83,7 @@ Can bloat CSS files.
 
 #### --text--
 
-What does SCSS stand for?
+SCSS 代表什么？
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ Sassy CSS.
 
 #### --text--
 
-Which of the following is a feature of Sass?
+以下哪个是 Sass 的特性？
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ Mixins
 
 #### --text--
 
-Which of the following is the correct way to use utility classes in Tailwind CSS?
+以下哪个是在 Tailwind CSS 中使用实用类的正确方法？
 
 #### --distractors--
 
@@ -147,7 +147,6 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 ---
 
-
 ```html
 <button class="set-blue set-text set-font set-hover round-btn padding-full">
   Button
@@ -155,7 +154,6 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 ```
 
 #### --answer--
-
 
 ```html
 <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full hover:bg-blue-700">
@@ -167,7 +165,7 @@ Which of the following is the correct way to use utility classes in Tailwind CSS
 
 #### --text--
 
-What are the two types of CSS frameworks?
+CSS 框架有哪两种类型？
 
 #### --distractors--
 
@@ -189,7 +187,7 @@ Utility-first CSS frameworks and Component-based CSS frameworks.
 
 #### --text--
 
-What is the file extension for SCSS?
+SCSS 的文件扩展名是什么？
 
 #### --distractors--
 
@@ -211,7 +209,7 @@ What is the file extension for SCSS?
 
 #### --text--
 
-Which of the following is the correct way to define a variable in SCSS?
+以下哪个是在 SCSS 中定义变量的正确方法？
 
 #### --distractors--
 
@@ -257,7 +255,7 @@ header {
 
 #### --text--
 
-Which of the following is the correct way to define a mixin?
+以下哪个是定义 mixin 的正确方法？
 
 #### --distractors--
 
@@ -298,4 +296,3 @@ mixin center-flex {
   align-items: center;
 }
 ```
-

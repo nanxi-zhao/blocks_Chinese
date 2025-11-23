@@ -7,11 +7,11 @@ dashedName: step-33
 
 # --description--
 
-Now add a key `diagnosis` to the `constraints` dictionary. For its value, write an expression that checks that `diagnosis` is either an instance of `str` or is `None`.
+现在在 `constraints` 字典中添加键 `diagnosis`。其值应为一个表达式，用于检查 `diagnosis` 要么是字符串实例（`str`），要么为 `None`。
 
 # --hints--
 
-Your `constraints` dictionary should have a key `diagnosis`.
+请在 `constraints` 中添加 `diagnosis` 键，并把它的值设置为 `isinstance(diagnosis, str) or diagnosis is None`。
 
 ```js
 ({ test: () => assert(runPython(`
@@ -20,8 +20,6 @@ _keys = [k.value for k in _ast_keys]
 'diagnosis' in _keys
 `)) })
 ```
-
-The `diagnosis` key of your `constraints` dictionary should have the value of `isinstance(diagnosis, str) or diagnosis is None`.
 
 ```js
 ({ test: () => assert(runPython(`

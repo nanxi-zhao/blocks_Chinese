@@ -1,6 +1,6 @@
 ---
 id: 66ed8ffcf45ce3ece4053eb5
-title: CSS Positioning Quiz
+title: CSS 定位测验
 challengeType: 8
 dashedName: quiz-css-positioning
 ---
@@ -17,7 +17,7 @@ dashedName: quiz-css-positioning
 
 #### --text--
 
-Which of the following is NOT a valid value for the `position` property?
+以下哪个不是 [position](#) 属性的有效值？
 
 #### --distractors--
 
@@ -39,7 +39,7 @@ Which of the following is NOT a valid value for the `position` property?
 
 #### --text--
 
-What is the main purpose of the `float` property in CSS?
+CSS 中 [float](#) 属性的主要用途是什么？
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Floats are used to remove an element from its normal flow on the page and positi
 
 #### --text--
 
-Which of the following is an example making a box element float to the left?
+以下哪个示例使一个盒子元素向左浮动？
 
 #### --distractors--
 
@@ -115,7 +115,7 @@ Which of the following is an example making a box element float to the left?
 
 #### --text--
 
-What is the role of the `clear` property?
+[clear](#) 属性的作用是什么？
 
 #### --distractors--
 
@@ -137,7 +137,7 @@ It is used to determine if an element needs to be moved below the floated conten
 
 #### --text--
 
-Which CSS property is used to control the vertical stacking order of positioned elements that overlap on the page?
+哪个 CSS 属性用于控制重叠定位元素在页面上的垂直堆叠顺序？
 
 #### --distractors--
 
@@ -159,7 +159,7 @@ Which CSS property is used to control the vertical stacking order of positioned 
 
 #### --text--
 
-Which of the following is the correct syntax for relative positioning?
+以下哪个是相对定位的正确语法？
 
 #### --distractors--
 
@@ -205,7 +205,7 @@ Which of the following is the correct syntax for relative positioning?
 
 #### --text--
 
-Which CSS property would you use to fix an element at a certain position on the page so that it does not move when scrolling occurs?
+你会使用哪个 CSS 属性来将一个元素固定在页面的某个位置，使其在滚动时不会移动？
 
 #### --distractors--
 
@@ -227,7 +227,7 @@ Which CSS property would you use to fix an element at a certain position on the 
 
 #### --text--
 
-What does absolute positioning do to an element?
+绝对定位对元素有什么作用？
 
 #### --distractors--
 
@@ -249,7 +249,7 @@ Absolute positioning allows you to take an element out of the normal document fl
 
 #### --text--
 
-Which of the following is NOT a valid property that you can use for absolute positioning?
+以下哪个不是你可以用于绝对定位的有效属性？
 
 #### --distractors--
 
@@ -271,7 +271,7 @@ Which of the following is NOT a valid property that you can use for absolute pos
 
 #### --text--
 
-What is the key difference between relative and absolute positioning?
+相对定位和绝对定位的关键区别是什么？
 
 #### --distractors--
 
@@ -293,7 +293,7 @@ Relative positioning positions the element within the normal document flow while
 
 #### --text--
 
-Which of the following is an example of positioning a box in the upper left hand corner of the page?
+以下哪个示例将一个盒子定位在页面的左上角？
 
 #### --distractors--
 
@@ -351,7 +351,7 @@ Which of the following is an example of positioning a box in the upper left hand
 
 #### --text--
 
-Which positioning method allows an element to stick to a defined position only when you scroll past a certain point?
+哪种定位方法允许元素在你滚动到某个点时粘贴到一个定义的位置？
 
 #### --distractors--
 
@@ -373,7 +373,7 @@ Sticky positioning.
 
 #### --text--
 
-Which of the following is a correct example of using sticky positioning?
+以下哪个是使用粘性定位的正确示例？
 
 #### --distractors--
 
@@ -430,7 +430,7 @@ Which of the following is a correct example of using sticky positioning?
 
 #### --text--
 
-What is the difference between sticky and fixed positioning?
+粘性定位和固定定位有什么区别？
 
 #### --distractors--
 
@@ -452,7 +452,7 @@ Fixed elements will remain in the same position on the screen while sticky eleme
 
 #### --text--
 
-What problem did the `clearfix` hack solve when working with floats?
+[clearfix](#) 黑客解决了使用浮动时的什么问题？
 
 #### --distractors--
 
@@ -474,7 +474,7 @@ The `clearfix` hack helped solve the issue of overlaps and collapsing in the lay
 
 #### --text--
 
-Which of the following is a correct example for using the `clearfix` hack?
+以下哪个是使用 [clearfix](#) 黑客的正确示例？
 
 #### --distractors--
 
@@ -521,7 +521,7 @@ Which of the following is a correct example for using the `clearfix` hack?
 
 #### --text--
 
-What is static positioning?
+什么是静态定位？
 
 #### --distractors--
 
@@ -543,7 +543,7 @@ This is the normal flow for the document. Elements are positioned from top to bo
 
 #### --text--
 
-Which of the following is an example of setting the navbar to the top of the page using fixed positioning?
+以下哪个示例使用固定定位将导航栏设置在页面顶部？
 
 #### --distractors--
 
@@ -588,7 +588,7 @@ Which of the following is an example of setting the navbar to the top of the pag
 
 #### --text--
 
-Which of the following is a valid value to use for the `z-index` property?
+以下哪个是可用于 [z-index](#) 属性的有效值？
 
 #### --distractors--
 
@@ -610,7 +610,7 @@ Which of the following is a valid value to use for the `z-index` property?
 
 #### --text--
 
-Which of the following is the default value of the `position` property?
+以下哪个是 [position](#) 属性的默认值？
 
 #### --distractors--
 
@@ -634,7 +634,7 @@ Which of the following is the default value of the `position` property?
 
 #### --text--
 
-Which `position` value lets you adjust an element's position with `top` and `left` while keeping it within the normal document flow?
+哪个 [position](#) 值允许你使用 [top](#) 和 [left](#) 调整元素位置，同时保持其在正常文档流中？
 
 #### --distractors--
 
@@ -656,7 +656,7 @@ Which `position` value lets you adjust an element's position with `top` and `lef
 
 #### --text--
 
-How does an element with `position: sticky;` initially behave?
+具有 `position: sticky;` 的元素最初如何表现？
 
 #### --distractors--
 
@@ -678,7 +678,7 @@ It behaves like a `relative` element until a specified scroll position is met.
 
 #### --text--
 
-Which of the following demonstrates a valid and effective use of the `z-index` property to make `.box-two` appear on top of `.box-one`?
+以下哪个示例演示了有效使用 [z-index](#) 属性使 `.box-two` 出现在 `.box-one` 上方？
 
 #### --distractors--
 
@@ -736,7 +736,7 @@ Which of the following demonstrates a valid and effective use of the `z-index` p
 
 #### --text--
 
-What is the `z-index` property used for in CSS?
+CSS 中的 [z-index](#) 属性用于什么？
 
 #### --distractors--
 
@@ -758,7 +758,7 @@ It controls the vertical stacking order of positioned elements that overlap.
 
 #### --text--
 
-When you apply `top: 10%;` to an element with `position: fixed;`, what is the `10%` calculated in relation to?
+当你对具有 `position: fixed;` 的元素应用 `top: 10%;` 时，[10%](#) 是相对于什么计算的？
 
 #### --distractors--
 
@@ -780,7 +780,7 @@ The height of the viewport.
 
 #### --text--
 
-Which of the code examples is a correct use of the `z-index` property to place an overlay above other content?
+以下哪个代码示例是使用 [z-index](#) 属性将覆盖层置于其他内容之上的正确方法？
 
 #### --distractors--
 
@@ -825,7 +825,7 @@ Which of the code examples is a correct use of the `z-index` property to place a
 
 #### --text--
 
-Which CSS property is used to control whether an element should be moved below floated elements?
+哪个 CSS 属性用于控制元素是否应移至浮动元素下方？
 
 #### --distractors--
 
@@ -847,7 +847,7 @@ Which CSS property is used to control whether an element should be moved below f
 
 #### --text--
 
-How will an element with `position: relative;` and `bottom: 25px;` be moved?
+具有 `position: relative;` 和 `bottom: 25px;` 的元素将如何移动？
 
 #### --distractors--
 
@@ -869,7 +869,7 @@ It will move 25px up from its normal position.
 
 #### --text--
 
-The `z-index` property will only affect elements that have what CSS property applied?
+[z-index](#) 属性只会影响应用了什么 CSS 属性的元素？
 
 #### --distractors--
 
@@ -891,7 +891,7 @@ A `position` value other than `static`.
 
 #### --text--
 
-What would be the effect of applying `float: right;` to a logo in a header?
+对标题中的徽标应用 `float: right;` 会有什么效果？
 
 #### --distractors--
 
@@ -913,7 +913,7 @@ The logo would be removed from its normal flow and placed on the right side of i
 
 #### --text--
 
-Which CSS snippet will keep an element fixed to the top of the viewport once it is scrolled to?
+哪个 CSS 片段将在滚动到元素时将其固定在视口顶部？
 
 #### --distractors--
 
@@ -955,7 +955,7 @@ Which CSS snippet will keep an element fixed to the top of the viewport once it 
 
 #### --text--
 
-What is the specific purpose of `clear: both;` in CSS?
+CSS 中 `clear: both;` 的具体用途是什么？
 
 #### --distractors--
 
@@ -977,7 +977,7 @@ It ensures the element is moved below any floated elements that appear before it
 
 #### --text--
 
-Given the following code, how will `.child` be positioned?
+给定以下代码，`.child` 将如何定位？
 
 ```css
 .parent {
@@ -1010,7 +1010,7 @@ It will be positioned 10px from the top of the initial containing block, such as
 
 #### --text--
 
-What effect will the following CSS have on the `.box` element?
+以下 CSS 对 `.box` 元素会有什么效果？
 
 ```css
 .box {
@@ -1040,7 +1040,7 @@ The element will be taken out of the normal flow and placed 50px from the top an
 
 #### --text--
 
-Which of the following `position` values removes an element entirely from the document's normal flow?
+以下哪个 [position](#) 值会将元素完全从文档的正常流中移除？
 
 #### --distractors--
 
@@ -1062,7 +1062,7 @@ Which of the following `position` values removes an element entirely from the do
 
 #### --text--
 
-Given a `.parent` and a `.child` element, which CSS snippet will correctly position the `.child` 20px from the top left corner of the `.parent` element?
+给定一个 `.parent` 和一个 `.child` 元素，哪个 CSS 片段会正确地将 `.child` 定位在 `.parent` 元素的左上角 20px 处？
 
 #### --distractors--
 
@@ -1120,7 +1120,7 @@ Given a `.parent` and a `.child` element, which CSS snippet will correctly posit
 
 #### --text--
 
-What is the difference between `static` and `relative` positioning?
+[static](#) 定位和 [relative](#) 定位有什么区别？
 
 #### --distractors--
 
@@ -1142,7 +1142,7 @@ Both keep an element in the normal document flow, but `relative` allows the elem
 
 #### --text--
 
-Which CSS snippet correctly floats an image to the left, allowing other content to wrap around it?
+哪个 CSS 片段正确地将图像向左浮动，允许其他内容环绕它？
 
 #### --distractors--
 
@@ -1181,7 +1181,7 @@ Which CSS snippet correctly floats an image to the left, allowing other content 
 
 #### --text--
 
-What is the difference between `absolute` and `fixed` positioning?
+[absolute](#) 定位和 [fixed](#) 定位有什么区别？
 
 #### --distractors--
 
@@ -1203,7 +1203,7 @@ Both are positioned relative to the viewport, but `fixed` elements will scroll w
 
 #### --text--
 
-Which `position` value places an element in the normal document flow and prevents offset properties like `top` and `left` from having any effect?
+哪个 [position](#) 值将元素放置在正常文档流中，并防止 [top](#) 和 [left](#) 等偏移属性产生任何效果？
 
 #### --distractors--
 
@@ -1220,4 +1220,3 @@ Which `position` value places an element in the normal document flow and prevent
 #### --answer--
 
 `position: static;`
-

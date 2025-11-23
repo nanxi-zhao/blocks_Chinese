@@ -1,6 +1,6 @@
 ---
 id: 66ed8fedf45ce3ece4053eb3
-title: CSS Grid Quiz
+title: CSS Grid 测验
 challengeType: 8
 dashedName: quiz-css-grid
 ---
@@ -17,7 +17,7 @@ dashedName: quiz-css-grid
 
 #### --text--
 
-What is CSS Grid?
+什么是 CSS Grid？
 
 #### --distractors--
 
@@ -39,7 +39,7 @@ A two-dimensional layout for HTML documents.
 
 #### --text--
 
-Which of the following is the correct way to create a grid container?
+以下哪个是创建网格容器的正确方法？
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Which of the following is the correct way to create a grid container?
 
 #### --text--
 
-What does the `grid-template-columns` property do?
+[grid-template-columns](#) 属性做什么？
 
 #### --distractors--
 
@@ -83,7 +83,7 @@ Defines the number of columns in a grid layout.
 
 #### --text--
 
-What does the `grid-template-rows` property do?
+[grid-template-rows](#) 属性做什么？
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ Specifies the number and height for each row in a grid layout.
 
 #### --text--
 
-What does the `minmax()` function do?
+[minmax()](#) 函数做什么？
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ Sets the minimum and maximum sizes for a track.
 
 #### --text--
 
-What is the shorthand for the `column-gap` and `row-gap` properties?
+[column-gap](#) 和 [row-gap](#) 属性的简写是什么？
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ What is the shorthand for the `column-gap` and `row-gap` properties?
 
 #### --text--
 
-What is the difference between an implicit and explicit grid?
+隐式网格和显式网格有什么区别？
 
 #### --distractors--
 
@@ -171,7 +171,7 @@ Explicit grids use the `grid-template-columns` or `grid-template-rows` propertie
 
 #### --text--
 
-Which of the following units represents a fraction of the space within the grid container?
+以下哪个单位表示网格容器内空间的分数？
 
 #### --distractors--
 
@@ -193,7 +193,7 @@ Which of the following units represents a fraction of the space within the grid 
 
 #### --text--
 
-What are grid lines?
+什么是网格线？
 
 #### --distractors--
 
@@ -215,7 +215,7 @@ Lines on which each of the grid items begin and end.
 
 #### --text--
 
-What does the `grid-column` property do?
+[grid-column](#) 属性做什么？
 
 #### --distractors--
 
@@ -237,7 +237,7 @@ Tells the grid item on which grid line it should start and end at.
 
 #### --text--
 
-How do you create four columns of equal width?
+如何创建四个等宽的列？
 
 #### --distractors--
 
@@ -259,7 +259,7 @@ How do you create four columns of equal width?
 
 #### --text--
 
-What does the `grid-template-areas` property do?
+[grid-template-areas](#) 属性做什么？
 
 #### --distractors--
 
@@ -281,7 +281,7 @@ It is used to provide a name for the items you are going to position on the grid
 
 #### --text--
 
-What does the `grid-auto-flow` property do?
+[grid-auto-flow](#) 属性做什么？
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ Controls how auto-placed elements get inserted to the grid.
 
 #### --text--
 
-Which of the following is the correct way to use the `grid-template-areas` property?
+以下哪个是使用 [grid-template-areas](#) 属性的正确方法？
 
 #### --distractors--
 
@@ -368,7 +368,7 @@ Which of the following is the correct way to use the `grid-template-areas` prope
 
 #### --text--
 
-Which of the following is the correct way to work with the `grid-auto-flow` property?
+以下哪个是使用 [grid-auto-flow](#) 属性的正确方法？
 
 #### --distractors--
 
@@ -418,7 +418,7 @@ Which of the following is the correct way to work with the `grid-auto-flow` prop
 
 #### --text--
 
-Which of the following is NOT a valid grid property?
+以下哪个不是有效的网格属性？
 
 #### --distractors--
 
@@ -440,7 +440,7 @@ Which of the following is NOT a valid grid property?
 
 #### --text--
 
-Which of these properties can be used to center items inside a grid element?
+以下哪个属性可用于居中网格元素内的项目？
 
 #### --distractors--
 
@@ -462,7 +462,7 @@ Which of these properties can be used to center items inside a grid element?
 
 #### --text--
 
-Which of the following is a correct value to use with the `grid-auto-columns` property?
+以下哪个是与 [grid-auto-columns](#) 属性一起使用的正确值？
 
 #### --distractors--
 
@@ -484,7 +484,7 @@ Which of the following is a correct value to use with the `grid-auto-columns` pr
 
 #### --text--
 
-What are grid tracks?
+什么是网格轨道？
 
 #### --distractors--
 
@@ -506,7 +506,7 @@ Spaces between two adjacent grid lines.
 
 #### --text--
 
-Which of the following is the correct way to use the `minmax()` function?
+以下哪个是使用 [minmax()](#) 函数的正确方法？
 
 #### --distractors--
 
@@ -554,7 +554,7 @@ Which of the following is the correct way to use the `minmax()` function?
 
 #### --text--
 
-How do you position a grid item within a layout defined by `grid-template-areas`?
+如何在由 [grid-template-areas](#) 定义的布局中定位网格项目？
 
 #### --distractors--
 
@@ -576,7 +576,7 @@ By assigning the named area to the item's `grid-area` property.
 
 #### --text--
 
-What does the `grid-auto-rows` property control?
+[grid-auto-rows](#) 属性控制什么？
 
 #### --distractors--
 
@@ -598,7 +598,7 @@ The size of implicitly created rows.
 
 #### --text--
 
-Which property would you use to make a grid item span multiple rows?
+你会使用哪个属性使网格项目跨越多行？
 
 #### --distractors--
 
@@ -620,7 +620,7 @@ Which property would you use to make a grid item span multiple rows?
 
 #### --text--
 
-What defines an explicit grid?
+什么定义了显式网格？
 
 #### --distractors--
 
@@ -642,7 +642,7 @@ Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
 
 #### --text--
 
-Which value for `grid-auto-flow` would make new items fill columns first?
+[grid-auto-flow](#) 的哪个值会使新项目首先填充列？
 
 #### --distractors--
 
@@ -664,7 +664,7 @@ Which value for `grid-auto-flow` would make new items fill columns first?
 
 #### --text--
 
-What is the purpose of `grid-template-areas`?
+[grid-template-areas](#) 的用途是什么？
 
 #### --distractors--
 
@@ -686,7 +686,7 @@ To visually map items to named grid areas.
 
 #### --text--
 
-How can you make a grid item start at column line 2 and end at column line 4?
+如何使网格项目从第 2 列线开始到第 4 列线结束？
 
 #### --distractors--
 
@@ -708,7 +708,7 @@ How can you make a grid item start at column line 2 and end at column line 4?
 
 #### --text--
 
-What is the effect of `grid-template-columns: 1fr 2fr 1fr`?
+[grid-template-columns: 1fr 2fr 1fr](#)` 有什么效果？
 
 #### --distractors--
 
@@ -730,7 +730,7 @@ Creates three columns where the middle is twice as wide as the sides.
 
 #### --text--
 
-How would you create a grid with 3 equal columns and a `20px` gap between them?
+如何创建一个有 3 个等列和 20px 列间隙的网格？
 
 #### --distractors--
 
@@ -773,7 +773,7 @@ How would you create a grid with 3 equal columns and a `20px` gap between them?
 
 #### --text--
 
-What does `repeat(3, minmax(100px, 1fr))` create?
+[repeat(3, minmax(100px, 1fr))](#)` 创建什么？
 
 #### --distractors--
 
@@ -795,7 +795,7 @@ Three columns that grow proportionally but won't shrink below `100px`.
 
 #### --text--
 
-Which statement about implicit grids is true?
+关于隐式网格，以下哪个陈述是正确的？
 
 #### --distractors--
 
@@ -817,7 +817,7 @@ Implicit tracks are created when content doesn't fit explicit tracks.
 
 #### --text--
 
-What does the `place-items` property do in CSS Grid?
+CSS Grid 中的 [place-items](#) 属性做什么？
 
 #### --distractors--
 
@@ -839,7 +839,7 @@ It is a shorthand for aligning grid items in both the block and inline axes.
 
 #### --text--
 
-What does this CSS accomplish?
+这段 CSS 实现了什么？
 
 ```css
 .container {
@@ -867,7 +867,7 @@ Creates flexible columns that are at least `150px` and collapse when space is li
 
 #### --text--
 
-How can you create asymmetric grid layouts?
+如何创建不对称的网格布局？
 
 #### --distractors--
 
@@ -889,7 +889,7 @@ By defining different sizes for each track.
 
 #### --text--
 
-What does `grid-column-start: 2` do to a grid item?
+[grid-column-start: 2](#)` 对网格项目有什么作用？
 
 #### --distractors--
 
@@ -911,7 +911,7 @@ Makes it start at the second column line.
 
 #### --text--
 
-Which property would you use to control overflow behavior in grid tracks?
+你会使用哪个属性来控制网格轨道中的溢出行为？
 
 #### --distractors--
 
@@ -933,7 +933,7 @@ Which property would you use to control overflow behavior in grid tracks?
 
 #### --text--
 
-What will be the result for the following code?
+以下代码的结果是什么？
 
 ```css
 .container {
@@ -964,7 +964,7 @@ The container will have three columns: 100px, `1fr` and `2fr` wide and two rows:
 
 #### --text--
 
-How would you make a grid item span all available rows?
+如何使网格项目跨越所有可用行？
 
 #### --distractors--
 
@@ -986,7 +986,7 @@ How would you make a grid item span all available rows?
 
 #### --text--
 
-Which property controls the alignment of grid items along the block axis?
+哪个属性控制网格项目沿块轴的对齐？
 
 #### --distractors--
 
@@ -1008,7 +1008,7 @@ Which property controls the alignment of grid items along the block axis?
 
 #### --text--
 
-How can you ensure a grid item stays in the first column regardless of grid changes?
+如何确保网格项目无论网格如何变化都保持在第一列？
 
 #### --distractors--
 

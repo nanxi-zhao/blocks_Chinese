@@ -7,9 +7,9 @@ dashedName: step-26
 
 # --description--
 
-Now you can see `{'patient_id': None}` printed to the terminal because the lowercase `p` does not match `P1001` and the `and` operator returns the first falsy value of the expression.
+现在你可能会在终端看到 `{'patient_id': None}`，这是因为小写的 `p` 无法匹配 `P1001`，而 `and` 运算符会返回表达式中第一个为假（falsy）的值。
 
-You want to ensure that the patient ID starts with the letter `p`, but it can be either lowercase or uppercase. To modify the matching behavior of regular expressions, you can use flags. For example, `re.search` accepts a third argument to specify any flags:
+我们希望患者 ID 以字母 `p` 开头，但大小写都应被接受。为此可以使用正则表达式的 flags 参数来改变匹配行为。例如，`re.search` 接受第三个参数用于指定 flags：
 
 ```py
 import re
@@ -21,13 +21,13 @@ print(re.search('hello', greeting, re.IGNORECASE))
 # <re.Match object; span=(0, 5), match='Hello'>
 ```
 
-Add `re.IGNORECASE` as the third argument to your `re.search` call. This will make your regex search case insensitive.
+请在 `re.search` 调用中添加 `re.IGNORECASE` 作为第三个参数，这样正则匹配将不区分大小写。
 
-After that, you'll see `None` replaced by the match object `<re.Match object; span=(0, 1), match='P'>`, where `match` indicates the match and `span` indicates its location in the string.
+添加后，你将看到 `None` 被匹配对象替换为 `<re.Match object; span=(0, 1), match='P'>`，其中 `match` 表示匹配到的内容，`span` 标示其在字符串中的位置。
 
 # --hints--
 
-You should add `re.IGNORECASE` as the third argument to your `re.search` call.
+在 `re.search` 调用中添加 `re.IGNORECASE` 作为第三个参数即可。
 
 ```js
 ({ test: () => assert(runPython(`

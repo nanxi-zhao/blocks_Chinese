@@ -1,6 +1,6 @@
 ---
 id: 66ed8fc1f45ce3ece4053ead
-title: CSS Accessibility Quiz
+title: CSS可访问性测验
 challengeType: 8
 dashedName: quiz-css-accessibility
 ---
@@ -17,33 +17,33 @@ dashedName: quiz-css-accessibility
 
 #### --text--
 
-Why do you need to have good color contrast on your webpage?
+为什么你需要在网页上有良好的颜色对比度？
 
 #### --distractors--
 
-To make the page more vibrant.
+让页面更加生动
 
 ---
 
-To meet requirements for search engine optimization (SEO).
+满足搜索引擎优化(SEO)的要求
 
 ---
 
-To make important elements of the page stand out.
+让页面的重要元素突出显示
 
 #### --answer--
 
-To make the page content accessible and readable.
+让页面内容可访问且可读
 
 ### --question--
 
 #### --text--
 
-Which of the following tools allows you to enter background and foreground colors and check their contrast ratio?
+以下哪个工具允许你输入背景色和前景色并检查它们的对比度？
 
 #### --distractors--
 
-TPGi Colour Contrast Analyzer
+TPGi颜色对比度分析器
 
 ---
 
@@ -55,13 +55,13 @@ Canva
 
 #### --answer--
 
-WebAIM's Color Contrast Checker
+WebAIM颜色对比度检查器
 
 ### --question--
 
 #### --text--
 
-Which of the following tools allows you to pick background and foreground colors from a live webpage and check for their contrast ratio?
+以下哪个工具允许你从实时网页中选择背景色和前景色并检查它们的对比度？
 
 #### --distractors--
 
@@ -73,61 +73,61 @@ Canva
 
 ---
 
-WebAIM's Color Contrast Checker
+WebAIM颜色对比度检查器
 
 #### --answer--
 
-TPGi Colour Contrast Analyzer
+TPGi颜色对比度分析器
 
 ### --question--
 
 #### --text--
 
-Why should you NOT use `display: none` and `visibility: hidden` to visually hide content?
+为什么你不应该使用[display: none]和[visibility: hidden]来视觉上隐藏内容？
 
 #### --distractors--
 
-These methods make it so that only assistive technologies like screen readers can access the hidden content.
+这些方法使得只有辅助技术如屏幕阅读器可以访问隐藏内容
 
 ---
 
-These methods make it so that the content is only hidden until users move their mouse over the content.
+这些方法使得内容只有在用户将鼠标移动到内容上时才隐藏
 
 ---
 
-These methods do not work with some browsers.
+这些方法在某些浏览器中不起作用
 
 #### --answer--
 
-These methods remove the content from the accessibility tree, making it impossible for screen readers to access the hidden content.
+这些方法从可访问性树中移除内容，使得屏幕阅读器无法访问隐藏内容
 
 ### --question--
 
 #### --text--
 
-What is an accessibility tree?
+什么是可访问性树？
 
 #### --distractors--
 
-A visual representation of the layout of a webpage.
+网页布局的视觉表示
 
 ---
 
-A structure used by screen readers to read the text content of a webpage.
+屏幕阅读器用来读取网页文本内容的结构
 
 ---
 
-A copy of the DOM tree.
+DOM树的副本
 
 #### --answer--
 
-A structure used by screen readers to interpret and interact with the content on a webpage.
+屏幕阅读器用来解释和交互网页内容的结构
 
 ### --question--
 
 #### --text--
 
-Which of the following ensures that an image has a minimum width of `400px`, but becomes wider when the viewport width is greater than `1000px`?
+以下哪项确保图像的最小宽度为[400px]，但当视口宽度大于[1000px]时变得更宽？
 
 #### --distractors--
 
@@ -165,7 +165,7 @@ img {
 
 #### --text--
 
-Which of the following `scroll-behavior` value allows a smooth scrolling behavior?
+以下哪个[scroll-behavior]值允许平滑滚动行为？
 
 #### --distractors--
 
@@ -187,7 +187,7 @@ Which of the following `scroll-behavior` value allows a smooth scrolling behavio
 
 #### --text--
 
-Which of the following features is used to detect the user's animation preference?
+以下哪个功能用于检测用户的动画偏好？
 
 #### --distractors--
 
@@ -209,42 +209,42 @@ Which of the following features is used to detect the user's animation preferenc
 
 #### --text--
 
-Which of the following is an accessibility issue of the `placeholder` attribute in an `input` element?
+以下哪项是[input]元素中[placeholder]属性的可访问性问题？
 
 #### --distractors--
 
-Placeholder text prevents screen readers from reading the input label text.
+占位符文本阻止屏幕阅读器读取输入标签文本
 
 ---
 
-Placeholder text prevents screen readers from reading the input value.
+占位符文本阻止屏幕阅读器读取输入值
 
 ---
 
-Placeholder text is too small to be readable.
+占位符文本太小而无法阅读
 
 #### --answer--
 
-Placeholder text can be confused with an actual input value.
+占位符文本可能与实际输入值混淆
 
 ### --question--
 
 #### --text--
 
-What does the `hidden` attribute do?
+[hidden]属性做什么？
 
 #### --distractors--
 
-It hides content and reveals on hover.
+它隐藏内容并在悬停时显示
 
 ---
 
-It hides content only from the accessibility tree.
+它仅从可访问性树中隐藏内容
 
 ---
 
-It hides content visually, but the content is available in the accessibility tree.
+它在视觉上隐藏内容，但内容在可访问性树中可用
 
 #### --answer--
 
-It hides content both visually and from the accessibility tree.
+它既在视觉上隐藏内容，也从可访问性树中隐藏内容

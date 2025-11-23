@@ -1,6 +1,6 @@
 ---
 id: 66ed8fb9f45ce3ece4053eac
-title: Computer Basics Quiz
+title: 计算机基础测验
 challengeType: 8
 dashedName: quiz-computer-basics
 ---
@@ -17,7 +17,7 @@ dashedName: quiz-computer-basics
 
 #### --text--
 
-What part of a computer is used to connect the other internal components together?
+计算机的哪个部分用于连接其他内部组件？
 
 #### --distractors--
 
@@ -39,7 +39,7 @@ Motherboard
 
 #### --text--
 
-What are browser developer tools?
+什么是浏览器开发者工具？
 
 #### --distractors--
 
@@ -61,7 +61,7 @@ Built-in features in browsers that help developers debug and inspect websites.
 
 #### --text--
 
-Which of the following ISP connections are typically the fastest?
+以下哪种 ISP 连接通常最快？
 
 #### --distractors--
 
@@ -83,7 +83,7 @@ Fiber optic
 
 #### --text--
 
-Which of the following is NOT a safe practice when signing in?
+以下哪种登录方式不是安全的做法？
 
 #### --distractors--
 
@@ -105,7 +105,7 @@ Using passwords based on personal information like your birthday.
 
 #### --text--
 
-Which of the following is NOT a web browser?
+以下哪个不是网页浏览器？
 
 #### --distractors--
 
@@ -127,7 +127,7 @@ Google Drive
 
 #### --text--
 
-When you need to edit a piece of code, which of the following are you most likely going to use?
+当你需要编辑一段代码时，最可能使用以下哪个工具？
 
 #### --distractors--
 
@@ -149,7 +149,7 @@ Visual Studio Code
 
 #### --text--
 
-Which of the following is used primarily for managing files stored on a local hard drive?
+以下哪个主要用于管理存储在本地硬盘上的文件？
 
 #### --distractors--
 
@@ -171,7 +171,7 @@ Windows File Explorer
 
 #### --text--
 
-What is NOT a good practice when naming files?
+命名文件时，以下哪个不是好的做法？
 
 #### --distractors--
 
@@ -193,7 +193,7 @@ Using non-descriptive names like `file1.txt`.
 
 #### --text--
 
-What does the term "domain name" refer to?
+"域名"这个术语指的是什么？
 
 #### --distractors--
 
@@ -215,7 +215,7 @@ The address used to identify websites on the internet.
 
 #### --text--
 
-Which of the following is a way to send a file to the Recycle Bin/Trash?
+以下哪个是将文件发送到回收站/垃圾桶的方法？
 
 #### --distractors--
 
@@ -237,7 +237,7 @@ Right-click on it and select the Delete/Move to trash option.
 
 #### --text--
 
-What is a RAM?
+什么是 RAM？
 
 #### --distractors--
 
@@ -259,7 +259,7 @@ A temporary memory for fast data access by the processor.
 
 #### --text--
 
-What file type will be best suited for writing a `README` file?
+编写 [README](#) 文件时，哪种文件类型最适合？
 
 #### --distractors--
 
@@ -281,7 +281,7 @@ What file type will be best suited for writing a `README` file?
 
 #### --text--
 
-What is an Integrated Development Environment (IDE)?
+什么是集成开发环境（IDE）？
 
 #### --distractors--
 
@@ -303,7 +303,7 @@ A program that integrates tools for writing, debugging, and running code.
 
 #### --text--
 
-What is a piece of software that allows you to look at online content called?
+允许你查看在线内容的软件叫什么？
 
 #### --distractors--
 
@@ -325,7 +325,7 @@ Web browser
 
 #### --text--
 
-What is a piece of software that lists web pages related to a user's query called?
+列出与用户查询相关的网页的软件叫什么？
 
 #### --distractors--
 
@@ -347,7 +347,7 @@ Search engine
 
 #### --text--
 
-What is a set of one or more web pages under one domain name called?
+一个域名下的一个或多个网页集合叫什么？
 
 #### --distractors--
 
@@ -369,7 +369,7 @@ Website
 
 #### --text--
 
-To search for an exact phrase, what should you enclose your search query with?
+要搜索确切的短语，你应该用什么来包围你的搜索查询？
 
 #### --distractors--
 
@@ -391,7 +391,7 @@ Quotation marks
 
 #### --text--
 
-Which is NOT a way to install a web browser?
+以下哪个不是安装网页浏览器的方法？
 
 #### --distractors--
 
@@ -413,7 +413,7 @@ Pressing the Network/Internet button in Settings.
 
 #### --text--
 
-Which of the following formats does NOT preserve image quality after compression?
+以下哪种格式在压缩后不能保持图像质量？
 
 #### --distractors--
 
@@ -435,7 +435,7 @@ JPEG
 
 #### --text--
 
-Which of the following parts is located in a socket on the motherboard?
+以下哪个部件位于主板的插槽中？
 
 #### --distractors--
 
@@ -459,7 +459,7 @@ The CPU
 
 #### --text--
 
-Which of the following is a basic part of the computer?
+以下哪个是计算机的基本组成部分？
 
 #### --distractors--
 
@@ -481,7 +481,7 @@ The central processing unit
 
 #### --text--
 
-What is a pointing device for a computer?
+计算机的指向设备是什么？
 
 #### --distractors--
 
@@ -503,7 +503,7 @@ A mouse or touchpad
 
 #### --text--
 
-What is a type of ISP provider?
+什么是 ISP 提供商的类型？
 
 #### --distractors--
 
@@ -525,7 +525,7 @@ Tier 1
 
 #### --text--
 
-What is a best practice when naming files for a web application?
+为 Web 应用程序命名文件时的最佳做法是什么？
 
 #### --distractors--
 
@@ -547,7 +547,7 @@ Using hyphens instead of spaces.
 
 #### --text--
 
-Which of the following is a common file type when working with web applications?
+使用 Web 应用程序时，以下哪种是常见的文件类型？
 
 #### --distractors--
 
@@ -569,7 +569,7 @@ Which of the following is a common file type when working with web applications?
 
 #### --text--
 
-What is a common file type for a video file?
+常见的视频文件类型是什么？
 
 #### --distractors--
 
@@ -591,7 +591,7 @@ What is a common file type for a video file?
 
 #### --text--
 
-Which of the following types is commonly used for image files?
+以下哪种类型常用于图像文件？
 
 #### --distractors--
 
@@ -613,7 +613,7 @@ Which of the following types is commonly used for image files?
 
 #### --text--
 
-Microsoft Edge is the default web browser of which operating system?
+Microsoft Edge 是哪个操作系统的默认网页浏览器？
 
 #### --distractors--
 
@@ -635,7 +635,7 @@ Windows
 
 #### --text--
 
-What is a search engine?
+什么是搜索引擎？
 
 #### --distractors--
 
@@ -657,7 +657,7 @@ A web based tool for searching information on the internet.
 
 #### --text--
 
-Which of the following is NOT a type of browser?
+以下哪个不是浏览器类型？
 
 #### --distractors--
 
@@ -679,7 +679,7 @@ GitHub
 
 #### --text--
 
-Which of the following is NOT a cloud-based hosting service for repositories?
+以下哪个不是基于云的代码仓库托管服务？
 
 #### --distractors--
 
@@ -701,7 +701,7 @@ Ona
 
 #### --text--
 
-Which of the following is not primarily a part of an integrated development environment?
+以下哪个不是集成开发环境的主要组成部分？
 
 #### --distractors--
 
@@ -723,7 +723,7 @@ A tool for storing code.
 
 #### --text--
 
-What is a best practice for naming files?
+命名文件的最佳做法是什么？
 
 #### --distractors--
 
@@ -745,7 +745,7 @@ Using a descriptive name for each file.
 
 #### --text--
 
-What is the built-in way you can use to search for files on your computer?
+你可以使用什么内置方式在计算机上搜索文件？
 
 #### --distractors--
 
@@ -767,7 +767,7 @@ The file explorer
 
 #### --text--
 
-What is a common search strategy to search for file types?
+搜索文件类型的常见搜索策略是什么？
 
 #### --distractors--
 
@@ -789,7 +789,7 @@ What is a common search strategy to search for file types?
 
 #### --text--
 
-What is the default page for a website?
+网站的默认页面是什么？
 
 #### --distractors--
 
@@ -811,7 +811,7 @@ What is the default page for a website?
 
 #### --text--
 
-Which file managers can you use to create, move, and delete files?
+你可以使用哪个文件管理器来创建、移动和删除文件？
 
 #### --distractors--
 
@@ -833,7 +833,7 @@ Explorer or Finder
 
 #### --text--
 
-What is Git?
+什么是 Git？
 
 #### --distractors--
 
@@ -855,7 +855,7 @@ A version control system for tracking changes and collaborating with others.
 
 #### --text--
 
-What is random access memory?
+什么是随机存取存储器？
 
 #### --distractors--
 
@@ -877,7 +877,7 @@ A temporary storage location for the computer's central processing unit.
 
 #### --text--
 
-Which file format is used to compress files?
+哪种文件格式用于压缩文件？
 
 #### --distractors--
 
@@ -894,4 +894,3 @@ Which file format is used to compress files?
 #### --answer--
 
 `ZIP`
-
