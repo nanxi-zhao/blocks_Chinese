@@ -146,7 +146,7 @@
         {
           "dashedName": "css-colors",
           "blocks": [
-            "lecture-working-with-colors-in-css",
+            //"lecture-working-with-colors-in-css",
             "workshop-colored-markers",
             //"lab-colored-boxes",
             //"review-css-colors",
@@ -283,7 +283,9 @@
       "modules": [
         {
           "dashedName": "code-editors",
-          "blocks": ["lecture-working-with-code-editors-and-ides"]
+          "blocks": ["
+          //lecture-working-with-code-editors-and-ides"
+        ]
         },
         {
           "dashedName": "javascript-variables-and-strings",
@@ -394,7 +396,7 @@
           "blocks": [
             "lecture-working-with-types-and-objects",
             //"lecture-working-with-arrays-variables-and-naming-practices",
-            "lecture-working-with-code-quality-and-execution-concepts",
+            //"lecture-working-with-code-quality-and-execution-concepts",
             // "lab-largest-number-finder",
             // "lab-first-element-finder",
             // "lab-slice-and-splice",
@@ -871,7 +873,7 @@
             "lecture-working-with-nano",
             "workshop-castle",
             //"lecture-introduction-to-git-and-github",
-            "lecture-working-with-code-reviews-branching-deployment-and-ci-cd",
+            //"lecture-working-with-code-reviews-branching-deployment-and-ci-cd",
             "workshop-sql-reference-object",
             // "lab-periodic-table-database",
             // "lab-number-guessing-game",
