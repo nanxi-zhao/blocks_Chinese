@@ -7,18 +7,18 @@ dashedName: step-53
 
 # --description--
 
-Now that `b()` has executed, pop it off the call stack. Then, update your mock call to `a()` to the following: `"a(): returns 'MasterPuti ' + 'is awesome!'"`.
+现在[b()](file:///e:/1.work/byy/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/blocks/blocks_english/workshop-decimal-to-binary-converter/645cd4eb6edf6e6f91acabbb.md#L209-L211)已经执行完毕，将它从调用栈中弹出。然后，将你对[a()](file:///e:/1.work/byy/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/blocks/blocks_english/workshop-decimal-to-binary-converter/645cd4eb6edf6e6f91acabbb.md#L205-L207)的模拟调用更新为以下内容："a(): returns 'MasterPuti ' + 'is awesome!'"。
 
 # --hints--
 
-`callStack` should have one element that is a string.
+[callStack](file:///e:/1.work/byy/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/blocks/blocks_english/workshop-decimal-to-binary-converter/645cd4eb6edf6e6f91acabbb.md#L199-L202)应该有一个元素是字符串。
 
 ```js
 assert.lengthOf(callStack, 1);
 assert.isString(callStack[0]);
 ```
 
-The string in `callStack` should be the string `"a(): returns 'MasterPuti ' + 'is awesome!'"`.
+[callStack](file:///e:/1.work/byy/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/blocks/blocks_english/workshop-decimal-to-binary-converter/645cd4eb6edf6e6f91acabbb.md#L199-L202)中的字符串应该是字符串"a(): returns 'MasterPuti ' + 'is awesome!'"。
 
 ```js
 assert.match(
@@ -257,4 +257,3 @@ numberInput.addEventListener("keydown", (e) => {
   }
 });
 ```
-
