@@ -178,7 +178,7 @@
         {
           "dashedName": "css-flexbox",
           "blocks": [
-            "lecture-working-with-css-flexbox",
+            //"lecture-working-with-css-flexbox",
             "workshop-flexbox-photo-gallery",
             // "lab-page-of-playing-cards",
             //"review-css-flexbox",
@@ -188,7 +188,7 @@
         {
           "dashedName": "css-typography",
           "blocks": [
-            "lecture-working-with-css-fonts",
+              "lecture-working-with-css-fonts",
             "workshop-nutritional-label",
             //"lab-newspaper-article",
             //"review-css-typography",
@@ -319,9 +319,9 @@
             "lab-debug-type-coercion-errors",
             "lecture-working-with-operator-behavior",
             "lab-debug-increment-and-decrement-operator-errors",
-            "lecture-working-with-comparison-and-boolean-operators",
+            //"lecture-working-with-comparison-and-boolean-operators",
             "lecture-working-with-unary-and-bitwise-operators",
-            "lecture-working-with-conditional-logic-and-math-methods",
+            //"lecture-working-with-conditional-logic-and-math-methods",
             "workshop-mathbot",
             // "lab-fortune-teller",
             "lecture-working-with-numbers-and-common-number-methods",
@@ -532,7 +532,7 @@
         {
           "dashedName": "localstorage-and-crud-operations",
           "blocks": [
-            "lecture-working-with-client-side-storage-and-crud-operations",
+            //"lecture-working-with-client-side-storage-and-crud-operations",
             //"workshop-todo-app",
             // "lab-bookmark-manager-app",
             //"review-local-storage-and-crud",
@@ -765,7 +765,7 @@
           "dashedName": "python-linear-data-structures",
           "comingSoon": false,
           "blocks": [
-            "lecture-working-with-common-data-structures",
+            //"lecture-working-with-common-data-structures",
             "workshop-linked-list-class",
             // "lab-hash-table",
             //"review-data-structures",

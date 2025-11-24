@@ -1,4 +1,4 @@
----
+﻿---
 id: 67d2ff6f069dce9feacb7d25
 title: 什么是兼容性测试？
 challengeType: 19
