@@ -224,7 +224,7 @@ const result = document.getElementById("result");
 
 const decimalToBinary = (input) => {
 --fcc-editable-region--
-  return "1";
+  return "1010";
 --fcc-editable-region--
 };
 

@@ -7,25 +7,25 @@ dashedName: step-25
 
 # --description--
 
-To divide numbers in JavaScript, use the division operator (`/`). For example:
+在 JavaScript 中要进行除法运算，可以使用除法运算符（`/`）。例如：
 
 ```js
 const quotient = 5 / 2; // 2.5
 ```
 
-In the example above, `5` is the <dfn>dividend</dfn>, or the number to be divided, and `2` is the <dfn>divisor</dfn>, or the number to divide by. The result, `2.5`, is called the <dfn>quotient</dfn>.
+在上面的例子中，`5` 是<dfn>被除数</dfn>，即要被除的数，而 `2` 是<dfn>除数</dfn>，即用来除的数。结果 `2.5` 被称为<dfn>商</dfn>。
 
-Inside your `while` loop, create a variable named `quotient` and assign it the value of `input` divided by `2`.
+在你的 `while` 循环中，创建一个名为 [quotient](#?tab=details&step=24&id=quotient) 的变量，并将其赋值为 [input](#?tab=details&step=24&id=input) 除以 `2` 的结果。
 
 # --hints--
 
-You should create a variable named `quotient` inside your `while` loop.
+你应该在 `while` 循环中创建一个名为 [quotient](#?tab=details&step=24&id=quotient) 的变量。
 
 ```js
 assert.match(code, /while\s*\(\s*input\s*>\s*0\s*\)\s*\{\s*(var|let|const)\s+quotient\s*=/);
 ```
 
-You should assign `quotient` the value of `input` divided by `2`.
+你应该将 [input](#?tab=details&step=24&id=input) 除以 `2` 的结果赋值给 [quotient](#?tab=details&step=24&id=quotient)。
 
 ```js
 assert.match(String(decimalToBinary), /(var|let|const)\s+quotient\s*=\s*input\s*\/\s*2\s*/);
@@ -210,7 +210,7 @@ const decimalToBinary = (input) => {
 
   while (input > 0) {
     --fcc-editable-region--
-
+    const quotient = input / 2;
     --fcc-editable-region--
 
     input = 0;

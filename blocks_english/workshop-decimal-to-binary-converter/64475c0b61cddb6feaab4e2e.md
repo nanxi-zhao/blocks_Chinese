@@ -213,7 +213,7 @@ const checkUserInput = () => {
     parseInt(numberInput.value) < 0
   ) {
     --fcc-editable-region--
-
+    alert("Please provide a decimal number greater than or equal to 0");
     --fcc-editable-region--
   }
 

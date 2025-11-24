@@ -1,27 +1,27 @@
 ---
 id: 618a0b2befb143baefab632b
-title: 步骤 32
+title: 第 32 步
 challengeType: 0
 dashedName: step-32
 ---
 
 # --description--
 
-Notice that the red and cyan colors are very bright right next to each other. This contrast can be distracting if it's overused on a website, and can make text hard to read if it's placed on a complementary-colored background.
+请注意红色和青色在彼此旁边时非常明亮。如果在网站上过度使用这种对比会让人分心，并且如果将文字放在互补色背景上会使文字难以阅读。
 
-It's better practice to choose one color as the dominant color, and use its complementary color as an accent to bring attention to certain content on the page.
+更好的做法是选择一种颜色作为主色，并使用其互补色作为强调色来吸引人们对页面上某些内容的注意。
 
-First, in the `h1` rule, use the `rgb` function to set its `background-color` to cyan.
+首先，在 [h1](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616968c2c94c8071b349c146.md#L57-L57) 规则中，使用 [rgb](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/617b65579ce424bf5f02ca73.md#L57-L57) 函数将其 [background-color](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d4a84b756d9c4b8255093.md#L57-L57) 设置为青色。
 
 # --hints--
 
-You should not remove or modify the `text-align` property or its value.
+你不应该删除或修改 [text-align](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616968c2c94c8071b349c146.md#L57-L57) 属性及其值。
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.textAlign, 'center');
 ```
 
-Your `h1` CSS rule should have a `background-color` property set to `rgb(0, 255, 255)`.
+你的 [h1](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616968c2c94c8071b349c146.md#L57-L57) CSS 规则应该有一个 [background-color](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d4a84b756d9c4b8255093.md#L57-L57) 属性，设置为 [rgb(0, 255, 255)](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/617bb77353188166af43f3ac.md#L57-L57)。
 
 ```js
 assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundColor, 'rgb(0, 255, 255)');
@@ -58,6 +58,7 @@ assert.strictEqual(new __helpers.CSSHelp(document).getStyle('h1')?.backgroundCol
 --fcc-editable-region--
 h1 {
   text-align: center;
+  background-color: rgb(0, 255, 255);
 }
 --fcc-editable-region--
 
