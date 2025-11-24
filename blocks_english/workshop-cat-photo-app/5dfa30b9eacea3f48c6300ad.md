@@ -7,9 +7,9 @@ dashedName: step-17
 
 # --description--
 
-在之前的步骤中，你使用锚元素将文本转换为链接�?其他类型的内容也可以通过将其包裹在锚标签中来转换为链接�?
+在之前的步骤中，你使用锚元素将文本转换为链接。其他类型的内容也可以通过将其包裹在锚标签中来转换为链接。
 
-这是一个将图像转换为链接的示例�?
+这是一个将图像转换为链接的示例：
 
 ```html
 <a href="example-link">
@@ -17,11 +17,13 @@ dashedName: step-17
 </a>
 ```
 
-通过使用必要的元素标签将图像转换为链接�?使用 `https://freecatphotoapp.com` 作为锚元素的 `href` 属性的值�?
+通过使用必要的元素标签将图像转换为链接。使用 `https://freecatphotoapp.com` 作为锚元素的 `href` 属性的值。
+
+太棒了！你正在学习如何将图像转换为可点击的链接，这对于改善用户体验非常有用。
 
 # --hints--
 
-你应该有一�?`img` 元素，其 `src` 值为 `https://cdn.MasterPuti.org/curriculum/cat-photo-app/relaxing-cat.jpg`�?你可能不小心删除了它�?
+你应该有一张 `img` 元素，其 `src` 值为 `https://cdn.MasterPuti.org/curriculum/cat-photo-app/relaxing-cat.jpg`。你可能不小心删除了它。
 
 ```js
 assert.equal(
@@ -30,37 +32,37 @@ assert.equal(
 );
 ```
 
-你的锚元素（`a`）应该有一个开始标签�?开始标签的语法为：`<elementName>`�?
+你的锚元素（`a`）应该有一个开始标签。开始标签的语法为：`<elementName>`。
 
 ```js
 assert.isAtLeast(document.querySelectorAll('a').length, 3);
 ```
 
-你在图像之后缺少一个结束（`a`）标签�?
+你在图像之后缺少一个结束（`a`）标签。
 
 ```js
 assert.lengthOf(document.querySelectorAll('a'), 3);
 ```
 
-你的锚元素（`a`）应该有一个结束标签�?结束标签�?`<` 字符之后有一�?`/`�?
+你的锚元素（`a`）应该有一个结束标签。结束标签在 `<` 字符之后有一个 `/`。
 
 ```js
 assert.isAtLeast(code.match(/<\/a>/g)?.length, 3);
 ```
 
-你应该只添加一个结束锚（`a`）标签�?请删除任何多余的�?
+你应该只添加一个结束锚（`a`）标签。请删除任何多余的。
 
 ```js
 assert.lengthOf(code.match(/<\/a>/g), 3);
 ```
 
-你的锚元素（`a`）缺�?`href` 属性�?检查开始标签的名称后面是否有空格和/或所有属性名称之前是否有空格�?
+你的锚元素（`a`）缺少 `href` 属性。检查开始标签的名称后面是否有空格和/或所有属性名称之前是否有空格。
 
 ```js
 assert.isTrue(document.querySelectorAll('a')[2]?.hasAttribute('href'));
 ```
 
-你的锚元素（`a`）应该链接到 `https://freecatphotoapp.com`�?你要么遗漏了 URL，要么拼写有误�?
+你的锚元素（`a`）应该链接到 `https://freecatphotoapp.com`。你要么遗漏了 URL，要么拼写有误。
 
 ```js
 assert.equal(
@@ -69,7 +71,7 @@ assert.equal(
 );
 ```
 
-你的 `img` 元素应该被嵌套在锚元素（`a`）之中�?整个 `img` 元素应该位于锚元素（`a`）的开始和结束标签内�?
+你的 `img` 元素应该被嵌套在锚元素（`a`）之中。整个 `img` 元素应该位于锚元素（`a`）的开始和结束标签内。
 
 ```js
 assert.equal(document.querySelector('img')?.parentNode.nodeName, 'A');
@@ -94,4 +96,3 @@ assert.equal(document.querySelector('img')?.parentNode.nodeName, 'A');
   </body>
 </html>
 ```
-

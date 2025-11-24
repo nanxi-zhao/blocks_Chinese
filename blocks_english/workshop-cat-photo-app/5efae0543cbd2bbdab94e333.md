@@ -7,38 +7,40 @@ dashedName: step-32
 
 # --description--
 
-为了提高你刚刚添加的图像的可访问性，添加具有以下文本�?`alt` 属性：
+为了提高你刚刚添加的图像的可访问性，添加具有以下文本的 `alt` 属性：
 
 `Two tabby kittens sleeping together on a couch.`
 
+太棒了！你正在学习如何让网页对所有用户都更加友好，包括使用屏幕阅读器的用户。
+
 # --hints--
 
-你的 `figure` 元素应该有一个开始标签�?开始标签的语法为：`<elementName>`�?
+你的 `figure` 元素应该有一个开始标签。开始标签的语法为：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-你的 `figure` 元素应该有一个结束标签�?结束标签�?`<` 字符之后有一�?`/`�?
+你的 `figure` 元素应该有一个结束标签。结束标签在 `<` 字符之后有一个 `/`。
 
 ```js
 assert.lengthOf(code.match(/<\/figure>/g), 2);
 ```
 
-最后一�?`section` 元素的结束标签的上方应该有一�?`figure` 元素�?
+在最后一个 `section` 元素的结束标签的上方应该有一个 `figure` 元素。
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-�?`img` 元素应该嵌套�?`figure` 元素中�?
+最后一张 `img` 元素应该嵌套在 `figure` 元素中。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
 assert.exists(catsImg);
 ```
 
-第三张图像应该有一个设置为 `https://cdn.MasterPuti.org/curriculum/cat-photo-app/cats.jpg` �?`src` 属性�?
+第三张图像应该有一个设置为 `https://cdn.MasterPuti.org/curriculum/cat-photo-app/cats.jpg` 的 `src` 属性。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +49,7 @@ assert.strictEqual(
 );
 ```
 
-�?`img` 元素应该有一�?`alt` 属性，值为 `Five cats looking around a field.`
+最后一张 `img` 元素应该有一个 `alt` 属性，值为 `Five cats looking around a field.`
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -102,4 +104,3 @@ assert.match(
   </body>
 </html>
 ```
-

@@ -7,29 +7,33 @@ dashedName: step-33
 
 # --description--
 
-在最后一�?`img` 元素之后，添加一�?`figcaption` 元素，文本为 `Cats hate other cats.`
+在最后一张 `img` 元素之后，添加一个 `figcaption` 元素，文本为：
+
+`Cats hate other cats.`
+
+做得好！你正在学习如何为图片添加描述性文字，这有助于提高网页的可访问性。
 
 # --hints--
 
-你的 `figcaption` 元素应该有一个开始标签�?开始标签的语法为：`<elementName>`�?
+你的 `figcaption` 元素应该有一个开始标签。开始标签的语法为：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figcaption'), 2);
 ```
 
-你的 `figcaption` 元素应该有一个结束标签�?结束标签�?`<` 字符之后有一�?`/`�?
+你的 `figcaption` 元素应该有一个结束标签。结束标签在 `<` 字符之后有一个 `/`。
 
 ```js
 assert.lengthOf(code.match(/<\/figcaption\>/g), 2);
 ```
 
-在第二个 `section` 元素的结束标签上方应该有一�?`figure` 元素�?
+在第二个 `section` 元素的结束标签上方应该有一个 `figure` 元素。
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-最后一�?`img` 元素应该嵌套�?`figure` 元素中�?
+最后一张 `img` 元素应该嵌套在 `figure` 元素中。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,25 +42,25 @@ assert.equal(
 );
 ```
 
-你的 `figure` 元素应该有一个开始标签�?开始标签的语法为：`<elementName>`�?
+你的 `figure` 元素应该有一个开始标签。开始标签的语法为：`<elementName>`。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure'), 2);
 ```
 
-你的 `figure` 元素应该有一个结束标签�?结束标签�?`<` 字符之后有一�?`/`�?
+你的 `figure` 元素应该有一个结束标签。结束标签在 `<` 字符之后有一个 `/`。
 
 ```js
 assert.lengthOf(code.match(/<\/figure\>/g), 2);
 ```
 
-`figcaption` 元素应该嵌套�?`figure` 元素中�?
+`figcaption` 元素应该嵌套在 `figure` 元素中。
 
 ```js
 assert.lengthOf(document.querySelectorAll('figure > figcaption'), 2);
 ```
 
-嵌套�?`figure` 元素中的 `figcaption` 元素应位�?`img` 元素下方�?你的 `img` 元素�?`figcaption` 元素的顺序错了�?
+嵌套在 `figure` 元素中的 `figcaption` 元素应位于 `img` 元素下方。你的 `img` 元素和 `figcaption` 元素的顺序错了。
 
 ```js
 assert.equal(
@@ -65,7 +69,7 @@ assert.equal(
 );
 ```
 
-`figcaption` 元素应包含文�?`Cats hate other cats.`。你要么忽略了单词，要么拼写有误�?
+`figcaption` 元素应包含文本 `Cats hate other cats.`。你要么忽略了单词，要么拼写有误。
 
 ```js
 assert.match(
@@ -120,4 +124,3 @@ assert.match(
   </body>
 </html>
 ```
-

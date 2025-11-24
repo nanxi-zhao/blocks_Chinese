@@ -7,9 +7,9 @@ dashedName: step-23
 
 # --description--
 
-`li` 元素用于在有序或无序列表中创建列表项�?
+`li` 元素用于在有序或无序列表中创建列表项。
 
-这是一个无序列表中列表项的示例�?
+这是一个无序列表中列表项的示例：
 
 ```html
 <ul>
@@ -18,7 +18,7 @@ dashedName: step-23
 </ul>
 ```
 
-�?`ul` 元素中嵌套三个列表项来显示猫喜欢的三样东西：
+在 `ul` 元素中嵌套三个列表项来显示猫喜欢的三样东西：
 
 `catnip`
 
@@ -26,16 +26,18 @@ dashedName: step-23
 
 `lasagna`
 
+做得很好！你正在学习如何创建列表项，这对于组织内容非常有用。
+
 # --hints--
 
-你应该有三个 `li` 元素�?每个 `li` 元素都应该有自己的开始和结束标签�?
+你应该有三个 `li` 元素。每个 `li` 元素都应该有自己的开始和结束标签。
 
 ```js
 assert.lengthOf(document.querySelectorAll('li'), 3);
 assert.lengthOf(code.match(/<\/li\>/g), 3);
 ```
 
-你应该有三个 `li` 元素，可按任意顺序包含文�?`catnip`、`laser pointers` �?`lasagna`�?你要么遗漏了某些文本，要么拼写有误�?
+你应该有三个 `li` 元素，可按任意顺序包含文本 `catnip`、`laser pointers` 和 `lasagna`。你要么遗漏了某些文本，要么拼写有误。
 
 ```js
 assert.deepStrictEqual(
@@ -46,7 +48,7 @@ assert.deepStrictEqual(
 );
 ```
 
-三个 `li` 元素应位�?`ul` 元素的开始和结束标签之间�?
+三个 `li` 元素应位于 `ul` 元素的开始和结束标签之间。
 
 ```js
 assert.lengthOf(
@@ -84,4 +86,3 @@ assert.lengthOf(
   </body>
 </html>
 ```
-

@@ -7,29 +7,31 @@ dashedName: step-31
 
 # --description--
 
-在你刚刚添加�?`figure` 元素中，嵌套一�?`img` 元素�?`src` 属性设置为 `https://cdn.MasterPuti.org/curriculum/cat-photo-app/cats.jpg`�?
+在你刚刚添加的 `figure` 元素中，嵌套一个 `img` 元素，`src` 属性设置为 `https://cdn.MasterPuti.org/curriculum/cat-photo-app/cats.jpg`。
+
+太棒了！你正在学习如何添加更多图片到页面中，让内容更加丰富。
 
 # --hints--
 
-你的第二�?`figure` 元素应该有一个开始标签�?开始标签的语法为：`<elementName>`�?
+你的第二个 `figure` 元素应该有一个开始标签。开始标签的语法为：`<elementName>`。
 
 ```js
 assert.isAtLeast(document.querySelectorAll('figure').length, 2);
 ```
 
-你的第二�?`figure` 元素应该有一个结束标签�?结束标签�?`<` 字符之后有一�?`/`�?
+你的第二个 `figure` 元素应该有一个结束标签。结束标签在 `<` 字符之后有一个 `/`。
 
 ```js
 assert.isAtLeast(code.match(/<\/figure>/g)?.length, 2);
 ```
 
-在第二个 `section` 元素的结束标签上方应该有一�?`figure` 元素�?你把它们的顺序写错了�?
+在第二个 `section` 元素的结束标签上方应该有一个 `figure` 元素。你把它们的顺序写错了。
 
 ```js
 assert.equal(document.querySelectorAll('main > section')[1]?.lastElementChild.nodeName, 'FIGURE');
 ```
 
-你应该在 `figure` 元素中嵌套第三个 `img` 元素�?
+你应该在 `figure` 元素中嵌套第三个 `img` 元素。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -38,7 +40,7 @@ assert.exists(
 );
 ```
 
-第三张图像应该有一个设置为 `https://cdn.MasterPuti.org/curriculum/cat-photo-app/cats.jpg` �?`src` 属性�?
+第三张图像应该有一个设置为 `https://cdn.MasterPuti.org/curriculum/cat-photo-app/cats.jpg` 的 `src` 属性。
 
 ```js
 const catsImg = document.querySelectorAll('figure > img')[1];
@@ -47,7 +49,7 @@ assert.equal(
 );
 ```
 
-虽然你已将新图像�?`src` 设置为正确的 URL，但建议始终将属性的值用引号括起来�?
+虽然你已将新图像的 `src` 设置为正确的 URL，但建议始终将属性的值用引号括起来。
 
 ```js
 assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.MasterPuti\.org\/curriculum\/cat-photo-app\/cats\.jpg/);
@@ -96,4 +98,3 @@ assert.notMatch(code, /\<img\s+.+\s+src\s*=\s*https:\/\/cdn\.MasterPuti\.org\/cu
   </body>
 </html>
 ```
-
