@@ -170,7 +170,7 @@
           "dashedName": "css-box-model",
           "blocks": [
             //"lecture-working-with-css-transforms-overflow-and-filters",
-            "workshop-rothko-painting",
+            //"workshop-rothko-painting",
             // "lab-confidential-email-page",
             //"review-css-layout-and-effects",
             //"quiz-css-layout-and-effects"
@@ -250,7 +250,7 @@
           "dashedName": "css-grid",
           "blocks": [
             //"lecture-working-with-css-grid",
-            "workshop-magazine",
+            //"workshop-magazine",
             // "lab-newspaper-layout",
             //"lecture-debugging-css",
             // "lab-product-landing-page",
@@ -599,7 +599,7 @@
             //"workshop-reusable-mega-navbar",
             // "lab-reusable-footer",
             //"lecture-working-with-data-in-react",
-            "workshop-reusable-profile-card-component",
+            //"workshop-reusable-profile-card-component",
             // "lab-mood-board",
             //"review-react-basics",
             //"quiz-react-basics"
