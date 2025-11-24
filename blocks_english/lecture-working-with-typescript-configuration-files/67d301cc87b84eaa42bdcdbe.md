@@ -1,13 +1,13 @@
 ---
 id: 67d301cc87b84eaa42bdcdbe
-title: What Is a tsconfig File, and Why Is It Important to Include in Your TypeScript Projects?
+title: 什么是 tsconfig 文件，为什么在 TypeScript 项目中包含它很重要？
 challengeType: 19
 dashedName: what-is-a-tsconfig-file-and-why-is-it-important-to-include-in-your-typescript-projects
 ---
 
 # --description--
 
-TypeScript's compiler settings can be configured to meet your project's needs. That configuration lives in a `tsconfig.json` file in the root directory of your project. In fact, without it, the compiler will not run unless you pass it command flags directly. But what exactly does this file do? Well, let's take a look at an example file:
+TypeScript 的编译器设置可以配置以满足你的项目需求。该配置位于项目根目录中的 `tsconfig.json` 文件中。实际上，没有它，除非你直接传递命令标志，否则编译器将无法运行。但这个文件到底是做什么的呢？让我们来看一个示例文件：
 
 ```json
 {
@@ -26,27 +26,27 @@ TypeScript's compiler settings can be configured to meet your project's needs. T
 }
 ```
 
-This seems like a lot! So let's break it down. The `compilerOptions` property is going to contain the "meat" of your configuration - this is where you control how the TypeScript compiler behaves. Looking at that nested object…
+这看起来很多！让我们分解一下。`compilerOptions` 属性将包含你配置的"核心内容" - 这里你可以控制 TypeScript 编译器的行为。看看那个嵌套对象...
 
-The `rootDir` and `outDir` tell TypeScript which directory holds your source files, and which directory should contain the transpiled JavaScript code.
+`rootDir` 和 `outDir` 告诉 TypeScript 哪个目录包含你的源文件，哪个目录应该包含编译后的 JavaScript 代码。
 
-The `lib` property determines which type definitions the compiler uses, and allows you to include support for specific ES releases, the DOM, and more.
+`lib` 属性确定编译器使用哪些类型定义，并允许你包含对特定 ES 版本、DOM 等的支持。
 
-`module` and `moduleResolution` effectively work in tandem to manage how your package uses modules - either CommonJS or ECMAScript.
+`module` 和 `moduleResolution` 实际上协同工作来管理你的包如何使用模块 - 无论是 CommonJS 还是 ECMAScript。
 
-`esModuleInterop` allows for smoother interoperability between CommonJS and ES modules by automatically creating namespace objects for imports, making it easier to use modules from different systems together in your TypeScript projects, and the `skipLibCheck` option skips validating `.d.ts` files that aren't referenced by imports in your code.
+`esModuleInterop` 通过自动为导入创建命名空间对象，允许 CommonJS 和 ES 模块之间更顺畅的互操作性，使你在 TypeScript 项目中更容易一起使用来自不同系统的模块，而 `skipLibCheck` 选项在你的代码中不被导入引用的 `.d.ts` 文件时跳过验证。
 
-And finally we reach the `strict` mode. One might argue that TypeScript isn't truly helpful without this flag enabled, as it toggles quite a few other checks, such as requiring you to properly handle nullable types, or warn when TypeScript can't infer a type and falls back to any.
+最后我们到达了 `strict` 模式。有人可能会争辩说，没有启用这个标志，TypeScript 真的没有帮助，因为它切换了相当多的其他检查，比如要求你正确处理可空类型，或者在 TypeScript 无法推断类型并回退到 any 时发出警告。
 
-Before we finish, a quick note about the top-level `exclude` property - when you've defined a source directory, you may have TypeScript code outside of that directory which you don't want compiled as part of your production code. For example, your test code. The `exclude` array tells the compiler to ignore these TypeScript files during compilation, but still allows tooling like Intellisense to expose potential issues.
+在我们结束之前，关于顶层 `exclude` 属性的快速说明 - 当你定义了源目录后，你可能在该目录之外有 TypeScript 代码，但你不希望将其编译为生产代码的一部分。例如，你的测试代码。`exclude` 数组告诉编译器在编译期间忽略这些 TypeScript 文件，但仍允许像 Intellisense 这样的工具暴露潜在问题。
 
-There are a ton of other compiler options you can explore - over 50! I encourage you to explore the documentation and experiment to find the configuration that works for your project's needs.
+还有许多其他编译器选项你可以探索 - 超过 50 个！我鼓励你探索文档并进行实验，找到适合你项目需求的配置。
 
 # --questions--
 
 ## --text--
 
-Which property in the `tsconfig.json` file affects how the compiler behaves?
+`tsconfig.json` 文件中的哪个属性影响编译器的行为？
 
 ## --answers--
 
@@ -54,7 +54,7 @@ Which property in the `tsconfig.json` file affects how the compiler behaves?
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+这个属性是一个包含编译器选项的对象。
 
 ---
 
@@ -66,7 +66,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+这个属性是一个包含编译器选项的对象。
 
 ---
 
@@ -74,7 +74,7 @@ This property is an object containing options for the compiler.
 
 ### --feedback--
 
-This property is an object containing options for the compiler.
+这个属性是一个包含编译器选项的对象。
 
 ## --video-solution--
 
@@ -82,35 +82,35 @@ This property is an object containing options for the compiler.
 
 ## --text--
 
-What does the `strict` option in the `tsconfig.json` file do?
+`tsconfig.json` 文件中的 `strict` 选项是做什么的？
 
 ## --answers--
 
-It only checks for nullable types.
+它只检查可空类型。
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+这个选项启用了各种检查，包括可空类型的处理。
 
 ---
 
-It enforces the use of CommonJS modules.
+它强制使用 CommonJS 模块。
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+这个选项启用了各种检查，包括可空类型的处理。
 
 ---
 
-It toggles several type-checking options.
+它切换几种类型检查选项。
 
 ---
 
-It excludes test files from compilation.
+它在编译期间排除测试文件。
 
 ### --feedback--
 
-This option enables various checks, including handling of nullable types.
+这个选项启用了各种检查，包括可空类型的处理。
 
 ## --video-solution--
 
@@ -118,35 +118,35 @@ This option enables various checks, including handling of nullable types.
 
 ## --text--
 
-What is the purpose of the `exclude` array in the `tsconfig.json` file?
+`tsconfig.json` 文件中的 `exclude` 数组的目的是什么？
 
 ## --answers--
 
-To specify which files to compile.
+指定要编译的文件。
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+你可以使用它来在编译期间排除测试代码。
 
 ---
 
-To list additional libraries to include.
+列出要包含的其他库。
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+你可以使用它来在编译期间排除测试代码。
 
 ---
 
-To ignore certain files during compilation.
+在编译期间忽略某些文件。
 
 ---
 
-To define output directories for compiled files.
+定义编译文件的输出目录。
 
 ### --feedback--
 
-You can use this to exclude test code from compilation.
+你可以使用它来在编译期间排除测试代码。
 
 ## --video-solution--
 
