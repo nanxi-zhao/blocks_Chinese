@@ -209,7 +209,7 @@
           "dashedName": "css-positioning",
           "blocks": [
             //"lecture-understanding-how-to-work-with-floats-and-positioning-in-css",
-            "workshop-cat-painting",
+            //"workshop-cat-painting",
             // "lab-house-painting",
             //"review-css-positioning",
             //"quiz-css-positioning"
@@ -449,7 +449,7 @@
             //"workshop-music-instrument-filter",
             // "lab-real-time-counter",
             // "lab-lightbox-viewer",
-            "workshop-rps-game",
+            //"workshop-rps-game",
             // "lab-football-team-cards",
             //"review-dom-manipulation-and-click-events-with-javascript",
             //"quiz-dom-manipulation-and-click-event-with-javascript"
@@ -595,7 +595,7 @@
           "dashedName": "react-fundamentals",
           "blocks": [
             //"lecture-introduction-to-javascript-libraries-and-frameworks",
-            "workshop-reusable-mega-navbar",
+            //"workshop-reusable-mega-navbar",
             // "lab-reusable-footer",
             //"lecture-working-with-data-in-react",
             "workshop-reusable-profile-card-component",
