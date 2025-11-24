@@ -1,4 +1,4 @@
----
+﻿---
 id: 66edcccbba6dacdb65a59067
 title: JavaScript数组测验
 challengeType: 8

@@ -1,4 +1,4 @@
----
+﻿---
 id: 6723cc7a8e7aa3b9befd4bac
 title: 使用 JavaScript 操作 DOM 和点击事件复习
 challengeType: 31

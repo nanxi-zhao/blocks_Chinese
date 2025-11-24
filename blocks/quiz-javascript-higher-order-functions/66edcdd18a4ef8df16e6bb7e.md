@@ -1,4 +1,4 @@
----
+﻿---
 id: 66edcdd18a4ef8df16e6bb7e
 title: JavaScript高阶函数测验
 challengeType: 8

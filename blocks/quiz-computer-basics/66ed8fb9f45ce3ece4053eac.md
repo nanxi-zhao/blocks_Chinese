@@ -1,4 +1,4 @@
----
+﻿---
 id: 66ed8fb9f45ce3ece4053eac
 title: 计算机基础测验
 challengeType: 8
