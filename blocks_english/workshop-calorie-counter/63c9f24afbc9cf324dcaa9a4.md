@@ -7,25 +7,25 @@ dashedName: step-95
 
 # --description--
 
-You also need to clear the `output` element's text. You can do this by setting the `innerText` property to an empty string.
+你还需要清除[output](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9e5eea8261d22856ead1c.md#L253-L253)元素的文本。你可以通过将[innerText](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9f24afbc9cf324dcaa9a4.md#L295-L295)属性设置为空字符串来实现这一点。
 
-The difference between `innerText` and `innerHTML` is that `innerText` will not render HTML elements, but will display the tags and content as raw text.
+[innerText](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9f24afbc9cf324dcaa9a4.md#L295-L295)和[innerHTML](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9e5eea8261d22856ead1c.md#L253-L253)的区别在于[innerText](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9f24afbc9cf324dcaa9a4.md#L295-L295)不会渲染HTML元素，而是将标签和内容显示为原始文本。
 
 # --hints--
 
-Your `clearForm` function should access the `innerText` property of the `output` element.
+你的[clearForm](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9ea9b16430f2d54522464.md#L284-L284)函数应该访问[output](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9e5eea8261d22856ead1c.md#L253-L253)元素的[innerText](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9f24afbc9cf324dcaa9a4.md#L295-L295)属性。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText/);
 ```
 
-Your `clearForm` function should set the `innerText` property of the `output` element to an empty string.
+你的[clearForm](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9ea9b16430f2d54522464.md#L284-L284)函数应该将[output](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9e5eea8261d22856ead1c.md#L253-L253)元素的[innerText](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9f24afbc9cf324dcaa9a4.md#L295-L295)属性设置为空字符串。
 
 ```js
 assert.match(clearForm.toString(), /output\.innerText\s*=\s*('|"|`)\1/);
 ```
 
-You should modify `output` after modifying `budgetNumberInput`.
+你应该在修改[budgetNumberInput](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9ec044acedf312c4974ff.md#L287-L287)之后修改[output](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9e5eea8261d22856ead1c.md#L253-L253)。
 
 ```js
 assert.isAbove(clearForm.toString().indexOf('output'), clearForm.toString().indexOf('budgetNumberInput'));
@@ -282,7 +282,6 @@ function getCaloriesFromInputs(list) {
   return calories;
 }
 
---fcc-editable-region--
 function clearForm() {
   const inputContainers = Array.from(document.querySelectorAll('.input-container'));
 
@@ -292,9 +291,9 @@ function clearForm() {
 
   budgetNumberInput.value = '';
 
+  output.innerText = '';
+
 }
---fcc-editable-region--
 
 addEntryButton.addEventListener("click", addEntry);
 calorieCounter.addEventListener("submit", calculateCalories);
-```

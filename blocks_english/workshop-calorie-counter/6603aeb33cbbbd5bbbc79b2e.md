@@ -7,13 +7,13 @@ dashedName: step-26
 
 # --description--
 
-To see the results from the `cleanInputString` function, you will need to add a `console.log()` statement. Inside that console statement, call the `cleanInputString` function with the string value of `"+-99"` as an argument.
+要查看[cleanInputString](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/6603ac77cd4899599a98a1fe.md#L195-L201)函数的结果，你需要添加一个[console.log()](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9e7d5b21eee2776ecc226.md#L225-L225)语句。在该控制台语句中，使用字符串值["+ -99"](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/6603aeb33cbbbd5bbbc79b2e.md#L201-L201)作为参数调用[cleanInputString](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/6603ac77cd4899599a98a1fe.md#L195-L201)函数。
 
-Open up the console and you should see the original string followed by the cleaned string value with the `+-` removed.
+打开控制台，你应该能看到原始字符串，然后是清理后的字符串值，其中`+ -`已被移除。
 
 # --hints--
 
-You should have a `console.log(cleanInputString("+-99"))` statement.
+你应该有一个[console.log(cleanInputString("+-99"))](file:///f:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63c9e7d5b21eee2776ecc226.md#L225-L225)语句。
 
 ```js
 assert.match(code, /console\.log\(\s*cleanInputString\(\s*('|")\s*\+\-9\s*9\s*\1\s*\)\s*\);?/);
@@ -30,59 +30,59 @@ assert.match(code, /console\.log\(\s*cleanInputString\(\s*('|")\s*\+\-9\s*9\s*\1
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Calorie Counter</title>
+    <title>卡路里计算器</title>
   </head>
   <body>
     <main>
-      <h1>Calorie Counter</h1>
+      <h1>卡路里计算器</h1>
       <div class="container">
         <form id="calorie-counter">
-          <label for="budget">Budget</label>
+          <label for="budget">预算</label>
           <input
             type="number"
             min="0"
             id="budget"
-            placeholder="Daily calorie budget"
+            placeholder="每日卡路里预算"
             required
           />
           <fieldset id="breakfast">
-            <legend>Breakfast</legend>
+            <legend>早餐</legend>
             <div class="input-container"></div>
           </fieldset>
           <fieldset id="lunch">
-            <legend>Lunch</legend>
+            <legend>午餐</legend>
             <div class="input-container"></div>
           </fieldset>
           <fieldset id="dinner">
-            <legend>Dinner</legend>
+            <legend>晚餐</legend>
             <div class="input-container"></div>
           </fieldset>
           <fieldset id="snacks">
-            <legend>Snacks</legend>
+            <legend>零食</legend>
             <div class="input-container"></div>
           </fieldset>
           <fieldset id="exercise">
-            <legend>Exercise</legend>
+            <legend>运动</legend>
             <div class="input-container"></div>
           </fieldset>
           <div class="controls">
             <span>
-              <label for="entry-dropdown">Add food or exercise:</label>
+              <label for="entry-dropdown">添加食物或运动：</label>
               <select id="entry-dropdown" name="options">
-                <option value="breakfast" selected>Breakfast</option>
-                <option value="lunch">Lunch</option>
-                <option value="dinner">Dinner</option>
-                <option value="snacks">Snacks</option>
-                <option value="exercise">Exercise</option>
+                <option value="breakfast" selected>早餐</option>
+                <option value="lunch">午餐</option>
+                <option value="dinner">晚餐</option>
+                <option value="snacks">零食</option>
+                <option value="exercise">运动</option>
               </select>
-              <button type="button" id="add-entry">Add Entry</button>
+              <button type="button" id="add-entry">添加条目</button>
             </span>
           </div>
           <div>
             <button type="submit">
-              Calculate Remaining Calories
+              计算剩余卡路里
             </button>
-            <button type="button" id="clear">Clear</button>
+            <button type="button" id="clear">清除</button>
           </div>
         </form>
         <div id="output" class="output hide"></div>
@@ -193,11 +193,11 @@ const output = document.getElementById('output');
 let isError = false;
 
 function cleanInputString(str) {
-  console.log("original string: ", str);
+  console.log("原始字符串：", str);
   const regex = /[+-\s]/g;
   return str.replace(regex, '');
 }
 --fcc-editable-region--
-
+console.log(cleanInputString("+-99"));
 --fcc-editable-region--
 ```
