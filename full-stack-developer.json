@@ -21,7 +21,7 @@
             //"lab-html-audio-and-video-player",
             "lecture-working-with-images-and-svgs",
             //"workshop-build-a-heart-icon",
-            "lecture-working-with-media",
+            //"lecture-working-with-media",
             "workshop-build-a-video-display-using-iframe",
             //"lab-video-compilation-page",
             //"lecture-working-with-links",
@@ -35,9 +35,9 @@
             "lecture-importance-of-semantic-html",
             //"lecture-understanding-nuanced-semantic-elements",
             "workshop-major-browsers-list",
-            "lecture-working-with-text-and-time-semantic-elements",
+            //"lecture-working-with-text-and-time-semantic-elements",
             "workshop-quincys-job-tips",
-            "lecture-working-with-specialized-semantic-elements",
+            //"lecture-working-with-specialized-semantic-elements",
             "workshop-blog-page",
             // "lab-event-hub",
             //"review-semantic-html",
@@ -50,10 +50,10 @@
             "lecture-working-with-forms",
             "workshop-hotel-feedback-form",
             // "lab-survey-form",
-            "lecture-working-with-tables",
+            //"lecture-working-with-tables",
             //"workshop-final-exams-table",
             //"lab-book-catalog-table",
-            "lecture-working-with-html-tools",
+            //"lecture-working-with-html-tools",
             //"review-html-tables-and-forms",
             //"quiz-html-tables-and-forms"
           ]
@@ -127,7 +127,7 @@
         {
           "dashedName": "absolute-and-relative-units",
           "blocks": [
-            "lecture-working-with-relative-and-absolute-units",
+            //"lecture-working-with-relative-and-absolute-units",
             // "lab-event-flyer-page",
             //"review-css-relative-and-absolute-units",
             //"quiz-css-relative-and-absolute-units"
@@ -136,7 +136,7 @@
         {
           "dashedName": "pseudo-classes-and-elements",
           "blocks": [
-            "lecture-working-with-pseudo-classes-and-pseudo-elements-in-css",
+            //"lecture-working-with-pseudo-classes-and-pseudo-elements-in-css",
             "workshop-greeting-card",
             // "lab-job-application-form",
             //"review-css-pseudo-classes",
@@ -299,14 +299,14 @@
             //"lecture-working-with-data-types",
             //"review-javascript-variables-and-data-types",
             //"quiz-javascript-variables-and-data-types",
-            "lecture-working-with-strings-in-javascript",
+            //"lecture-working-with-strings-in-javascript",
             //"workshop-teacher-chatbot",
-            "lecture-working-with-string-character-methods",
-            "lecture-working-with-string-search-and-slice-methods",
+            //"lecture-working-with-string-character-methods",
+            //"lecture-working-with-string-search-and-slice-methods",
             "workshop-string-inspector",
             //"lecture-working-with-string-formatting-methods",
             "workshop-string-formatter",
-            "lecture-working-with-string-modification-methods",
+            //"lecture-working-with-string-modification-methods",
             //"workshop-string-transformer",
             //"review-javascript-strings",
             //"quiz-javascript-strings"
@@ -315,16 +315,16 @@
         {
           "dashedName": "javascript-booleans-and-numbers",
           "blocks": [
-            "lecture-working-with-numbers-and-arithmetic-operators",
+            //"lecture-working-with-numbers-and-arithmetic-operators",
             "lab-debug-type-coercion-errors",
-            "lecture-working-with-operator-behavior",
+            //"lecture-working-with-operator-behavior",
             "lab-debug-increment-and-decrement-operator-errors",
             //"lecture-working-with-comparison-and-boolean-operators",
-            "lecture-working-with-unary-and-bitwise-operators",
+            //"lecture-working-with-unary-and-bitwise-operators",
             //"lecture-working-with-conditional-logic-and-math-methods",
             "workshop-mathbot",
             // "lab-fortune-teller",
-            "lecture-working-with-numbers-and-common-number-methods",
+            //"lecture-working-with-numbers-and-common-number-methods",
             //"review-javascript-math",
             //"quiz-javascript-math",
             //"lecture-understanding-comparisons-and-conditionals",
@@ -335,7 +335,7 @@
         {
           "dashedName": "javascript-functions",
           "blocks": [
-            "lecture-working-with-functions",
+            //"lecture-working-with-functions",
             "workshop-calculator",
             //"lab-boolean-check",
             //"lab-email-masker",
@@ -367,7 +367,7 @@
           "blocks": [
             //"lecture-introduction-to-javascript-objects-and-their-properties",
             "lecture-working-with-json",
-            "lecture-working-with-optional-chaining-and-object-destructuring",
+            //"lecture-working-with-optional-chaining-and-object-destructuring",
             "workshop-recipe-tracker",
             "lab-quiz-game",
             // "lab-record-collection",
@@ -378,7 +378,7 @@
         {
           "dashedName": "javascript-loops",
           "blocks": [
-            "lecture-working-with-loops",
+            //"lecture-working-with-loops",
             "workshop-sentence-analyzer",
             // "lab-longest-word-in-a-string",
             // "lab-factorial-calculator",
@@ -394,7 +394,7 @@
         {
           "dashedName": "review-javascript-fundamentals",
           "blocks": [
-            "lecture-working-with-types-and-objects",
+            //"lecture-working-with-types-and-objects",
             //"lecture-working-with-arrays-variables-and-naming-practices",
             //"lecture-working-with-code-quality-and-execution-concepts",
             // "lab-largest-number-finder",
@@ -407,7 +407,7 @@
             // "lab-falsy-remover",
             // "lab-inventory-management-program",
             //"lecture-understanding-modules-imports-and-exports",
-            "lecture-working-with-the-arguments-object-and-rest-parameters",
+            //"lecture-working-with-the-arguments-object-and-rest-parameters",
             //"lab-unique-sorted-union",
             // "lab-password-generator",
             // "lab-sum-all-numbers-algorithm",
@@ -423,7 +423,7 @@
         {
           "dashedName": "higher-order-functions-and-callbacks",
           "blocks": [
-            "lecture-working-with-higher-order-functions-and-callbacks",
+            //"lecture-working-with-higher-order-functions-and-callbacks",
             "workshop-library-manager",
             // "lab-book-organizer",
             // "lab-sorted-index-finder",
@@ -441,7 +441,7 @@
         {
           "dashedName": "dom-manipulation-and-events",
           "blocks": [
-            "lecture-working-with-the-dom-click-events-and-web-apis",
+            //"lecture-working-with-the-dom-click-events-and-web-apis",
             //"workshop-storytelling-app",
             "workshop-emoji-reactor",
             // "lab-favorite-icon-toggler",
@@ -459,7 +459,7 @@
           "dashedName": "js-a11y",
           "blocks": [
             //"lecture-understanding-aria-expanded-aria-live-and-common-aria-states",
-            "workshop-planets-tablist",
+            //"workshop-planets-tablist",
             //"workshop-note-taking-app",
             //"lab-theme-switcher",
             //"review-js-a11y",
@@ -522,7 +522,7 @@
         {
           "dashedName": "maps-and-sets",
           "blocks": [
-            "lecture-working-with-maps-and-sets",
+            //"lecture-working-with-maps-and-sets",
             "workshop-plant-nursery-catalog",
             //"lab-voting-system",
             //"review-javascript-maps-and-sets",
@@ -607,7 +607,7 @@
         {
           "dashedName": "react-state-hooks-and-routing",
           "blocks": [
-            "lecture-working-with-state-and-responding-to-events-in-react",
+            //"lecture-working-with-state-and-responding-to-events-in-react",
             //"workshop-toggle-text-app",
             //"lab-color-picker",
             //"lecture-understanding-effects-and-referencing-values-in-react",
@@ -667,8 +667,8 @@
           "comingSoon": true,
           "blocks": [
             //"lecture-introduction-to-typescript",
-            "lecture-working-with-generics-and-type-narrowing",
-            "lecture-working-with-typescript-configuration-files",
+            //"lecture-working-with-generics-and-type-narrowing",
+            //"lecture-working-with-typescript-configuration-files",
             //"review-typescript",
             "quiz-typescript"
           ]
@@ -714,7 +714,7 @@
           "comingSoon": false,
           "blocks": [
             //"lecture-working-with-dictionaries-and-sets",
-            "lecture-working-with-modules",
+            //"lecture-working-with-modules",
             //"workshop-medical-data-validator",
             //"lab-user-configuration-manager",
             //"review-dictionaries-and-sets",
@@ -837,7 +837,7 @@
         {
           "dashedName": "sql-and-postgresql",
           "blocks": [
-            "lecture-working-with-relational-databases",
+            //"lecture-working-with-relational-databases",
             "workshop-database-of-video-game-characters",
             // "lab-celestial-bodies-database",
             //"review-sql-and-postgresql",
@@ -856,7 +856,7 @@
         {
           "dashedName": "sql-and-bash",
           "blocks": [
-            "lecture-working-with-sql",
+            //"lecture-working-with-sql",
             "workshop-sql-student-database-part-1",
             "workshop-sql-student-database-part-2",
             //"lab-world-cup-database",
@@ -870,7 +870,7 @@
         {
           "dashedName": "git",
           "blocks": [
-            "lecture-working-with-nano",
+            //"lecture-working-with-nano",
             "workshop-castle",
             //"lecture-introduction-to-git-and-github",
             //"lecture-working-with-code-reviews-branching-deployment-and-ci-cd",
