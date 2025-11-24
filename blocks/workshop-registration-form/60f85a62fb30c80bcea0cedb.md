@@ -7,23 +7,23 @@ dashedName: step-18
 
 # --description--
 
-在第二个 [fieldset](file:///e:/1.work/byy/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/blocks/node_modules/@types/node/stream.d.ts#L53-L53) 元素内添加一个 [label](file:///e:/1.work/byy/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/blocks/node_modules/@types/node/stream.d.ts#L53-L53) 元素，其文本为 `Input your age (years):`。
+在第二个 fieldset 元素内添加一个 label 元素，其文本为 `Input your age (years):`。
 
 # --hints--
 
-你应该添加第二个 [label](file:///e:/1.work/byy/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/blocks/node_modules/@types/node/stream.d.ts#L53-L53) 元素。
+你应该添加第二个 label 元素。
 
 ```js
 assert.exists(document.querySelectorAll('label')?.[4]);
 ```
 
-你的 [label](file:///e:/1.work/byy/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/blocks/node_modules/@types/node/stream.d.ts#L53-L53) 元素应该在第二个 [fieldset](file:///e:/1.work/byy/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/blocks/node_modules/@types/node/stream.d.ts#L53-L53) 元素内。
+你的 label 元素应该在第二个 fieldset 元素内。
 
 ```js
 assert.exists(document.querySelectorAll('label')?.[4]?.parentElement?.tagName === 'FIELDSET');
 ```
 
-你的 [label](file:///e:/1.work/byy/%E5%9C%A8%E7%BA%BF%E8%AF%BE%E7%A8%8B/blocks/node_modules/@types/node/stream.d.ts#L53-L53) 元素的文本应该是 `Input your age (years):`。
+你的 label 元素的文本应该是 `Input your age (years):`。
 
 ```js
 assert.strictEqual(document.querySelectorAll('label')?.[4]?.innerText, 'Input your age (years):');
@@ -57,12 +57,11 @@ assert.strictEqual(document.querySelectorAll('label')?.[4]?.innerText, 'Input yo
         <input type="submit" value="Submit" />
       </fieldset>
       <fieldset>
-
+        <label>Input your age (years):</label>
       </fieldset>
     </form>
   </body>
 </html>
-
 ```
 
 ```css

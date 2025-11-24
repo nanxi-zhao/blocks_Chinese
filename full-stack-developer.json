@@ -148,7 +148,7 @@
           "dashedName": "css-colors",
           "blocks": [
             //"lecture-working-with-colors-in-css",
-            "workshop-colored-markers",
+            //"workshop-colored-markers",
             //"lab-colored-boxes",
             //"review-css-colors",
             //"quiz-css-colors"
@@ -264,7 +264,7 @@
             //"lecture-animations-and-accessibility",
             //"workshop-ferris-wheel",
             // "lab-moon-orbit",
-            "workshop-flappy-penguin",
+            //"workshop-flappy-penguin",
             // "lab-personal-portfolio",
             //"review-css-animations",
             //"quiz-css-animations"
@@ -555,7 +555,7 @@
           "dashedName": "recursion",
           "blocks": [
             //"lecture-understanding-recursion-and-the-call-stack",
-            "workshop-decimal-to-binary-converter",
+            // "workshop-decimal-to-binary-converter",
             // "lab-permutation-generator",
             //"review-recursion",
             //"quiz-recursion"
@@ -861,7 +861,7 @@
             //"workshop-sql-student-database-part-1",
             //"workshop-sql-student-database-part-2",
             //"lab-world-cup-database",
-            "workshop-kitty-ipsum-translator",
+            //"workshop-kitty-ipsum-translator",
             //"workshop-bike-rental-shop",
             // "lab-salon-appointment-scheduler",
             //"review-bash-and-sql",
