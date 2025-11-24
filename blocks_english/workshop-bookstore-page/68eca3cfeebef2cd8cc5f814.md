@@ -1,24 +1,24 @@
 ---
 id: 68eca3cfeebef2cd8cc5f814
-title: Step 11
+title: 第 11 步
 challengeType: 0
 dashedName: step-11
 ---
 
 # --description--
 
-Add an `id` attribute to your second element having a class of `card` and set its value to `dave-cooking-book`. Remember that each `id` must be unique.
+为第二个具有 [class](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 为 [card](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6e8d0caee3afaaf142ef.md#L58-L58) 的元素添加一个 [id](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec9332a9b5b2b32487bd00.md#L58-L58) 属性，并将其值设置为 [dave-cooking-book](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68eca3cfeebef2cd8cc5f814.md#L58-L58)。记住每个 [id](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec9332a9b5b2b32487bd00.md#L58-L58) 必须是唯一的。
 
 # --hints--
 
-Your second element having a class of `card` should have an `id` attribute.
+第二个具有 [class](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 为 [card](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6e8d0caee3afaaf142ef.md#L58-L58) 的元素应该有一个 [id](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec9332a9b5b2b32487bd00.md#L58-L58) 属性。
 
 ```js
 const cards = document.querySelectorAll('.card');
 assert.isTrue(cards[1]?.hasAttribute('id'));
 ```
 
-Your second element having a class of`card` should have an `id` with value of `dave-cooking-book`.
+第二个具有 [class](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 为 [card](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6e8d0caee3afaaf142ef.md#L58-L58) 的元素应该有一个 [id](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec9332a9b5b2b32487bd00.md#L58-L58) 属性，值为 [dave-cooking-book](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68eca3cfeebef2cd8cc5f814.md#L58-L58)。
 
 ```js
 const cards = document.querySelectorAll('.card');

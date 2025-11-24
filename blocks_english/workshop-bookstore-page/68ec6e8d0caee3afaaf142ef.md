@@ -1,31 +1,31 @@
 ---
 id: 68ec6e8d0caee3afaaf142ef
-title: Step 5
+title: 第 5 步
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Inside the element having a `class` of `card-container`, create another `div` element. This `div` will represent the first book card.
+在具有 [class](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 为 [card-container](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 的元素内，创建另一个 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68e97fe79367ad7b5dd6c9cd.md#L58-L58) 元素。这个 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68e97fe79367ad7b5dd6c9cd.md#L58-L58) 将代表第一张书籍卡片。
 
-Add a `class` attribute to this new `div` element and set the value of the `class` attribute to `card`.
+为这个新的 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68e97fe79367ad7b5dd6c9cd.md#L58-L58) 元素添加一个 [class](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 属性，并将 [class](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 属性的值设置为 [card](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6e8d0caee3afaaf142ef.md#L58-L58)。
 
 # --hints--
 
-You should have a `div` element nested inside the element with a class of `card-container`.
+你应该有一个 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68e97fe79367ad7b5dd6c9cd.md#L58-L58) 元素嵌套在具有 [class](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 为 [card-container](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 的元素内。
 
 ```js
 assert.exists(document.querySelector('.card-container div'));
 ```
 
-Your new `div` element should have a `class` attribute.
+你的新 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68e97fe79367ad7b5dd6c9cd.md#L58-L58) 元素应该有一个 [class](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 属性。
 
 ```js
 assert.isTrue(document.querySelector('.card-container div')?.hasAttribute('class'));
 ```
 
-Your new `div` element should have a `class` having the value of `card`.
+你的新 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68e97fe79367ad7b5dd6c9cd.md#L58-L58) 元素应该有一个 [class](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6d9a315221aa31e54816.md#L58-L58) 具有值 [card](file:///F:/code/blocks_Chinese/blocks_english/workshop-bookstore-page/68ec6e8d0caee3afaaf142ef.md#L58-L58)。
 
 ```js
 assert.exists(document.querySelector('.card-container div.card'));
