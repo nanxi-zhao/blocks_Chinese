@@ -199,7 +199,7 @@
           "dashedName": "css-and-accessibility",
           "blocks": [
             //"lecture-best-practices-for-accessibility-and-css",
-            "workshop-accessibility-quiz",
+            //"workshop-accessibility-quiz",
             //"lab-tribute-page",
             //"review-css-accessibility",
             //"quiz-css-accessibility"
@@ -777,7 +777,7 @@
           "comingSoon": false,
           "blocks": [
             //"lecture-searching-and-sorting-algorithms",
-            "workshop-binary-search",
+            //"workshop-binary-search",
             // "lab-bisection-method",
             //"workshop-merge-sort",
             // "lab-quicksort",

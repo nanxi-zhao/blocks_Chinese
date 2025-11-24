@@ -1,4 +1,4 @@
-﻿---
+---
 id: 66ed8fedf45ce3ece4053eb3
 title: CSS Grid 测验
 challengeType: 8
@@ -7,7 +7,7 @@ dashedName: quiz-css-grid
 
 # --description--
 
-要通过测验，你必须正确回答以下 20 道题中的至少 18 题。
+要通过测验，你必须正确回答以下 20 道题中的至少 18 道题。
 
 # --quizzes--
 
@@ -21,19 +21,19 @@ dashedName: quiz-css-grid
 
 #### --distractors--
 
-A method used for displaying tables on a website.
+在网站上显示表格的方法。
 
 ---
 
-A method used for tiling images.
+平铺图像的方法。
 
 ---
 
-A way to display outlines around HTML elements.
+显示 HTML 元素轮廓的方法。
 
 #### --answer--
 
-A two-dimensional layout for HTML documents.
+用于 HTML 文档的二维布局。
 
 ### --question--
 
@@ -65,19 +65,19 @@ A two-dimensional layout for HTML documents.
 
 #### --distractors--
 
-Defines two columns and three rows for a grid container.
+为网格容器定义两列三行。
 
 ---
 
-Sets all columns for the grid layout to a fixed length.
+将网格布局中的所有列设置为固定长度。
 
 ---
 
-Creates a two column grid layout container.
+创建一个两列网格布局容器。
 
 #### --answer--
 
-Defines the number of columns in a grid layout.
+定义网格布局中的列数。
 
 ### --question--
 
@@ -87,19 +87,19 @@ Defines the number of columns in a grid layout.
 
 #### --distractors--
 
-Specifies a grid item's size and location in a grid layout.
+指定网格布局中项目的大小和位置。
 
 ---
 
-Creates a template for creating new grid rows.
+为创建新网格行创建模板。
 
 ---
 
-Specifies a default row size in the grid container.
+在网格容器中指定默认行大小。
 
 #### --answer--
 
-Specifies the number and height for each row in a grid layout.
+指定网格布局中每行的数量和高度。
 
 ### --question--
 
@@ -109,19 +109,19 @@ Specifies the number and height for each row in a grid layout.
 
 #### --distractors--
 
-Toggles between the first and second value, depending on available space.
+根据可用空间在第一个和第二个值之间切换。
 
 ---
 
-Returns the average of the two inputs.
+返回两个输入的平均值。
 
 ---
 
-Sets the minimal size of the element for browser working in full-screen mode.
+为在全屏模式下工作的浏览器设置元素的最小尺寸。
 
 #### --answer--
 
-Sets the minimum and maximum sizes for a track.
+设置轨道的最小和最大尺寸。
 
 ### --question--
 
@@ -153,19 +153,19 @@ Sets the minimum and maximum sizes for a track.
 
 #### --distractors--
 
-Implicit grids use the `grid-template-columns` property while explicit grids use the `grid-template-rows` property.
+隐式网格使用 `grid-template-columns` 属性，而显式网格使用 `grid-template-rows` 属性。
 
 ---
 
-Explicit grids use the `grid-template-columns` property while implicit grids use the `grid-template-rows` property.
+显式网格使用 `grid-template-columns` 属性，而隐式网格使用 `grid-template-rows` 属性。
 
 ---
 
-Implicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in explicit grids.
+隐式网格使用 `grid-template-columns` 或 `grid-template-rows` 属性创建列，而显式网格会自动创建行和列。
 
 #### --answer--
 
-Explicit grids use the `grid-template-columns` or `grid-template-rows` properties to create columns while rows and columns are automatically created in implicit grids.
+显式网格使用 `grid-template-columns` 或 `grid-template-rows` 属性创建列，而隐式网格会自动创建行和列。
 
 ### --question--
 
@@ -197,19 +197,19 @@ Explicit grids use the `grid-template-columns` or `grid-template-rows` propertie
 
 #### --distractors--
 
-Shorthand for rows and columns.
+行和列的简写。
 
 ---
 
-Outlines of a grid element.
+网格元素的轮廓。
 
 ---
 
-Lines along which grid columns and rows are created.
+创建网格行和列的线条。
 
 #### --answer--
 
-Lines on which each of the grid items begin and end.
+网格项目开始和结束的线条。
 
 ### --question--
 
@@ -219,19 +219,19 @@ Lines on which each of the grid items begin and end.
 
 #### --distractors--
 
-Adds a new grid element as a child of the element it's applied to.
+将新的网格元素添加为应用到的元素的子元素。
 
 ---
 
-Aligns text in the grid item vertically.
+垂直对齐网格项目中的文本。
 
 ---
 
-Sets two columns for a grid container.
+为网格容器设置两列。
 
 #### --answer--
 
-Tells the grid item on which grid line it should start and end at.
+告诉网格项目它应该在哪个网格线上开始和结束。
 
 ### --question--
 
@@ -263,19 +263,19 @@ Tells the grid item on which grid line it should start and end at.
 
 #### --distractors--
 
-It is used to specify where the item begins on a line in the grid container.
+用于指定项目在网格容器中的起始行。
 
 ---
 
-It is used to create gaps between tracks in the container.
+用于在容器中创建轨道之间的间隙。
 
 ---
 
-It is used to repeat sections in the track listing.
+用于重复轨道列表中的部分。
 
 #### --answer--
 
-It is used to provide a name for the items you are going to position on the grid.
+用于为要在网格上定位的项目提供名称。
 
 ### --question--
 
@@ -285,19 +285,19 @@ It is used to provide a name for the items you are going to position on the grid
 
 #### --distractors--
 
-Controls the order in which grid items are displayed.
+控制网格项目显示的顺序。
 
 ---
 
-Adjusts the spacing between the grid elements.
+调整网格元素之间的间距。
 
 ---
 
-Automatically adjusts the element to fit in the grid.
+自动调整元素以适应网格。
 
 #### --answer--
 
-Controls how auto-placed elements get inserted to the grid.
+控制自动放置的元素如何插入到网格中。
 
 ### --question--
 
@@ -488,19 +488,19 @@ Controls how auto-placed elements get inserted to the grid.
 
 #### --distractors--
 
-Shorthand for rows and columns.
+行和列的简写。
 
 ---
 
-Lines along which you can animate movement of the grid items.
+可以为网格项目移动设置动画的线条。
 
 ---
 
-Lines on which each of the grid items begins and ends.
+每个网格项目开始和结束的线条。
 
 #### --answer--
 
-Spaces between two adjacent grid lines.
+两个相邻网格线之间的空间。
 
 ### --question--
 
@@ -558,19 +558,19 @@ Spaces between two adjacent grid lines.
 
 #### --distractors--
 
-By directly defining the item's size and location within the grid using `grid-template-rows` and `grid-template-columns`.
+通过直接使用 `grid-template-rows` 和 `grid-template-columns` 定义项目在网格中的大小和位置。
 
 ---
 
-By using the `grid-area` property and specifying both row and column start and end positions.
+通过使用 `grid-area` 属性并指定行和列的开始和结束位置。
 
 ---
 
-By setting both `grid-area` and explicit pixel coordinates.
+通过设置 `grid-area` 和明确的像素坐标。
 
 #### --answer--
 
-By assigning the named area to the item's `grid-area` property.
+通过将命名区域分配给项目的 `grid-area` 属性。
 
 ### --question--
 
@@ -580,19 +580,19 @@ By assigning the named area to the item's `grid-area` property.
 
 #### --distractors--
 
-The height of explicitly defined rows.
+显式定义行的高度。
 
 ---
 
-The maximum width of grid columns.
+网格列的最大宽度。
 
 ---
 
-The spacing between rows.
+行之间的间距。
 
 #### --answer--
 
-The size of implicitly created rows.
+隐式创建行的大小。
 
 ### --question--
 
@@ -624,19 +624,19 @@ The size of implicitly created rows.
 
 #### --distractors--
 
-Tracks created automatically to fit content.
+为适应内容而自动创建的轨道。
 
 ---
 
-Tracks defined by the `fr` unit.
+由 `fr` 单位定义的轨道。
 
 ---
 
-Tracks added with `grid-auto-flow`.
+使用 `grid-auto-flow` 添加的轨道。
 
 #### --answer--
 
-Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
+由 `grid-template-columns` 或 `grid-template-rows` 显式设置的轨道。
 
 ### --question--
 
@@ -668,19 +668,19 @@ Tracks explicitly set by `grid-template-columns` or `grid-template-rows`.
 
 #### --distractors--
 
-To auto-generate implicit tracks.
+自动生成隐式轨道。
 
 ---
 
-To replace the `fr` unit.
+替换 `fr` 单位。
 
 ---
 
-To set `z-index` values.
+设置 `z-index` 值。
 
 #### --answer--
 
-To visually map items to named grid areas.
+将项目可视化映射到命名网格区域。
 
 ### --question--
 
@@ -712,19 +712,19 @@ To visually map items to named grid areas.
 
 #### --distractors--
 
-Creates three equal-width columns.
+创建三个等宽列。
 
 ---
 
-Makes the middle column three times as wide as the others.
+使中间列是其他列的三倍宽。
 
 ---
 
-Forces all columns to be exactly `1fr` wide.
+强制所有列都正好是 `1fr` 宽。
 
 #### --answer--
 
-Creates three columns where the middle is twice as wide as the sides.
+创建三列，其中中间列是两侧列的两倍宽。
 
 ### --question--
 
@@ -777,19 +777,19 @@ Creates three columns where the middle is twice as wide as the sides.
 
 #### --distractors--
 
-Three columns that can't shrink below `100px`.
+三个不会缩小到 `100px` 以下的列。
 
 ---
 
-Three fixed `100px` columns.
+三个固定的 `100px` 列。
 
 ---
 
-Three rows with maximum height of `1fr`.
+三个最大高度为 `1fr` 的行。
 
 #### --answer--
 
-Three columns that grow proportionally but won't shrink below `100px`.
+三个按比例增长但不会缩小到 `100px` 以下的列。
 
 ### --question--
 
@@ -799,19 +799,19 @@ Three columns that grow proportionally but won't shrink below `100px`.
 
 #### --distractors--
 
-Implicit grids ignore the `gap` property.
+隐式网格忽略 `gap` 属性。
 
 ---
 
-Implicit tracks must be defined with `grid-template-areas`.
+隐式轨道必须用 `grid-template-areas` 定义。
 
 ---
 
-Implicit tracks can only be created using the `grid-auto-flow` property.
+隐式轨道只能使用 `grid-auto-flow` 属性创建。
 
 #### --answer--
 
-Implicit tracks are created when content doesn't fit explicit tracks.
+当内容不适合显式轨道时，会创建隐式轨道。
 
 ### --question--
 
@@ -821,19 +821,19 @@ CSS Grid 中的 [place-items](#) 属性做什么？
 
 #### --distractors--
 
-It sets the size of grid items automatically based on available space.
+它根据可用空间自动设置网格项目的大小。
 
 ---
 
-It controls the grid template's column and row definitions.
+它控制网格模板的列和行定义。
 
 ---
 
-It adjusts the order of grid items within the container.
+它调整网格容器内网格项目的顺序。
 
 #### --answer--
 
-It is a shorthand for aligning grid items in both the block and inline axes.
+它是对齐块轴和行内轴中网格项目的简写。
 
 ### --question--
 
@@ -849,19 +849,19 @@ It is a shorthand for aligning grid items in both the block and inline axes.
 
 #### --distractors--
 
-Creates fixed `150px` columns that overflow the container.
+创建固定 `150px` 的列，这些列会溢出容器。
 
 ---
 
-Creates columns that are exactly `1fr` wide regardless of content.
+创建正好 `1fr` 宽的列，无论内容如何。
 
 ---
 
-Creates a maximum of one column per `150px` of available width.
+每 `150px` 可用宽度创建一个最大列。
 
 #### --answer--
 
-Creates flexible columns that are at least `150px` and collapse when space is limited.
+创建至少 `150px` 的灵活列，并在空间有限时折叠。
 
 ### --question--
 
@@ -871,19 +871,19 @@ Creates flexible columns that are at least `150px` and collapse when space is li
 
 #### --distractors--
 
-By using only `fr` units.
+仅使用 `fr` 单位。
 
 ---
 
-By mixing different length units in `grid-template-columns`.
+在 `grid-template-columns` 中混合不同的长度单位。
 
 ---
 
-By setting `grid-asymmetric: true`.
+设置 `grid-asymmetric: true`。
 
 #### --answer--
 
-By defining different sizes for each track.
+通过为每个轨道定义不同的尺寸。
 
 ### --question--
 
@@ -893,19 +893,19 @@ By defining different sizes for each track.
 
 #### --distractors--
 
-Makes it span 2 columns.
+使其跨越 2 列。
 
 ---
 
-Offsets it by 2 pixels.
+将其偏移 2 像素。
 
 ---
 
-Positions it starting at the second vertical grid line.
+将其定位在从第二条垂直网格线开始的位置。
 
 #### --answer--
 
-Makes it start at the second column line.
+使其从第二条列线开始。
 
 ### --question--
 
@@ -946,19 +946,19 @@ Makes it start at the second column line.
 
 #### --distractors--
 
-The container will have three columns of equal width, and two rows with `150px` height each.
+容器将有三个等宽列，和两个高度为 `150px` 的行。
 
 ---
 
-The container will have three columns, all with `100px` width, and two rows with `150px` height.
+容器将有三个列，都具有 `100px` 宽度，和两个高度为 `150px` 的行。
 
 ---
 
-The container will have two rows, each with a height of `1fr`.
+容器将有两行，每行高度为 `1fr`。
 
 #### --answer--
 
-The container will have three columns: 100px, `1fr` and `2fr` wide and two rows: one auto and one with `150px` height.
+容器将有三列：100px、`1fr` 和 `2fr` 宽，以及两行：一个自动和一个 `150px` 高度。
 
 ### --question--
 
