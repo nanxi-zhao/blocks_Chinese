@@ -248,7 +248,7 @@
         {
           "dashedName": "css-grid",
           "blocks": [
-            "lecture-working-with-css-grid",
+            //"lecture-working-with-css-grid",
             "workshop-magazine",
             // "lab-newspaper-layout",
             //"lecture-debugging-css",
