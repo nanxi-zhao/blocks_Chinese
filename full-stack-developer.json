@@ -11,7 +11,7 @@
             //"lecture-understanding-html-attributes",
             //"lab-debug-pet-adoption-page",
             //"lecture-understanding-the-html-boilerplate",
-            "workshop-cat-photo-app",
+            //"workshop-cat-photo-app",
             // "lab-recipe-page",
             //"lecture-html-fundamentals",
             "workshop-bookstore-page",
@@ -62,7 +62,7 @@
           "dashedName": "html-and-accessibility",
           "blocks": [
             //"lecture-importance-of-accessibility-and-good-html-structure",
-            "workshop-debug-coding-journey-blog-page",
+            //"workshop-debug-coding-journey-blog-page",
             //"lecture-accessible-tables-forms",
             //"workshop-tech-conference-schedule",
             //"lecture-introduction-to-aria",
@@ -239,7 +239,7 @@
           "dashedName": "css-variables",
           "blocks": [
             //"lecture-working-with-css-variables",
-            "workshop-city-skyline",
+            //"workshop-city-skyline",
             // "lab-availability-table",
             //"review-css-variables",
             //"quiz-css-variables"
@@ -443,7 +443,7 @@
           "blocks": [
             //"lecture-working-with-the-dom-click-events-and-web-apis",
             //"workshop-storytelling-app",
-            "workshop-emoji-reactor",
+            //"workshop-emoji-reactor",
             // "lab-favorite-icon-toggler",
             //"lecture-understanding-the-event-object-and-event-delegation",
             //"workshop-music-instrument-filter",
@@ -838,7 +838,7 @@
           "dashedName": "sql-and-postgresql",
           "blocks": [
             //"lecture-working-with-relational-databases",
-            "workshop-database-of-video-game-characters",
+            //"workshop-database-of-video-game-characters",
             // "lab-celestial-bodies-database",
             //"review-sql-and-postgresql",
             //"quiz-sql-and-postgresql"
