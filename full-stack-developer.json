@@ -168,7 +168,7 @@
         {
           "dashedName": "css-box-model",
           "blocks": [
-            "lecture-working-with-css-transforms-overflow-and-filters",
+            //"lecture-working-with-css-transforms-overflow-and-filters",
             "workshop-rothko-painting",
             // "lab-confidential-email-page",
             //"review-css-layout-and-effects",
@@ -238,7 +238,7 @@
         {
           "dashedName": "css-variables",
           "blocks": [
-            "lecture-working-with-css-variables",
+            //"lecture-working-with-css-variables",
             "workshop-city-skyline",
             // "lab-availability-table",
             //"review-css-variables",
@@ -597,7 +597,7 @@
             //"lecture-introduction-to-javascript-libraries-and-frameworks",
             "workshop-reusable-mega-navbar",
             // "lab-reusable-footer",
-            "lecture-working-with-data-in-react",
+            //"lecture-working-with-data-in-react",
             "workshop-reusable-profile-card-component",
             // "lab-mood-board",
             //"review-react-basics",
@@ -618,7 +618,7 @@
             //"lecture-working-with-forms-in-react",
             //"workshop-superhero-application-form",
             // "lab-event-rsvp",
-            "lecture-working-with-data-fetching-and-memoization-in-react",
+            //"lecture-working-with-data-fetching-and-memoization-in-react",
             //"workshop-shopping-list-app",
             // "lab-currency-converter",
             //"lecture-routing-react-frameworks-and-dependency-management-tools",
@@ -647,7 +647,7 @@
         {
           "dashedName": "css-libraries-and-frameworks",
           "blocks": [
-            "lecture-working-with-css-libraries-and-frameworks",
+            //"lecture-working-with-css-libraries-and-frameworks",
             //"workshop-error-message-component",
             "workshop-tailwind-cta-component",
             //"workshop-tailwind-pricing-component",
