@@ -7,7 +7,7 @@ dashedName: step-32
 
 # --description--
 
-在你�?`select` 元素中，添加以下五个 `option` 元素，并�?`option` 文本�?`value` 属性添加相应的值：
+在你的 `select` 元素中，添加以下五个 `option` 元素，并为每个 `option` 文本和 `value` 属性添加相应的值：
 
 **值属性：**
 
@@ -17,7 +17,7 @@ dashedName: step-32
 - very-good
 - excellent
 
-**选项文本�?*
+**选项文本：**
 
 - Poor
 - Satisfactory
@@ -25,73 +25,71 @@ dashedName: step-32
 - Very Good
 - Excellent
 
-
-不要忘记在值为 `"excellent"` �?`option` 元素中添�?`selected` 属性�?
+不要忘记在值为 `"excellent"` 的 `option` 元素中添加 `selected` 属性。
 
 # --hints--
 
-你应该有一个值设置为 `"poor"` �?`option` 元素�?
+你应该有一个值设置为 `"poor"` 的 `option` 元素。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]'));
 ```
 
-`value` �?`"poor"` �?`option` 应包含文�?`"Poor"`�?
+`value` 为 `"poor"` 的 `option` 元素应包含文本 `"Poor"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="poor"]')?.textContent.trim(), 'Poor');
 ```
 
-你应该有一�?`value` 设置�?`"satisfactory"` �?`option` 元素�?
+你应该有一个 `value` 设置为 `"satisfactory"` 的 `option` 元素。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]'));
 ```
 
-`value` �?`"satisfactory"` �?`option` 应包含文�?`"Satisfactory"`�?
+`value` 为 `"satisfactory"` 的 `option` 元素应包含文本 `"Satisfactory"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="satisfactory"]')?.textContent.trim(), 'Satisfactory');
 ```
 
-你应该有一�?`value` 设置�?`"good"` �?`option` 元素�?
+你应该有一个 `value` 设置为 `"good"` 的 `option` 元素。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]'));
 ```
 
-`value` �?`"good"` �?`option` 应包含文�?`"Good"`�?
+`value` 为 `"good"` 的 `option` 元素应包含文本 `"Good"`。
 
 ```js
-
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="good"]')?.textContent.trim(), 'Good');
 ```
 
-你应该有一个值设置为 `"very-good"` �?`option` 元素�?
+你应该有一个 `value` 设置为 `"very-good"` 的 `option` 元素。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]'));
 ```
 
-`value` �?`"very-good"` �?`option` 应包含文�?`"Very Good"`�?
+`value` 为 `"very-good"` 的 `option` 元素应包含文本 `"Very Good"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="very-good"]')?.textContent.trim(), 'Very Good');
 ```
 
-你应该有一个值设置为 `"excellent"` �?`option` 元素�?
+你应该有一个 `value` 设置为 `"excellent"` 的 `option` 元素。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]'));
 ```
 
-`value` �?`"excellent"` �?`option` 应包含文�?`"Excellent"`�?
+`value` 为 `"excellent"` 的 `option` 元素应包含文本 `"Excellent"`。
 
 ```js
 assert.strictEqual(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"]')?.textContent.trim(), 'Excellent');
 ```
 
-你应将具有`selected` 属性的 `option` 元素设置�?`"excellent"`�?
+值为 `"excellent"` 的 `option` 元素应具有 `selected` 属性。
 
 ```js
 assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option[value="excellent"][selected]'));
@@ -121,85 +119,53 @@ assert.exists(document.querySelector('fieldset:nth-of-type(4) select#food option
         <fieldset>
           <legend>Personal Information</legend>
           <label for="full-name">Name (required):</label>
-          <input type="text" id="full-name" name="name" placeholder="e.g., John Doe" required size="20">
-
+          <input type="text" id="full-name" name="name" placeholder="e.g., John Doe" required>
           <label for="email">Email address (required):</label>
-          <input
-            placeholder="example@email.com"
-            required
-            id="email"
-            type="email"
-            name="email"
-            size="20"
-          />
+          <input type="email" id="email" name="email" placeholder="example@email.com" required>
           <label for="age">Age (optional):</label>
-          <input type="number" name="age" id="age" min="3" max="100" />
+          <input type="number" id="age" name="age" min="3" max="100">
         </fieldset>
-
         <fieldset>
           <legend>Was this your first time at our hotel?</legend>
-          <input id="yes-option" type="radio" name="hotel-stay" />
+          <input type="radio" id="yes-option" name="hotel-stay">
           <label for="yes-option">Yes</label>
-          <input id="no-option" type="radio" name="hotel-stay" />
+          <input type="radio" id="no-option" name="hotel-stay">
           <label for="no-option">No</label>
         </fieldset>
-
         <fieldset>
-          <legend>
-            Why did you choose to stay at our hotel? (Check all that apply)
-          </legend>
-
-          <input type="checkbox" id="ads" name="ads" value="ads" />
+          <legend>Why did you choose to stay at our hotel? (Check all that apply)</legend>
+          <input type="checkbox" id="ads" name="ads" value="ads">
           <label for="ads">Social Media Ads</label>
-
-          <input
-            type="checkbox"
-            id="recommendation"
-            name="recommendation"
-            value="recommendation"
-          />
+          <input type="checkbox" id="recommendation" name="recommendation" value="recommendation">
           <label for="recommendation">Personal Recommendation</label>
-
-          <input type="checkbox" id="location" name="location" value="location" />
+          <input type="checkbox" id="location" name="location" value="location">
           <label for="location">Location</label>
-
-          <input
-            checked
-            type="checkbox"
-            id="reputation"
-            name="reputation"
-            value="reputation"
-          />
+          <input type="checkbox" id="reputation" name="reputation" value="reputation">
           <label for="reputation">Reputation</label>
-
-          <input type="checkbox" id="price" name="price" value="price" />
+          <input type="checkbox" id="price" name="price" value="price">
           <label for="price">Price</label>
         </fieldset>
-
         <fieldset>
           <legend>Ratings</legend>
-
           <label for="service">How was the service?</label>
-
-          <select name="service" id="service">
+          <select id="service" name="service">
             <option value="poor">Poor</option>
             <option value="satisfactory">Satisfactory</option>
             <option value="good">Good</option>
             <option value="very-good">Very Good</option>
-            <option selected value="excellent">Excellent</option>
+            <option value="excellent" selected>Excellent</option>
           </select>
-
           <label for="food">How was the food?</label>
-
-          --fcc-editable-region--
-          <select name="food" id="food">
-
+          <select id="food" name="food">
+            <option value="poor">Poor</option>
+            <option value="satisfactory">Satisfactory</option>
+            <option value="good">Good</option>
+            <option value="very-good">Very Good</option>
+            <option value="excellent" selected>Excellent</option>
           </select>
-          --fcc-editable-region--
         </fieldset>
       </form>
     </main>
   </body>
 </html>
 ```
-
