@@ -20,7 +20,7 @@
             //"lecture-working-with-audio-and-video-elements",
             //"lab-html-audio-and-video-player",
             "lecture-working-with-images-and-svgs",
-            "workshop-build-a-heart-icon",
+            //"workshop-build-a-heart-icon",
             "lecture-working-with-media",
             "workshop-build-a-video-display-using-iframe",
             //"lab-video-compilation-page",
@@ -51,7 +51,7 @@
             "workshop-hotel-feedback-form",
             // "lab-survey-form",
             "lecture-working-with-tables",
-            "workshop-final-exams-table",
+            //"workshop-final-exams-table",
             //"lab-book-catalog-table",
             "lecture-working-with-html-tools",
             //"review-html-tables-and-forms",
@@ -261,7 +261,7 @@
           "dashedName": "css-animations",
           "blocks": [
             //"lecture-animations-and-accessibility",
-            "workshop-ferris-wheel",
+            //"workshop-ferris-wheel",
             // "lab-moon-orbit",
             "workshop-flappy-penguin",
             // "lab-personal-portfolio",
@@ -353,11 +353,11 @@
           "dashedName": "javascript-arrays",
           "blocks": [
             //"lecture-working-with-arrays",
-            "workshop-shopping-list",
+            //"workshop-shopping-list",
             // "lab-lunch-picker-program",
             // "lab-golf-score-translator",
             // "lab-reverse-a-string",
-            "lecture-working-with-common-array-methods",
+            //"lecture-working-with-common-array-methods",
             //"review-javascript-arrays",
             //"quiz-javascript-arrays"
           ]
@@ -460,7 +460,7 @@
           "blocks": [
             //"lecture-understanding-aria-expanded-aria-live-and-common-aria-states",
             "workshop-planets-tablist",
-            "workshop-note-taking-app",
+            //"workshop-note-taking-app",
             //"lab-theme-switcher",
             //"review-js-a11y",
             //"quiz-js-a11y"
@@ -478,7 +478,7 @@
         {
           "dashedName": "basic-regex",
           "blocks": [
-            "lecture-working-with-regular-expressions",
+            //"lecture-working-with-regular-expressions",
             "workshop-spam-filter",
             // "lab-palindrome-checker",
             // "lab-markdown-to-html-converter",
@@ -619,7 +619,7 @@
             //"workshop-superhero-application-form",
             // "lab-event-rsvp",
             "lecture-working-with-data-fetching-and-memoization-in-react",
-            "workshop-shopping-list-app",
+            //"workshop-shopping-list-app",
             // "lab-currency-converter",
             //"lecture-routing-react-frameworks-and-dependency-management-tools",
             //"lab-tic-tac-toe",
@@ -692,7 +692,7 @@
           "comingSoon": false,
           "blocks": [
             //"lecture-introduction-to-python",
-            "workshop-caesar-cipher",
+            //"workshop-caesar-cipher",
             // "lab-rpg-character",
             //"review-python-basics",
             //"quiz-python-basics"
