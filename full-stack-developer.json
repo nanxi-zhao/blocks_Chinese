@@ -857,8 +857,8 @@
           "dashedName": "sql-and-bash",
           "blocks": [
             //"lecture-working-with-sql",
-            "workshop-sql-student-database-part-1",
-            "workshop-sql-student-database-part-2",
+            //"workshop-sql-student-database-part-1",
+            //"workshop-sql-student-database-part-2",
             //"lab-world-cup-database",
             "workshop-kitty-ipsum-translator",
             //"workshop-bike-rental-shop",
