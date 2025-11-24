@@ -751,13 +751,13 @@
           "blocks": [
             //"lecture-understanding-object-oriented-programming-and-encapsulation",
             //"workshop-salary-tracker",
-            "lab-game-character-stats",
+            //"lab-game-character-stats",
             //"lecture-understanding-inheritance-and-polymorphism",
-            "workshop-media-catalogue",
+            //"workshop-media-catalogue",
             // "lab-polygon-area-calculator",
             //"lecture-understanding-abstraction",
             "workshop-discount-calculator",
-            "lab-player-interface",
+            //"lab-player-interface",
             //"review-object-oriented-programming",
             //"quiz-object-oriented-programming"
           ]
@@ -798,7 +798,7 @@
             // "lab-adjacency-list-to-matrix-converter",
             "workshop-breadth-first-search",
             // "lab-depth-first-search",
-            "lab-n-queens-problem",
+            //"lab-n-queens-problem",
             //"review-graphs-and-trees",
             //"quiz-graphs-and-trees"
           ]

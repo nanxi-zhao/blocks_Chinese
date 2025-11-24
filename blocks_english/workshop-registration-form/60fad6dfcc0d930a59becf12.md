@@ -7,25 +7,25 @@ dashedName: step-39
 
 # --description--
 
-The HTML for the registration form is finished. Now, you can spruce it up a bit.
+注册表单的HTML已完成。现在，你可以稍微美化一下。
 
-Start by changing the font to `Tahoma`, and the font size to `16px` in the `body`.
+首先将body中的字体更改为Tahoma，字体大小更改为16px。
 
 # --hints--
 
-You should use the `font-family` property to change the font.
+你应该使用font-family属性来更改字体。
 
 ```js
 assert.isNotEmpty(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily);
 ```
 
-You should set the `font-family` property to `Tahoma`.
+你应该将font-family属性设置为Tahoma。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontFamily, 'Tahoma');
 ```
 
-You should set the `font-size` property to `16px`.
+你应该将font-size属性设置为16px。
 
 ```js
 assert.equal(new __helpers.CSSHelp(document).getStyle('body')?.fontSize, '16px');
@@ -93,6 +93,8 @@ body {
   margin: 0;
   background-color: #1b1b32;
   color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
 
 }
 --fcc-editable-region--
@@ -101,7 +103,4 @@ label {
   display: block;
   margin: 0.5rem 0;
 }
-
 ```
-
-
