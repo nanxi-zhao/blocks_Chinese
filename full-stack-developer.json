@@ -368,7 +368,7 @@
             //"lecture-introduction-to-javascript-objects-and-their-properties",
             //"lecture-working-with-json",
             //"lecture-working-with-optional-chaining-and-object-destructuring",
-            "workshop-recipe-tracker",
+            //"workshop-recipe-tracker",
             "lab-quiz-game",
             // "lab-record-collection",
             //"review-javascript-objects",
@@ -649,7 +649,7 @@
           "blocks": [
             //"lecture-working-with-css-libraries-and-frameworks",
             //"workshop-error-message-component",
-            "workshop-tailwind-cta-component",
+            //"workshop-tailwind-cta-component",
             //"workshop-tailwind-pricing-component",
             // "lab-music-shopping-cart-page",
             // "lab-photography-exhibit",
