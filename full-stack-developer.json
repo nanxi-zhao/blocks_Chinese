@@ -296,7 +296,7 @@
             //"workshop-greeting-bot",
             // "lab-javascript-trivia-bot",
             // "lab-sentence-maker",
-            "lecture-working-with-data-types",
+            //"lecture-working-with-data-types",
             //"review-javascript-variables-and-data-types",
             //"quiz-javascript-variables-and-data-types",
             "lecture-working-with-strings-in-javascript",
@@ -713,7 +713,7 @@
           "dashedName": "python-dictionaries-and-sets",
           "comingSoon": false,
           "blocks": [
-            "lecture-working-with-dictionaries-and-sets",
+            //"lecture-working-with-dictionaries-and-sets",
             "lecture-working-with-modules",
             //"workshop-medical-data-validator",
             //"lab-user-configuration-manager",
