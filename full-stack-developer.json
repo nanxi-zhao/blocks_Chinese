@@ -32,7 +32,7 @@
         {
           "dashedName": "semantic-html",
           "blocks": [
-            "lecture-importance-of-semantic-html",
+            //"lecture-importance-of-semantic-html",
             //"lecture-understanding-nuanced-semantic-elements",
             "workshop-major-browsers-list",
             //"lecture-working-with-text-and-time-semantic-elements",
@@ -47,8 +47,8 @@
         {
           "dashedName": "html-forms-and-tables",
           "blocks": [
-            "lecture-working-with-forms",
-            "workshop-hotel-feedback-form",
+            //"lecture-working-with-forms",
+            //"workshop-hotel-feedback-form",
             // "lab-survey-form",
             //"lecture-working-with-tables",
             //"workshop-final-exams-table",
@@ -188,7 +188,7 @@
         {
           "dashedName": "css-typography",
           "blocks": [
-              "lecture-working-with-css-fonts",
+              //"lecture-working-with-css-fonts",
             "workshop-nutritional-label",
             //"lab-newspaper-article",
             //"review-css-typography",
@@ -272,8 +272,8 @@
         {
           "moduleType": "review",
           "dashedName": "review-css",
-          "blocks": ["
-          //review-css"
+          "blocks": [
+          //"review-css"
         ]
         }
       ]
@@ -283,8 +283,8 @@
       "modules": [
         {
           "dashedName": "code-editors",
-          "blocks": ["
-          //lecture-working-with-code-editors-and-ides"
+          "blocks": [
+          //"lecture-working-with-code-editors-and-ides"
         ]
         },
         {
@@ -339,7 +339,7 @@
             //"workshop-calculator",
             //"lab-boolean-check",
             //"lab-email-masker",
-            "workshop-loan-qualification-checker",
+            //"workshop-loan-qualification-checker",
             //"lab-celsius-to-fahrenheit-converter",
             // "lab-counting-cards",
             // "lab-leap-year-calculator",
@@ -369,7 +369,7 @@
             //"lecture-working-with-json",
             //"lecture-working-with-optional-chaining-and-object-destructuring",
             //"workshop-recipe-tracker",
-            "lab-quiz-game",
+            //"lab-quiz-game",
             // "lab-record-collection",
             //"review-javascript-objects",
             //"quiz-javascript-objects"
@@ -430,7 +430,7 @@
             // "lab-symmetric-difference",
             //"lab-value-remover-function",
             // "lab-matching-object-filter",
-            "lab-prime-number-sum-calculator",
+            //"lab-prime-number-sum-calculator",
             // "lab-range-based-lcm-calculator",
             // "lab-deep-flattening-tool",
             // "lab-all-true-property-validator",
@@ -612,7 +612,7 @@
             //"lab-color-picker",
             //"lecture-understanding-effects-and-referencing-values-in-react",
             //"workshop-fruit-search-app",
-            "lab-one-time-password-generator",
+            //"lab-one-time-password-generator",
             //"review-react-state-and-hooks",
             //"quiz-react-state-and-hooks",
             //"lecture-working-with-forms-in-react",
@@ -633,7 +633,7 @@
           "blocks": [
             //"lecture-understanding-performance-in-web-applications",
             //"review-web-performance",
-            "quiz-web-performance"
+            //"quiz-web-performance"
           ]
         },
         {
@@ -670,7 +670,7 @@
             //"lecture-working-with-generics-and-type-narrowing",
             //"lecture-working-with-typescript-configuration-files",
             //"review-typescript",
-            "quiz-typescript"
+            //"quiz-typescript"
           ]
         },
         {
