@@ -479,7 +479,7 @@
           "dashedName": "basic-regex",
           "blocks": [
             //"lecture-working-with-regular-expressions",
-            "workshop-spam-filter",
+            //"workshop-spam-filter",
             // "lab-palindrome-checker",
             // "lab-markdown-to-html-converter",
             // "lab-regex-sandbox",
@@ -494,7 +494,7 @@
           "dashedName": "form-validation",
           "blocks": [
             //"lecture-understanding-form-validation",
-            "workshop-calorie-counter",
+            //"workshop-calorie-counter",
             // "lab-customer-complaint-form",
             //"review-form-validation-with-javascript",
             //"quiz-form-validation-with-javascript"

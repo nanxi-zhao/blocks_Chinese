@@ -1,31 +1,31 @@
 ---
 id: 63bf5cf03b50bf36cfbe94ea
-title: 步骤 39
+title: 第 39 步
 challengeType: 0
 dashedName: step-39
 ---
 
 # --description--
 
-现在你已经完成了对 `entryDropdown.value` 值的测试，可以删除 `console.log` 语句了。
+现在你已经完成了测试 [entryDropdown.value](file:///F:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63b60a0534a18f08b4971b3f.md#L44-L44) 的值，你可以删除 [console.log](file:///F:/code/blocks_Chinese/blocks_english/lecture-js-functions/63607cf6e68f3a0791b69121.md#L55-L55) 语句。
 
-你的下一步是允许用户向卡路里计数器添加条目。声明一个空的 `addEntry` 函数。这个函数不应该接受任何参数。
+你的下一步是允许用户向卡路里计数器添加条目。声明一个空的 [addEntry](file:///F:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63bf5cf03b50bf36cfbe94ea.md#L107-L107) 函数。这个函数不应该接受任何参数。
 
 # --hints--
 
-你应该删除 `console.log` 语句。
+你应该删除 [console.log](file:///F:/code/blocks_Chinese/blocks_english/lecture-js-functions/63607cf6e68f3a0791b69121.md#L55-L55) 语句。
 
 ```js
 assert.notMatch(code, /console\.log\s*\(.*\)/)
 ```
 
-你应该声明一个 `addEntry` 函数。
+你应该声明一个 [addEntry](file:///F:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63bf5cf03b50bf36cfbe94ea.md#L107-L107) 函数。
 
 ```js
 assert.isFunction(addEntry);
 ```
 
-你的 `addEntry` 函数不应该接受任何参数。
+你的 [addEntry](file:///F:/code/blocks_Chinese/blocks_english/workshop-calorie-counter/63bf5cf03b50bf36cfbe94ea.md#L107-L107) 函数不应该接受任何参数。
 
 ```js
 assert.match(addEntry?.toString(), /\(\s*\)/);
@@ -215,6 +215,8 @@ function isInvalidInput(str) {
 }
 
 --fcc-editable-region--
-console.log(entryDropdown.value)
+function addEntry() {
+
+}
 --fcc-editable-region--
 ```
