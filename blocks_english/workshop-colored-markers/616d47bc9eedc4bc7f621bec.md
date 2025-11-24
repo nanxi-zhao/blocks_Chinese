@@ -1,35 +1,35 @@
 ---
 id: 616d47bc9eedc4bc7f621bec
-title: 步骤 5
+title: 第 5 步
 challengeType: 0
 dashedName: step-5
 ---
 
 # --description--
 
-Next, within the `div` element, add another `div` element and give it a class of `marker`.
+接下来，在 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d3a67ccf800ad94ec89ae.md#L62-L66) 元素内，添加另一个 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d3a67ccf800ad94ec89ae.md#L62-L66) 元素并给它一个 [marker](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d47bc9eedc4bc7f621bec.md#L62-L66) 的类。
 
 # --hints--
 
-你的新 `div` 元素应该有一个开始标签。
+你的新 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d3a67ccf800ad94ec89ae.md#L62-L66) 元素应该有一个开始标签。
 
 ```js
 assert.exists([...code.matchAll(/<div.*?>/gi)][1]);
 ```
 
-你的新 `div` 元素应该有一个结束标签。
+你的新 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d3a67ccf800ad94ec89ae.md#L62-L66) 元素应该有一个结束标签。
 
 ```js
 assert.exists([...code.matchAll(/<\/div\s*>/gi)][1]);
 ```
 
-You should nest your new `div` element within the `div` with the class `container`.
+你应该将你的新 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d3a67ccf800ad94ec89ae.md#L62-L66) 元素嵌套在带有 [container](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d3a67ccf800ad94ec89ae.md#L62-L66) 类的 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d3a67ccf800ad94ec89ae.md#L62-L66) 内。
 
 ```js
 assert.strictEqual(document.querySelector('.container')?.children[0]?.localName, 'div');
 ```
 
-You should give your new `div` element a class of `marker`.
+你应该给你的新 [div](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d3a67ccf800ad94ec89ae.md#L62-L66) 元素一个 [marker](file:///F:/code/blocks_Chinese/blocks_english/workshop-colored-markers/616d47bc9eedc4bc7f621bec.md#L62-L66) 类。
 
 ```js
 const containerChildren = [...document.querySelector('.container')?.children];
@@ -54,6 +54,7 @@ containerChildren.forEach(child => assert.isTrue(child.classList?.contains('mark
   <body>
     <h1>CSS Color Markers</h1>
     <div class="container">
+      <div class="marker"></div>
     </div>
   </body>
 --fcc-editable-region--
