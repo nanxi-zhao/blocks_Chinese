@@ -1,4 +1,4 @@
----
+﻿---
 id: 5ea8adfab628f68d805bfc5e
 title: 构建模板
 challengeType: 12
